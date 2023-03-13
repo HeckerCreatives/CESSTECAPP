@@ -1,0 +1,11 @@
+Tecnam P2002 Sierra
+-------------------
+
+Author  : BARANGER Emmanuel (helijah)
+tools   : Blender 2.79b and The Gimp 2.10.32
+Use     : For FlightGear
+
+--------
+BARANGER Emmanuel
+http://helijah.free.fr
+http://embaranger.free.fr
