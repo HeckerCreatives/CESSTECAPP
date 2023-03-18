@@ -49,10 +49,25 @@ public class TopicController : MonoBehaviour
         appState.OnAppStateChange -= AppStateChange;
     }
 
+    private void Update()
+    {
+        MoveIndexUsingKeyboard();
+    }
+
     private void AppStateChange(object sender, EventArgs e)
     {
         ResetTopic();
         TopicChecker();
+    }
+
+    private void MoveIndexUsingKeyboard()
+    {
+        if (appState.GetCurrentAppState != AppStateManager.AppState.TOPIC) return;
+
+        if (Input.GetKeyUp(KeyCode.LeftArrow) && pageCounter > 0)
+            NextPreviousButton(false);
+        else if (Input.GetKeyUp(KeyCode.RightArrow) && pageCounter < AirplaneTopicDataList[componentSystem.CurrentAirplaneType][componentSystem.CurrentSystems].Values.Count - 1)
+            NextPreviousButton(true);
     }
 
     private void ResetTopic()
@@ -122,7 +137,7 @@ public class TopicController : MonoBehaviour
     {
         if (appState.GetCurrentAppState != AppStateManager.AppState.TOPIC) return;
 
-        contentTMP.text = data[componentSystem.CurrentAirplaneType][componentSystem.CurrentSystems][pageCounter].content;
+        contentTMP.text = data[componentSystem.CurrentAirplaneType][componentSystem.CurrentSystems][pageCounter].content.Replace("\r","");
 
         if (data[componentSystem.CurrentAirplaneType][componentSystem.CurrentSystems][pageCounter].narration != null)
             soundManager.PlayVoiceNarration(data[componentSystem.CurrentAirplaneType][componentSystem.CurrentSystems][pageCounter].narration);

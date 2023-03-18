@@ -2896,7 +2896,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 352286202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1029835284}
@@ -2904,8 +2904,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 103, y: 6}
-  m_SizeDelta: {x: 78.074, y: 0}
+  m_AnchoredPosition: {x: 213.366, y: 6}
+  m_SizeDelta: {x: 298.806, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &352286204
 MonoBehaviour:
@@ -2957,11 +2957,11 @@ MonoBehaviour:
   m_fontSize: 28
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 28
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -3969,8 +3969,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 112.602, y: 6}
-  m_SizeDelta: {x: 93.278, y: 0}
+  m_AnchoredPosition: {x: 134.488, y: 6}
+  m_SizeDelta: {x: 137.051, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &430930864
 MonoBehaviour:
@@ -4022,11 +4022,11 @@ MonoBehaviour:
   m_fontSize: 28
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 28
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -7425,7 +7425,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733612715}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 315994680}
@@ -7433,8 +7433,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -105.399994, y: 6}
-  m_SizeDelta: {x: 78.074, y: 0}
+  m_AnchoredPosition: {x: -228.202, y: 6}
+  m_SizeDelta: {x: 323.677, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &733612717
 MonoBehaviour:
@@ -7486,11 +7486,11 @@ MonoBehaviour:
   m_fontSize: 28
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 28
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -7878,6 +7878,77 @@ MonoBehaviour:
   tecnamP2002JFTitle: {fileID: 1550488604}
   tecnamP20006TTitle: {fileID: 481151786}
   airplaneImg: {fileID: 1788013036}
+  cessna152Systems:
+  - GENERAL DESCRIPTION
+  - FUSELAGE
+  - WINGS AND EMPENNAGE
+  - LANDING GEAR. BRAKES AND HYDRAULIC SYSTEM
+  - FLIGHT CONTROL SYSTEM
+  - ENGINE
+  - FUEL SYSTEM
+  - PROPELLER
+  - UTILITY SYSTEMS
+  - INSTRUMENTS AND INSTRUMENT SYSTEMS
+  - ELECTRICAL SYSTEM
+  - AIRCRAFT LIGHTING SYSTEM
+  tecnamp2002Systems:
+  - GENERAL DESCRIPTION
+  - FUSELAGE
+  - WINGS AND EMPENNAGE
+  - LANDING GEAR. BRAKES AND HYDRAULIC SYSTEM
+  - FLIGHT CONTROL SYSTEM
+  - ENGINE AND OIL
+  - FUEL SYSTEM
+  - PROPELLER
+  - UTILITY SYSTEMS
+  - INSTRUMENTS AND INSTRUMENT SYSTEMS
+  - ELECTRICAL SYSTEM
+  - AIRCRAFT LIGHTING SYSTEM
+  - LIQUID COOLING SYSTEM
+  - COMMUNICATIONS
+  cessna172Systems:
+  - GENERAL DESCRIPTION
+  - FUSELAGE
+  - WINGS AND EMPENNAGE
+  - LANDING GEAR. BRAKES AND HYDRAULIC SYSTEM
+  - FLIGHT CONTROL SYSTEM
+  - ENGINE
+  - FUEL SYSTEM
+  - PROPELLER
+  - UTILITY SYSTEMS
+  - INSTRUMENTS AND INSTRUMENT SYSTEMS
+  - ELECTRICAL SYSTEM
+  - AIRCRAFT LIGHTING SYSTEM
+  tecnamp2006Systems:
+  - GENERAL DESCRIPTION
+  - FUSELAGE
+  - WINGS AND EMPENNAGE
+  - LANDING GEAR. BRAKES AND HYDRAULIC SYSTEM
+  - FLIGHT CONTROL SYSTEM
+  - ENGINE AND OIL
+  - FUEL SYSTEM
+  - PROPELLER
+  - UTILITY SYSTEMS
+  - INSTRUMENTS AND INSTRUMENT SYSTEMS
+  - ELECTRICAL SYSTEM
+  - AIRCRAFT LIGHTING SYSTEM
+  - AUTO PILOT
+  - COMMUNICATIONS
+  systemList:
+  - {fileID: 819173283}
+  - {fileID: 1614643434}
+  - {fileID: 1644632270}
+  - {fileID: 2103953597}
+  - {fileID: 1292771494}
+  - {fileID: 1044065090}
+  - {fileID: 733612717}
+  - {fileID: 1204344070}
+  - {fileID: 352286204}
+  - {fileID: 1798266946}
+  - {fileID: 430930864}
+  - {fileID: 818128118}
+  - {fileID: 2004936245}
+  - {fileID: 1290623117}
   cessna152Sprite: {fileID: 21300000, guid: 110428326f6fa434581ccefcd3a15480, type: 3}
   technamp2002ifSprite: {fileID: 21300000, guid: 419908d397a15ce4485d6f8c523f700d, type: 3}
   cessna172Sprite: {fileID: 21300000, guid: 6da1a46a27b3b1f44b058ef4226ae01e, type: 3}
@@ -7934,8 +8005,11 @@ MonoBehaviour:
           topicSprites:
           - {fileID: 21300000, guid: ea9c3abbdde850d45aa48ffb47615f06, type: 3}
           - {fileID: 21300000, guid: fccb64f50d409f349a483d2be67fa066, type: 3}
-        - content: 
-          narration: {fileID: 0}
+        - content: "The Wingspan of the Cessna 152 is 33 ft 4 in\r\nThe length of
+            the Cessna 152 from nose to tail is 24 ft 1 in\r\nThe width of the horizontal
+            stabilizer of Cessna 152 is 10.0 feet.\r\nThe max height of the Cessna
+            152 from ground to top is 8.6 feet.\r"
+          narration: {fileID: 8300000, guid: 0f6c3c52e4a5e8440bbd6ff215d358da, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: a178cbdde0df0b94d9f9784b3b514bfc, type: 3}
         - content: ' AIRCRAFT SPECIFICATIONS. Leading particulars of these aircraft.
@@ -8374,7 +8448,7 @@ MonoBehaviour:
           topicSprites:
           - {fileID: 21300000, guid: dad325e55d44aef45935ff1605e318d8, type: 3}
           - {fileID: 21300000, guid: d5f6fd48020080e46a94f27898288e6d, type: 3}
-      - m_keys: 0000000001000000030000000400000005000000060000000700000008000000090000000a0000000b000000
+      - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
         m_values:
         - content: ENGINE COWLING. The engine cowling consists of upper and lower
             cowl segments and a nose cap. A large access door on the right side of
@@ -9043,7 +9117,7 @@ MonoBehaviour:
             are finished with a highly resistant waterproofing synthetic coating
           narration: {fileID: 8300000, guid: 88dbcd0dd04ba0044a2779bb7b84da05, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: d869e2240183ba14cbc5785419507453, type: 3}
+          - {fileID: 21300000, guid: 5888de354d67e9441b1cfbd2b30a44e2, type: 3}
         - content: "\u2981STANDARD SEATS Seats are made of metal tubing framework
             with fabric-covered foam padding. The two seats can be independently
             adjusted by sliding backward and forward along rails fixed to the cabin
@@ -9181,7 +9255,7 @@ MonoBehaviour:
             on the strut leg and is braced by a rubber-disc shock absorber.
           narration: {fileID: 8300000, guid: 6089b8c848667cd41ba4d33917d7c92e, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: e593fc0da57caef42bcf03556bb4ce3d, type: 3}
+          - {fileID: 21300000, guid: 6f51ef4668640e645b4a536413522fe9, type: 3}
         - content: "BRAKES SYSTEM. (MOD.2002/146\u201CStick mounted brake hand control\u201D)
             In order to allow the control of the brakes system with hands always
             on a stick and central grip, an additional pump has been installed on
@@ -9392,7 +9466,7 @@ MonoBehaviour:
             connection.
           narration: {fileID: 8300000, guid: 8d0977bb882c3054b977c6e154f22f46, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 14c9f6cba65437b4fbc110724299a32e, type: 3}
+          - {fileID: 21300000, guid: d177b3043de940246a5c6e2bf66f2bc4, type: 3}
         - content: AFT BELLCRANK. The aft bellcrank assembly consists of a steel
             tube with welded horn assembly, attachment for stabilator control shaft,
             and balanced weight bellcrank. The counterweight is located at the end
@@ -9454,13 +9528,14 @@ MonoBehaviour:
             cloth."
           narration: {fileID: 8300000, guid: 1828f08f221dfaf4aaf23437860a4196, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 123bf606ccef7444a9d520aa6b415666, type: 3}
+          - {fileID: 21300000, guid: b1a647c6f04cd16409f4d27f6193d042, type: 3}
         - content: OIL FILTER. The oil system is equipped with an oil filter (cartridge
             type) designed for a full-flow oil system in order to filter the contaminants
             from the circulated oil before it passes through the bearing surfaces.
           narration: {fileID: 8300000, guid: 3211bf3b92b22504781ab27182f016cf, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 99ea7a26f9be5044cb41b8a8c5c360c1, type: 3}
+          - {fileID: 21300000, guid: d8df5b70e339d6e4688dd7f1ae06c42d, type: 3}
+          - {fileID: 21300000, guid: 43a4ce968ac19ba4e83330651e62842e, type: 3}
         - content: "\u2981RADIATOR. The oil radiator is installed on the front end
             of the engine cowling and it is connected to the engine mount."
           narration: {fileID: 8300000, guid: 78dd3248d785f0c4c8dc637c8acd7984, type: 3}
@@ -9543,8 +9618,8 @@ MonoBehaviour:
             field.
           narration: {fileID: 8300000, guid: 3fd73556ffac6ef46a721cd079165a2d, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 1866acf547b26d4498431fe8c1629edf, type: 3}
-          - {fileID: 21300000, guid: 670218f65ec3d814a9e9722edfe02db8, type: 3}
+          - {fileID: 21300000, guid: f951d1f55d5c2024986d4bfa3fd10851, type: 3}
+          - {fileID: 21300000, guid: 0e62d7e03363f374c8ed170339cb5676, type: 3}
         - content: 'ENGINE  AND AIR-BOX DRAINAGE SYSTEM. The engine drainage system
             provides three different drainage lines (one per carburetor). The Carburetor
             drainage line gathers fuel leakages in a drip tray; then fuel is conveyed
@@ -9623,16 +9698,16 @@ MonoBehaviour:
           narration: {fileID: 8300000, guid: e530668da66f62746ba8aedf2f75ccf2, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 1489bf2a5cacabb4995fd6996860c144, type: 3}
-        - content: "\u2981\tFUEL SHUTOFF VALVE. The fuel shutoff valve is a two-position
-            ON-OFF valve, located in the floor area between the pilot and co-pilot
-            seats. The handle is safety wired in the \"ON\" position with .018\"
-            diameter mild steel wire (tag wire), which will break easily if the handle
-            must be turned \"OFF\" in an emergency. The manufacturer recommends replacement
-            instead of repair or damaged, or worn. or inoperative valves."
+        - content: FUEL SHUTOFF VALVE. The fuel shutoff valve is a two-position ON-OFF
+            valve, located in the floor area between the pilot and co-pilot seats.
+            The handle is safety wired in the "ON" position with .018" diameter mild
+            steel wire (tag wire), which will break easily if the handle must be
+            turned "OFF" in an emergency. The manufacturer recommends replacement
+            instead of repair or damaged, or worn. or inoperative valves.
           narration: {fileID: 8300000, guid: 5c813cc1f8fc017488c0281b75cfe937, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 6b4a29cfc91f66c4093e763d4eee4f3a, type: 3}
-          - {fileID: 21300000, guid: 3dc06351d5069544684018f0252bc3a5, type: 3}
+          - {fileID: 21300000, guid: 2bd82aecf5d377d4fa97b49ab542a87a, type: 3}
+          - {fileID: 21300000, guid: 8c5602cf13846014cac9ad8f05a022c1, type: 3}
         - content: "\u2981PRIMING SYSTEM. The priming system consists of a manually-operated
             pump located on the instrument panel. and lines to all engine cylinders.
             Operation of the pump plunger forces fuel directly into the engine cylinders."
@@ -9653,8 +9728,8 @@ MonoBehaviour:
             a special lacquer coating. \r\n"
           narration: {fileID: 8300000, guid: 53b9994129ab2834b84ff25e5d22e916, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: c33123cd916c30c4da2da9d6c52c4eca, type: 3}
-          - {fileID: 21300000, guid: 3cfb15fdb73c8274c925ad453af6c8ed, type: 3}
+          - {fileID: 21300000, guid: b7eb156edd434ae418d257b1ac89fac0, type: 3}
+          - {fileID: 21300000, guid: 207cae73cf481e5469ee43740ad8d281, type: 3}
       - m_keys: 000000000100000002000000
         m_values:
         - content: "\u2981UTILITY SYSTEMS. HEATING SYSTEM. The cabin heating system
@@ -9737,7 +9812,8 @@ MonoBehaviour:
             and time determinations are computed by the receiver based on satellite
             signals provided by the Global Positioning System (GPS) satellite constellation.'
           narration: {fileID: 8300000, guid: 7b8f896fdc5608743a2374466ddd99ae, type: 3}
-          topicSprites: []
+          topicSprites:
+          - {fileID: 21300000, guid: bc8f94a3a5ee43046bdd2a7ef3812a87, type: 3}
         - content: "\u2981TRANSPONDER. On P2002-JF two kinds of transponder devices
             can be installed: the Garmin GTX 328 and the Garmin GTX 330. \r\n\n\u2981GTX
             328 TRANSPONDER. The Garmin GTX 328 is a Non-Diversity Mode S Transponder.
@@ -9820,6 +9896,7 @@ MonoBehaviour:
           narration: {fileID: 8300000, guid: a79947d2fe7ed804090b675d211883f1, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: c553e12d3e981844d9c18a0595c61415, type: 3}
+          - {fileID: 21300000, guid: 98147413f05a02e469da75770829ef0e, type: 3}
         - content: "\u2981TURN COORDINATOR. The turn coordinator is an electrically
             operated, gyroscopic, roll-rate turn indicator. Its gyro simultaneously
             senses the rate of motion roll and yaw axis which is projected on a single
@@ -9947,7 +10024,12 @@ MonoBehaviour:
             consist of instrument lights, position lights, landing lights, dome lights,
             strobe lights, and navigation lights."
           narration: {fileID: 8300000, guid: 7cbb9403e9cfbc64eb8491b93735fef4, type: 3}
-          topicSprites: []
+          topicSprites:
+          - {fileID: 21300000, guid: 3e3b1b7ef38a693499dba4557f915109, type: 3}
+          - {fileID: 21300000, guid: 9b3330450658d3b498e1374f7684bec5, type: 3}
+          - {fileID: 21300000, guid: 5262ec0de4239b94d8338fa4f08b9413, type: 3}
+          - {fileID: 21300000, guid: 8a451e4460be66749936cb9003db3883, type: 3}
+          - {fileID: 21300000, guid: da1f7eacb91f1a7458f60fe196108054, type: 3}
         - content: "\u2981INSTRUMENT LIGHTS. A couple of instrument lights (LED type)
             are connected to the main bus through a circuit breaker and installed
             in correspondence with a fixed part of the canopy, one for each side.
@@ -9956,6 +10038,8 @@ MonoBehaviour:
             panel, allows for regulating the instruments light\u2019s brightness."
           narration: {fileID: 8300000, guid: c6927c2f8173838439a1928b8595b404, type: 3}
           topicSprites:
+          - {fileID: 21300000, guid: 3748b0b40c35b744cb3e41dfc1adebed, type: 3}
+          - {fileID: 21300000, guid: 682646285e533214a8f5cd253da81171, type: 3}
           - {fileID: 21300000, guid: c1e7b284b9fe2ae4e94c935a5e0bea6e, type: 3}
         - content: "\u2981POSITION LIGHTS. They provide the aircraft flight direction
             identification. Navigation lights are installed on the wing tips and
@@ -10181,8 +10265,15 @@ MonoBehaviour:
           - {fileID: 21300000, guid: 2b5bac760e10b784b8f9d6400793093b, type: 3}
           - {fileID: 21300000, guid: aea659b934ac7b44f8fd3b2a0ede45ef, type: 3}
           - {fileID: 21300000, guid: 3b2d2eca8ea95e94fbc24b4148c0e9ed, type: 3}
-        - content: 
-          narration: {fileID: 0}
+        - content: 'Antenna Location
+
+
+            The Tecnam P2002JF is consist
+            of several aircraft antennas that includes the following; Maker Beacon,
+            Automatic Direction Finder (ADF) Antenna, Transponder, Global Position
+            System Antenna, Communication Antenna, Distance Measuring Equipment (DME)
+            Antenna, and also the Emergency Locator Transmitter (ELT) Antenna.'
+          narration: {fileID: 8300000, guid: 8d32a6a3d63d4ac47af8c500ae7763b9, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: ee7f2fc1a2749944eb995ecb0cf1fc9c, type: 3}
           - {fileID: 21300000, guid: 85b726690b1ebb049b07ce6b8b45e0bc, type: 3}
@@ -10252,17 +10343,19 @@ MonoBehaviour:
           narration: {fileID: 8300000, guid: 1e1e145ac5b6b1a4dbace72020711a3e, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 372c6dff867e65b4fbe48768c2c034f4, type: 3}
-        - content: 
-          narration: {fileID: 0}
+        - content: The externally braced wings, containing the fuel tanks are constructed
+            of a front and rear spar with formed sheet metal ribs, and the entire
+            aircraft is covered with a aluminum skin.
+          narration: {fileID: 8300000, guid: 4cf96833d5a74bb449a4ed0eb11e2e82, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 0746783f78dc373408334a8c609df14f, type: 3}
-        - content: "WINDSHIELD AND WINDOWS.\r The windshield and windows are single-piece,
+        - content: "WINDSHIELD AND WINDOWS. The windshield and windows are single-piece,
             acrylic panels, set in sealing strips and held by formed retaining strips,
             secured to the fuselage with screws and rivets. FS-4291 sealer (TMK01
             Kit, Supply Division  Cessna Aircraft Company, P.O. Box 949, Wichita,
             KS 67201 316/685-9111, Telex 417-489) is applied to all edges of the
             windshield and windows, with exception of the wing root area. The wing
-            root fairing has a heavy strip that completes the windshield sealing.\r\n"
+            root fairing has a heavy strip that completes the windshield sealing.\r"
           narration: {fileID: 8300000, guid: b9607d6c0a83c7444af87d0fe6944b32, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: e9fa1ad68c5134d4d9ec5ec9c585e550, type: 3}
@@ -10322,9 +10415,9 @@ MonoBehaviour:
           - {fileID: 21300000, guid: eec72bdabfa90784381defc75d5adc61, type: 3}
           - {fileID: 21300000, guid: 857c95316cad8d14c9cdf967a341d986, type: 3}
           - {fileID: 21300000, guid: 6784e30f6ae77e546a9e5b13501a1a4f, type: 3}
-        - content: "LATCHES. \rThe cabin door latch consists of a two-piece nylon
-            latch base, exterior handle, spring-loaded latch bolt/pull-bar assembly,
-            and a spring-loaded catch/trigger pin assembly. The interior handle base
+        - content: "LATCHES. The cabin door latch consists of a two-piece nylon latch
+            base, exterior handle, spring-loaded latch bolt/pull-bar assembly, and
+            a spring-loaded catch/trigger pin assembly. The interior handle base
             plate assembly is directly connected to the cabin door latch by means
             of an adjustable push rod assembly. This push rod assembly has one clamp
             on the main rod. This clamp is used to operate a cable assembly that
@@ -10357,7 +10450,7 @@ MonoBehaviour:
             latch handle, locking the aircraft. It is important to note that since
             the cabin door latch assembly and the interior handle base plate assembly
             are directly connected by the push rod assembly, any amount of force
-            is.\r\n"
+            is.\r"
           narration: {fileID: 8300000, guid: b02c60ea2dd464141bfe1cd4ea3af7a9, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 95dec34d7188d9f4791fda3baf0e96e9, type: 3}
@@ -10378,7 +10471,9 @@ MonoBehaviour:
             and incorporate no adjustment provisions other than manually-adjustable
             three-position backs.
           narration: {fileID: 8300000, guid: c93e9bd6f788f6f469ef0b0cbf25b795, type: 3}
-          topicSprites: []
+          topicSprites:
+          - {fileID: 21300000, guid: 73fffa38943e638458689950af960f4d, type: 3}
+          - {fileID: 21300000, guid: ae8a4fef4a712cb4daf2f0b7f59be4ab, type: 3}
         - content: AUXILIARY/FOLD UP. These seats are permanently bolted to the cabin
             structure and have no adjustment provisions. The seat structure is mounted
             on hinge brackets with pivot bolts, thus allowing the seat to be pivoted
@@ -10459,9 +10554,9 @@ MonoBehaviour:
           narration: {fileID: 8300000, guid: 729d7183f37b5c04983ac070c122dfcb, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: dc747864749a18f44aaa4003bee6151f, type: 3}
-        - content: "FIN. \rThe fin is primarily of metal construction, consisting
-            of ribs and spars covered with skin. Fin tips are of ABS construction.
-            Hinge brackets at the fin rear spar attach the rudder.\r"
+        - content: "FIN. The fin is primarily of metal construction, consisting of
+            ribs and spars covered with skin. Fin tips are of ABS construction. Hinge
+            brackets at the fin rear spar attach the rudder.\r"
           narration: {fileID: 8300000, guid: 03b03ab252f00754d935b86af486b5cc, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: b39e0e0c798da064c96fe125bcb35b8f, type: 3}
@@ -10508,18 +10603,18 @@ MonoBehaviour:
           narration: {fileID: 8300000, guid: 166a9a508d46b974586f8f27e2c67db7, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 7eeb5c3243ee1244e806557d7b3f10a1, type: 3}
-        - content: "MAIN LANDING GEAR FAIRINGS. \rSome aircraft are equipped with
-            fuselage fairings. attached to the fuselage and the tubular strut fairings
-            with screws. The tubular strut fairings cover the tubular landing gear
-            struts and attach to the fuselage fairings at the upper end and to the
-            fairing caps at the lower end. The fairing caps attach to the tubular
-            strut fairings at the upper end and are clamped to the tubular struts
-            at the lower end. Brake fairings are installed at the lower end of the
-            tubular strut fairings and are attached to the wheel speed fairings by
-            screws around their outer perimeters. The speed fairings are installed
-            over the wheels and are attached to mounting plates, attached to the
-            axles. The wheel fairings are equipped with adjustable scrapers, installed
-            in the lower aft part of the fairings, directly behind the wheels.\r\n"
+        - content: "MAIN LANDING GEAR FAIRINGS. Some aircraft are equipped with fuselage
+            fairings. attached to the fuselage and the tubular strut fairings with
+            screws. The tubular strut fairings cover the tubular landing gear struts
+            and attach to the fuselage fairings at the upper end and to the fairing
+            caps at the lower end. The fairing caps attach to the tubular strut fairings
+            at the upper end and are clamped to the tubular struts at the lower end.
+            Brake fairings are installed at the lower end of the tubular strut fairings
+            and are attached to the wheel speed fairings by screws around their outer
+            perimeters. The speed fairings are installed over the wheels and are
+            attached to mounting plates, attached to the axles. The wheel fairings
+            are equipped with adjustable scrapers, installed in the lower aft part
+            of the fairings, directly behind the wheels.\r"
           narration: {fileID: 8300000, guid: 608b2ee5d811ead45b06270e5cca538c, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 855f6d9238c41604fb7bdde85933e75a, type: 3}
@@ -10533,10 +10628,10 @@ MonoBehaviour:
           narration: {fileID: 8300000, guid: 2c2cb0ef68b49174ab14849888fa2bc8, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: fc14693d4ec3eaf41a85ae3ae18f79df, type: 3}
-        - content: "MAIN WHEEL ALIGNMENT CHECK. \rNo provisions are made for aligning
+        - content: "MAIN WHEEL ALIGNMENT CHECK. No provisions are made for aligning
             the nose wheel. Toe-in limitations are. 00\" to +. 18\". Camber limitations
             are 2\xB0 to 4 \xB0. If wheel alignment is out of these limitations,
-            a new tubular spring strut will have to be installed.\r\n"
+            a new tubular spring strut will have to be installed.\r"
           narration: {fileID: 8300000, guid: 10d0efdc7151a2743905ce42d3bea7b3, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 14fb8d3c97a4cea46834553dd96ed2eb, type: 3}
@@ -10567,13 +10662,13 @@ MonoBehaviour:
           narration: {fileID: 8300000, guid: 76f0060c03226344b8486e7bf8695056, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 33d12436d6f9f2e4d917f1a0b27cb7dc, type: 3}
-        - content: "NOSE WHEEL STEERING SYSTEM.\r Nose wheel steering is accomplished
+        - content: "NOSE WHEEL STEERING SYSTEM. Nose wheel steering is accomplished
             through the use of the rudder pedals. Spring-loaded steering rod assemblies
             connect the nose gear steering arm assembly to the arms on the rudder
             bars. Steering is afforded up to approximately 10 degrees on each side
             of the neutral. after which brakes may be used to gain a maximum deflection
             of 30 degrees right or left of the center. A flexible boot seals the
-            fuselage entrance of the steering rod assembly.\r\n"
+            fuselage entrance of the steering rod assembly.\r"
           narration: {fileID: 8300000, guid: 2179a5026ac8a5b4887ba7ee8dca1e10, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 245710f29b1ac4e459604c696a22ba29, type: 3}
@@ -10594,12 +10689,12 @@ MonoBehaviour:
           narration: {fileID: 8300000, guid: 67bb8c8cfb2d694489ae205781a28147, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 4e6c534358715834b8828c8d6c28c8a4, type: 3}
-        - content: "BRAKE MASTER CYLINDERS.\r The brake master cylinders, located
-            immediately forward of the pilot's rudder pedals, are actuated by applying
-            pressure at the top of the rudder pedals. A small reservoir is incorporated
-            into each master cylinder for the fluid supply. When dual brakes are
-            installed, mechanical linkage permits the co-pilot pedals to operate
-            the master cylinders.\r\n"
+        - content: "BRAKE MASTER CYLINDERS. The brake master cylinders, located immediately
+            forward of the pilot's rudder pedals, are actuated by applying pressure
+            at the top of the rudder pedals. A small reservoir is incorporated into
+            each master cylinder for the fluid supply. When dual brakes are installed,
+            mechanical linkage permits the co-pilot pedals to operate the master
+            cylinders.\r"
           narration: {fileID: 8300000, guid: aeb0b3959a551e940a11532fc1026416, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 4ccfd21713c3ed641bc2bffec47e3a7e, type: 3}
@@ -11017,8 +11112,16 @@ MonoBehaviour:
           narration: {fileID: 8300000, guid: b7f0557a982a4ba45a3139ef99586253, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 9ac72ac7a645f684b867edc4f27c4f36, type: 3}
-        - content: 
-          narration: {fileID: 0}
+        - content: "Fuel Distributor\r\nOne of the most significant advantages of
+            fuel injection systems is that the fuel-air ratio in each cylinder is
+            more uniform. This is achieved using a fuel distributor. The fuel distributor
+            takes the metered fuel flow from the servo and separates it equally into
+            the fuel lines leading to the fuel nozzles (sometimes known as \"the
+            spider\" for its' shape). \r\n\r\nTo keep the fuel at the metered fuel
+            flow, a diaphragm maintains constant pressure via a spring. When you
+            shut down your engine, the diaphragm's pressure ensures a simultaneous
+            shutdown of fuel flow to each cylinder.\r\n"
+          narration: {fileID: 8300000, guid: 4368b39c2d0a24e4886f9d22521fe0d2, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 0c05286ac5106e34bbabc6152001e2be, type: 3}
         - content: FUEL TANKS. A rigid metal tank is installed in the inboard panel
@@ -11057,12 +11160,12 @@ MonoBehaviour:
           narration: {fileID: 8300000, guid: 257b127c727c336448884044f1f63f54, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: e6ccc6a1897da6642ad4d3323dd02110, type: 3}
-        - content: "FUEL STRAINER.\r The fuel strainer is mounted at the firewall
-            in the lower engine compartment. The strainer is equipped with a quick-drain
+        - content: "FUEL STRAINER. The fuel strainer is mounted at the firewall in
+            the lower engine compartment. The strainer is equipped with a quick-drain
             valve which provides a means of draining trapped water and sediment from
             the fuel system. The quick-drain control is located adjacent to the oil
             dipstick and is accessible through the oil dipstick door in the upper
-            engine cowl.\r\n"
+            engine cowl.\r"
           narration: {fileID: 8300000, guid: 54e3a7a6474e3874baa3ccaf35b256a8, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 86b5ecb3942d92a45982a47e0fba6c00, type: 3}
@@ -11748,9 +11851,9 @@ MonoBehaviour:
             from being operable. '
           narration: {fileID: 8300000, guid: 464a08d01d1035c49b606a6ef3d20ee2, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 2a14bd38b6b858b47847f3080f8f9a54, type: 3}
-          - {fileID: 21300000, guid: 5ebb6ce63882958499d89f295d9ff3e0, type: 3}
-          - {fileID: 21300000, guid: 65f984aef906c4e41a89b2487b74865c, type: 3}
+          - {fileID: 21300000, guid: 1e4926507e578b04ba567e6da18635c9, type: 3}
+          - {fileID: 21300000, guid: a06ad00c5938e4a419b24cd0278c1328, type: 3}
+          - {fileID: 21300000, guid: c3bb39a0c06d3b34e84b49df54a97e1d, type: 3}
         - content: 'AIRCRAFT DIMENSIONS IN THREE VIEWS
 
 
@@ -11770,7 +11873,7 @@ MonoBehaviour:
 '
           narration: {fileID: 0}
           topicSprites:
-          - {fileID: 21300000, guid: fece44be037f8594eb7821b927db43f9, type: 3}
+          - {fileID: 21300000, guid: 97336d3fbae1f4b40b2243c4aeec702f, type: 3}
         - content: AIRCRAFT SPECIFICATIONS. The Tecnam P2006T has the best Payload/Maximum
             Takeoff Weight ratio (0.36) among its direct competitors. This can be
             attributed to the high structural and systems efficiency and the excellent
@@ -11781,8 +11884,8 @@ MonoBehaviour:
             result in unparalleled aerodynamic efficiency.
           narration: {fileID: 8300000, guid: 8ac4baad5fc177647b39a38108bea591, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 936848ec69e3d454c9608a218c70a454, type: 3}
-          - {fileID: 21300000, guid: 948649c11a8874642be22b7b92abb926, type: 3}
+          - {fileID: 21300000, guid: f99729952de01e8499a1f0e1a6da421d, type: 3}
+          - {fileID: 21300000, guid: ee21f2ec0adf83742b7bd897a74ec646, type: 3}
       - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d000000
         m_values:
         - content: "FUSELAGE. The fuselage comprises the cabin and the baggage compartment.
@@ -11802,8 +11905,8 @@ MonoBehaviour:
             to the vertical tail at two hinge points.\r\n"
           narration: {fileID: 8300000, guid: afb7a635cdb180e4181bbe63be5e676f, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 8873789d3114dc744a7413ed96084468, type: 3}
-          - {fileID: 21300000, guid: 21d2ec607e2bfef4081635d0f294066f, type: 3}
+          - {fileID: 21300000, guid: 696e36e94170ebd4da87d3db8a784d3b, type: 3}
+          - {fileID: 21300000, guid: 65cdabef423104b4abaaa294986c553a, type: 3}
         - content: "FORWARD FUSELAGE. The forward truss structure drawing shows the
             location of attachment points for the wing\u2019s main and rear spar,
             tail cone, main landing gear, engine mount, flap torque tube, stabilator
@@ -11812,7 +11915,7 @@ MonoBehaviour:
             shown.\r\n"
           narration: {fileID: 8300000, guid: 41d6b874d57c5e848aade49c05626503, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: c00249e19733db4438557870929906a1, type: 3}
+          - {fileID: 21300000, guid: c46801e70f5688b4c98b6f759fd754a0, type: 3}
         - content: AFT FUSELAGE. The aft part of the fuselage is constructed with
             an aluminum alloy semi-monocoque structure. Attachments to the cabin
             truss are at the forward fittings of four stringers. Two flanges are
@@ -11820,7 +11923,7 @@ MonoBehaviour:
             tail assy and the vertical tail forward and aft spars.
           narration: {fileID: 8300000, guid: 853172cfdee3b984ab6a1cd776b5e7fc, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 8c39684bef994a544a9424fec4b7bda3, type: 3}
+          - {fileID: 21300000, guid: 02a70da828cb48a459f4bcd061c586b5, type: 3}
         - content: WINDSHIELD AND WINDOWS.  Being windshields and side windows made
             of acrylic plastics, when damaged, they are usually replaced unless the
             damage is minor and a repair would not be in the line of vision. Repairs
@@ -11831,7 +11934,7 @@ MonoBehaviour:
             luggage compartment of 350 liters, 12,36 cu ft, and is easily accessible.
           narration: {fileID: 8300000, guid: 8109c74227836db46b3c93fb7e73afb2, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 70a963c70f8f145468da4407f1ede013, type: 3}
+          - {fileID: 21300000, guid: 08ba1b0c0048d3541871a470f0d3a99a, type: 3}
         - content: WINDOWS. P2006T crew external visibility is guaranteed by four
             side windows, two on each side, and a wide windshield that allows the
             pilot and copilots an overall vision for every flight maneuver. Two windows
@@ -11839,14 +11942,14 @@ MonoBehaviour:
             splinter-less plexiglas GS 233.
           narration: {fileID: 8300000, guid: 926fbf4cdd76efc4ea625a6934b4c546, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 90d935eed20495d429c47eca1b6b843e, type: 3}
-          - {fileID: 21300000, guid: a6d96032c766b084c885bc9dec29b9c5, type: 3}
+          - {fileID: 21300000, guid: e8ca533c289980b4da1c834dacac930a, type: 3}
+          - {fileID: 21300000, guid: 72b40b3c550d7a849a3b6a16c99451aa, type: 3}
         - content: OVERHEAD CABIN WINDOWS located in the cabin top, may be installed
             These windows are one-piece. acrylic plastic panels set in sealing strips
             and held in place by retaining strips.
           narration: {fileID: 8300000, guid: eb4e79bb0e8e3cb4abdb62b63e7f4e11, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 8dd56fd2d10d760448c9cf685a3841cb, type: 3}
+          - {fileID: 21300000, guid: a4283d69bf11e7c41a5f82c2e3ccb33c, type: 3}
         - content: "CABIN DOOR. A door on each side of the fuselage provides access
             to the seating area; an escape hatch is provided above the two forward
             seats to be used if fuselage deformation in a crash prevents those doors
@@ -11863,7 +11966,7 @@ MonoBehaviour:
             the fuselage utilizing two cables that allow it to open forward.\r\n"
           narration: {fileID: 8300000, guid: 5e0988a1f4f9d7447b5b6e827f7ab69b, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: c6b53d00cdfcf1944bfe2a9a9e2012d3, type: 3}
+          - {fileID: 21300000, guid: 228b6778b25cf794dae3302daabdb73e, type: 3}
         - content: "CABIN. The cabin accommodates dual flight controls, instruments,
             and electrical and electronic control panels conveniently located for
             crew accessibility. The cabin has four seats: two crew seats located
@@ -11871,15 +11974,15 @@ MonoBehaviour:
             cabin is fitted with panels."
           narration: {fileID: 8300000, guid: 98c0403836d61864c9bddca6f49855d2, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 8cf5eda4a3ec34243a5a74efa5811ccb, type: 3}
-          - {fileID: 21300000, guid: 8d06fdb21e9b24f49bf53441fd396ef2, type: 3}
-          - {fileID: 21300000, guid: 5c5b8c5ec4fb97045adb33ec307a4d19, type: 3}
+          - {fileID: 21300000, guid: de0b7f9d0b8569244b57e12646272a43, type: 3}
+          - {fileID: 21300000, guid: 17cbde9e2b1e87d4198384d76f648bc4, type: 3}
+          - {fileID: 21300000, guid: 2e9105c42227dab4d9c56f41b62763d9, type: 3}
         - content: CABIN FLOOR. The cabin floor is constructed of light alloy and
             features matting. The entire fuselage, wing, and other exposed surfaces
             are finished with a highly resistant weather-proofing synthetic coating
           narration: {fileID: 8300000, guid: 88fcd9596f94fe94899c898f2509afba, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: af4b724e19d713c4bb9e51e2b896f3df, type: 3}
+          - {fileID: 21300000, guid: 7df49d938c7c4c745ad9154eb38981d1, type: 3}
         - content: "SEATS. Each seat is horizontally adjustable, and the back may
             be adjusted to reclined positions. They are mounted on two parallel tracks
             attached to the compartment floor structure, which allow the seat to
@@ -11893,16 +11996,16 @@ MonoBehaviour:
             to allow the adjustment of the backrest recline\r\n"
           narration: {fileID: 8300000, guid: 4ef38274337d3c949b89a3406676f9bd, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 4e4f7d5b20d753d49b8229eae9efcede, type: 3}
-          - {fileID: 21300000, guid: 11cd10d8fd025054a8c2ead355ec30d2, type: 3}
-          - {fileID: 21300000, guid: f6d32fdf9e293fd4aa84d6db77885ebd, type: 3}
+          - {fileID: 21300000, guid: bfc4bc86aa6aa9f43bcbcc1e26424f54, type: 3}
+          - {fileID: 21300000, guid: 5e5922ba20536c24e89ea1375130cdc3, type: 3}
+          - {fileID: 21300000, guid: 7072c84f5d4ca574c9a832bf4908ab9e, type: 3}
         - content: CARPETING. The cabin area and baggage compartment carpeting are
             held in place by rubber cement, sheet metal screws, and retaining strips.
             When fitting a new carpet, use the old one as a pattern for trimming
             and marking screw holes.
           narration: {fileID: 8300000, guid: 4ef0096aa834ead4ab38a34bf98b173d, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: fcef3d06d3420954db2c9a3de0d60e84, type: 3}
+          - {fileID: 21300000, guid: c328a7932e43e0a409697eea89158cc1, type: 3}
         - content: "\rBAGGAGE COMPARTMENT The baggage compartment is located behind
             the seats; the ELT is located on its upper side (horizontal rear panel),
             and the first aid kit is located on its lower side. The fire protection
@@ -11914,21 +12017,21 @@ MonoBehaviour:
             Velcro strip. The following table lists the kit's content:"
           narration: {fileID: 8300000, guid: a1b87748d71171848bc5e05474643f34, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: e419fc9c88dfb1f4a97cdc04d51e4582, type: 3}
-          - {fileID: 21300000, guid: e9d1d4919a4cbef4eb5ecdc5083a79a8, type: 3}
-          - {fileID: 21300000, guid: ab20048d0cb27c44993e47b64052a2ad, type: 3}
-          - {fileID: 21300000, guid: a474c4b42f1c7f24b844556b7ec16da6, type: 3}
+          - {fileID: 21300000, guid: 5eacc349924777541b28818d1809bc30, type: 3}
+          - {fileID: 21300000, guid: e1eabeda558701f47b3e379aad53e1f3, type: 3}
+          - {fileID: 21300000, guid: 4fdc3fe99adde58478251be849d2dd75, type: 3}
+          - {fileID: 21300000, guid: 7e82048fd26d7184199404c056ee515b, type: 3}
         - content: SAFETY BELTS. Each seat is fitted with a safety belt featuring
             three attaching points.
           narration: {fileID: 8300000, guid: 55905fd3851328f428f331ad2f085735, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 4f57b7cd0c9d9b9459d979740f0de248, type: 3}
-          - {fileID: 21300000, guid: e88455d8e7e99d84f92409cadedb8d65, type: 3}
+          - {fileID: 21300000, guid: 6c6bbeb7ab15b494ebc973d4855e29de, type: 3}
+          - {fileID: 21300000, guid: 355823c6f31bee1448265b984bf9707b, type: 3}
         - content: 'REAR VIEW MIRROR. The rear view mirror may be installed in the
             instrument panel glare shield. '
           narration: {fileID: 8300000, guid: 346438c28983ac6429055988b2d641cb, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 7827d10d860152645b679693435221cd, type: 3}
+          - {fileID: 21300000, guid: be700226ae02f52498c58be933181815, type: 3}
       - m_keys: 000000000100000002000000
         m_values:
         - content: WINGS. Each all-metal wing is a semi-cantilever. Semi-monocoque
@@ -11943,19 +12046,19 @@ MonoBehaviour:
             while the flap and aileron are hinged to the rear spar.
           narration: {fileID: 8300000, guid: 51523b3adb636da40a825d31174593a3, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: aec25f35cbedd73438f8d76044dc29c1, type: 3}
+          - {fileID: 21300000, guid: 8ba4e96026395ba48a25b393b987f153, type: 3}
         - content: 'EMPENNAGES. The vertical tail is metallic: the vertical fin comprises
             a twin-spar with aluminum alloy stressed skin. Rudder, providing directional
             control of the airplane, is made of aluminum alloy. The rudder is connected
             to the vertical tail at two hinges.'
           narration: {fileID: 8300000, guid: d9d3f11ab16ae024f9ce0de2d58ab78a, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: f8e586a73e83a62489ecd1148600f2d8, type: 3}
+          - {fileID: 21300000, guid: e2d247af378030b4591facd12f078373, type: 3}
         - content: FIN. The vertical fin is made up of a twin-spar with aluminum
             alloy stressed skin.
           narration: {fileID: 8300000, guid: 13402404743a5b541a601292b16e474c, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: d1fa3ef39206892428705903086f2561, type: 3}
+          - {fileID: 21300000, guid: 9a6019b0505615449bbee033eab3eb87, type: 3}
       - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000
         m_values:
         - content: 'AILERON CONTROL SYSTEM
@@ -11969,8 +12072,7 @@ MonoBehaviour:
             a push-pull rod.'
           narration: {fileID: 8300000, guid: be20976ab5252a14eb22580fa22cca1c, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 2a7987957718da042bb4c1992432ab66, type: 3}
-          - {fileID: 21300000, guid: 9269c21c99ddc004ea4395c078f98a21, type: 3}
+          - {fileID: 21300000, guid: af1037a7bde39ef4bb39a63b9e6f8ad7, type: 3}
         - content: "AILERON CONTROL SYSTEM. Aileron control is via internal cabin
             cables linked to push-rods in the wing leading edges. Particular attention
             has been paid to the cabin\u2019s structural design to ensure the required
@@ -11983,8 +12085,7 @@ MonoBehaviour:
             aileron has a trim tab adjustable on the ground: its deflection allows
             for lateral trimming of the airplane.\r\n"
           narration: {fileID: 8300000, guid: 4c611f08ec511684e853d5444f48b72c, type: 3}
-          topicSprites:
-          - {fileID: 21300000, guid: f15235c999967944b8aaf97d9956d960, type: 3}
+          topicSprites: []
         - content: U-SHAPED CONTROL WHEELS. Hinged on the top of the control column,
             control the ailerons. The control wheel motion is transferred to the
             ailerons through a cable loop, up to the interconnecting rod linking
@@ -11992,7 +12093,7 @@ MonoBehaviour:
             ailerons.
           narration: {fileID: 8300000, guid: 3f9e325b481169c498815753217b70c4, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 9e0db06cc9a86c542b64d2f411ff20a8, type: 3}
+          - {fileID: 21300000, guid: 3b0d31391f8d02445ad1326803c6da4d, type: 3}
         - content: "WING FLAP CONTROL SYSTEM\r\n\nFLAPS. Both flaps are extended
             via a single electric actuator controlled by a switch on the instrument
             panel. Flaps act in continuous mode; the analog indicator displays three
@@ -12004,8 +12105,8 @@ MonoBehaviour:
             to the FULL position, and the landing gear is not down-locked.\r\n"
           narration: {fileID: 8300000, guid: bb9eef92b42adcc48b82226430867518, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 28b109136e642d44abb2e3769b6851e1, type: 3}
-          - {fileID: 21300000, guid: f9c9a539d003cf847b2fd8755e262084, type: 3}
+          - {fileID: 21300000, guid: 1bf9ba698b03aa642a21b1d42c2568b9, type: 3}
+          - {fileID: 21300000, guid: 25857984c6dc1704083c48fe2037e3e3, type: 3}
         - content: FLAP CONTROL SYSTEM. The flap control system is operated by an
             electric actuator mounted in the left wing box. The electric actuator
             is connected to a torque tube that operates both left and right-wing
@@ -12013,7 +12114,7 @@ MonoBehaviour:
             on the instrument panel.
           narration: {fileID: 8300000, guid: 2e867d80ed622e7409c86ee271590d57, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 91e75b48b1596114e9ba76de4f05e082, type: 3}
+          - {fileID: 21300000, guid: 1c67f50b208d1a74a8d70abc5ecc3eca, type: 3}
         - content: FLAP FOLLOW-UP AND INDICATING SYSTEM. The flap follow-up and the
             indicating system consists of a sheathed cable assembly, one of which
             is attached to the flap operating switch mounting arm, and the other
@@ -12021,9 +12122,9 @@ MonoBehaviour:
             area. The motion of the flap cable is transmitted through.
           narration: {fileID: 8300000, guid: 665c03a28b8108f4f9a6571a4df275a8, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 816560dd9984e7c47af394a763426735, type: 3}
-          - {fileID: 21300000, guid: bd0ccdaf41506f9489d8c83698de9430, type: 3}
-          - {fileID: 21300000, guid: 736bf4d44f893524b94137839e9c5037, type: 3}
+          - {fileID: 21300000, guid: e8a7c9351b97834429ac83fb990bf224, type: 3}
+          - {fileID: 21300000, guid: cc936616fb3c4614aa7d194c94118924, type: 3}
+          - {fileID: 21300000, guid: 643ece0356a249540b9f76e498dd15d5, type: 3}
         - content: 'STABILATOR CONTROL SYSTEM
 
 
@@ -12036,7 +12137,7 @@ MonoBehaviour:
             by stressed aluminum alloy skin. The trim tab completes the assy.'
           narration: {fileID: 8300000, guid: 9715935e315f73146ad1180d6fe62bdc, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 0c5c273a6ec24444bbcab6b001b29db0, type: 3}
+          - {fileID: 21300000, guid: 03ba04f3ecd09d445a14b9c28496da60, type: 3}
         - content: "STABILATOR CONTROL SYSTEM. The stabilator control system is push-pull
             and is controlled from the cabin via the control sticks. Control is transmitted
             through a push-pull rod linked to a bellcrank and a shaft that runs through
@@ -12048,8 +12149,8 @@ MonoBehaviour:
             point."
           narration: {fileID: 8300000, guid: 49df3eb539b84434eb2598b40f7828c8, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 14530d2999cef44458d02af6e031110e, type: 3}
-          - {fileID: 21300000, guid: b7321aa5f66a28041b21e80261502605, type: 3}
+          - {fileID: 21300000, guid: f04cda9eb8bb06e4a85b73f706dc9ea9, type: 3}
+          - {fileID: 21300000, guid: ca639da214197d1469b5fa9eda13efaa, type: 3}
         - content: "STABILATOR TRIM  CONTROL SYSTEM\r\nSTABILATOR TRIM TAB CONTROL
             SYSTEM. The stabilator trim tab control line is independent of stabilator
             one. It\u2019s possible to control the stabilator trim tab even if it
@@ -12058,7 +12159,7 @@ MonoBehaviour:
             lead to an uncontrolled trim surface movement. "
           narration: {fileID: 8300000, guid: 9327cfdaa8793fc428471a2c48084f74, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 9b4687f96a30043459a09f90618fd63d, type: 3}
+          - {fileID: 21300000, guid: dd6752f6e478cac4da304b060ac19cac, type: 3}
         - content: TRIM TAB. A trim tab provides stick force adjustment and longitudinal
             compensation through an electric actuator controlled by the pilot. A
             tab is split into two parts interconnected at the support brackets and
@@ -12066,7 +12167,7 @@ MonoBehaviour:
             inspection.
           narration: {fileID: 8300000, guid: 9a5a5b52b220a024abc605541886c548, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 156afcffe8c83e54aa8ae9913b3afeec, type: 3}
+          - {fileID: 21300000, guid: 19b6be24382abdf4198b92baf072daa1, type: 3}
         - content: 'LONGITUDINAL TRIM CONTROL. Longitudinal control acts through
             push-pull rods connected to the control column and moving the stabilator,
             whose anti-tab winglet works as a trim tab. The autopilot pitch servo
@@ -12085,7 +12186,7 @@ MonoBehaviour:
 '
           narration: {fileID: 8300000, guid: 5ca60e772c7166e49be03bcf845814e7, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 45079379983508a4ab97b8ce03537cf9, type: 3}
+          - {fileID: 21300000, guid: cb2c8179b66de3b499846aff83755905, type: 3}
         - content: AFT BELLCRANK. The aft bellcrank assembly consists of a steel
             tube with welded horn assembly, attachment for stabilator control shaft,
             and balanced weight bellcrank. A counterweight is located at the end
@@ -12093,8 +12194,8 @@ MonoBehaviour:
             the tail-frame cut-out.
           narration: {fileID: 8300000, guid: 260cae173e881154f9f1c7fc374a6e40, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: c7e307c7b52030943bb4cd895a46d6bb, type: 3}
-          - {fileID: 21300000, guid: 00e37d47278ec9842bb92e28bfad423e, type: 3}
+          - {fileID: 21300000, guid: a64e9766eb660f547bae7c2fb82b181f, type: 3}
+          - {fileID: 21300000, guid: 8f079809f1eb52848b9f5e716b6f60d3, type: 3}
         - content: "RUDDER AND RUDDER TRIM CONTROL SYSTEMS\r\nRUDDER. The rudder
             is operated by the movement of the pilot\u2019s or copilot\u2019s right
             and left rudder pedals. The pedals are connected to torque elements which
@@ -12108,7 +12209,7 @@ MonoBehaviour:
             control of the airplane, is made of aluminum alloy. "
           narration: {fileID: 8300000, guid: 864a32d64c2716b4e9f576267f3c8c4e, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 39fadf89aacdd5a41b290df8c22d4b97, type: 3}
+          - {fileID: 21300000, guid: b1756372d346e9d40856a7c643f700e8, type: 3}
         - content: "RUDDER CONTROL SYSTEM. The rudder is operated by the movement
             of the pilot\u2019s or copilot\u2019s right and left rudder pedals. The
             pedals are connected to torque elements which have link arms for the
@@ -12119,8 +12220,8 @@ MonoBehaviour:
             steering support are attached to the left rudder pedal torque tube."
           narration: {fileID: 8300000, guid: 3964caf84a3807c49b694bac8070991d, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: df94a04683a5bdb4ca2f0ac4787bbc91, type: 3}
-          - {fileID: 21300000, guid: 5d80767ea8cf72844a1e0c293bdd0605, type: 3}
+          - {fileID: 21300000, guid: eb3bbced48e90d84bba6382ad1b64b38, type: 3}
+          - {fileID: 21300000, guid: fb5d1605f21597e4e9e3ca7947e9029d, type: 3}
         - content: RUDDER TRIM TAB. The rudder is operated through a cable system.
             A rudder trim tab allows aircraft directional trimming, especially in
             the case of OEI operation. It is electrically operated via a switch on
@@ -12132,7 +12233,7 @@ MonoBehaviour:
             increases the directional stability of the airplane.
           narration: {fileID: 8300000, guid: 8ea93f2ebb0172e40ae27bbf31a4a274, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 567c31954d33cb245b37be3aac9b2942, type: 3}
+          - {fileID: 21300000, guid: fc2992bc2d60a434c9ff7a3c47ba5e3a, type: 3}
         - content: RUDDER PEDAL. Rudder pedals are attached to two pushrods that
             transmit steering motion to the nose gear leg through a lever. This lever
             hinges on the engine mount and springs connected to the steering lever
@@ -12141,7 +12242,7 @@ MonoBehaviour:
             connection.
           narration: {fileID: 8300000, guid: c2bc80b89e51f104a901b94eca18a600, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 777bcca899e03d8408ad9298f560d864, type: 3}
+          - {fileID: 21300000, guid: 8aa60afb20f21f04bb9806cf15be8cd3, type: 3}
       - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
         m_values:
         - content: 'HYDRAULIC SYSTEM. The hydraulic pump for the LG P2006T, P/N 26-9-6800-000
@@ -12150,7 +12251,7 @@ MonoBehaviour:
             design change. '
           narration: {fileID: 8300000, guid: dcc198cb12620cf4594640e98d23348d, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 3c84c16af4123b744af5375100a13aa4, type: 3}
+          - {fileID: 21300000, guid: da64ec85d91ff52448ab3fdd5befbd6b, type: 3}
         - content: HYDRAULIC POWER.  is enslaved to a landing gear retraction system
             of electro-hydraulic type powered by a reversible pump which, in turn,
             is electrically controlled by the LG toggle switch located on the instrument
@@ -12161,7 +12262,7 @@ MonoBehaviour:
             gear-up landing.
           narration: {fileID: 8300000, guid: f1a55e19ebe6c1e45963c09d9c5aa0f1, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: a3b7b57bb1203af4ea8088b1468f0a5e, type: 3}
+          - {fileID: 21300000, guid: c164049e5d50ab247ba8e90596b9c505, type: 3}
         - content: 'POSITION AND WARNING SYSTEM. The LG leg position indication system
             is electrical and it is composed of the following main components:
 
@@ -12184,7 +12285,8 @@ MonoBehaviour:
             gear red and green lights)'
           narration: {fileID: 8300000, guid: 7c9492cbbc871a04bb8dd50fa4ee8816, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: a34e070eda7ee6a44b3ce480f94d8029, type: 3}
+          - {fileID: 21300000, guid: 16199e2c2d620014e96efd49c96b4548, type: 3}
+          - {fileID: 21300000, guid: e34074a132f85fa4e9f28a35ea962304, type: 3}
         - content: "LANDING GEAR. The landing gear retraction system is of electro-hydraulic
             type, powered by a reversible pump electrically controlled by the LG
             control knob on the LH instrument panel and by the legs position micro
@@ -12199,7 +12301,7 @@ MonoBehaviour:
             accumulator which discharges pressurized oil in the above-mentioned jacks. "
           narration: {fileID: 8300000, guid: 6928be1b4c3908643ac29ba534ffda92, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: fc7cef30e9ed1d445b1ac6dabe1b754d, type: 3}
+          - {fileID: 21300000, guid: ce86cb3ac18c17c4c90b6ae9950a6cac, type: 3}
         - content: "MAIN LANDING GEAR. The main landing gear retraction is simple,
             rotating through 90\xB0 into two fuselage side pods. The main gear of
             the Tecnam P2006T is activated by an aluminum pushrod connected to the
@@ -12211,7 +12313,7 @@ MonoBehaviour:
             a main system failure."
           narration: {fileID: 8300000, guid: ec7b60f1b12e4404d80e53eae6b245ee, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 25ca48a5d2228d84c89d18a4a1c081e4, type: 3}
+          - {fileID: 21300000, guid: 2ee0abc3d0f8d8e4b8e41948c2b71ad4, type: 3}
         - content: 'NOSE GEAR. The nose gear consists of a telescopic leg with an
             integrated oleo-pneumatic shock absorber supporting a single wheel. It
             is linked to the cabin''s first bulkhead through a steel truss. The gear
@@ -12223,7 +12325,7 @@ MonoBehaviour:
             door (two side doors and one forward door) movement. '
           narration: {fileID: 8300000, guid: d9f243ca9497ebd4ea2310cfecf9e926, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 18ebc23ec9d4f3b478a5b71cb5d622ea, type: 3}
+          - {fileID: 21300000, guid: bdd3938c4c9d14642ac35c1f85a33382, type: 3}
         - content: 'CENTERING SYSTEM. A centering system aimed to ensure the centering
             of the nose gear when the leg is fully retracted is embodied. In particular,
             two configurations of the NLG centering system are used. The old one
@@ -12235,13 +12337,13 @@ MonoBehaviour:
             guide keeping the leg centered. '
           narration: {fileID: 8300000, guid: c5935cebea590e14781d9b68cd7b8d5e, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 745ece69dd3fe7c48b500f5008007f95, type: 3}
+          - {fileID: 21300000, guid: aa59394d79dd9354c855d685de0f6b25, type: 3}
         - content: "BRAKES. Brakes can be operated from either pilot\u2019s or co-pilot\u2019s
             pedals: a single vented oil reservoir feeds the pilot side master cylinders
             which are connected, via hoses, with the co-pilot\u2019s side ones."
           narration: {fileID: 8300000, guid: 97526c0a30846104bab530312039e986, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 54d815000ea814f49b61b152c59bf685, type: 3}
+          - {fileID: 21300000, guid: c865c89f23728ba42907d4a99513bf9b, type: 3}
         - content: LEVER BRAKE SYSTEM. The brake system consists of a brake fluid
             reservoir, a master cylinder, and two disc brake assemblies; an intercepting
             valve activates the parking brake. Braking action is through a lever
@@ -12250,7 +12352,7 @@ MonoBehaviour:
             effective even if the parking brake circuit should accidentally close.
           narration: {fileID: 8300000, guid: 85e3aa519905b0e4ba9a014341784e09, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: e3bf677ef98c456479e64a130e292ba0, type: 3}
+          - {fileID: 21300000, guid: ec3316c3b1639ec48b2b23caa95e2829, type: 3}
         - content: 'TOE BRAKE SYSTEM. The toe brake system consists of an independent
             hydraulically actuated brake system for each main wheel. A master cylinder
             is attached to each pilot''s rudder pedal. Hydraulic pressure, applied
@@ -12264,7 +12366,7 @@ MonoBehaviour:
             via hoses, with the co-pilot''s side ones.'
           narration: {fileID: 8300000, guid: f4ad81e11a06c464f80bd85659cced1a, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 00d73c9a090bdef47aeae380b4ed6c11, type: 3}
+          - {fileID: 21300000, guid: c7d2931e35474c045b39490fef3e635f, type: 3}
         - content: BRAKE MASTER CYLINDERS. The brake master cylinders are located
             immediately forward of the pilot's rudder pedals and are actuated by
             applying pressure at the top of the rudder pedals. A small reservoir
@@ -12273,15 +12375,15 @@ MonoBehaviour:
             to operate the master cylinders.
           narration: {fileID: 8300000, guid: 83e4c0c794b4c1a4cad143f291f53546, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 31220e425aabd504d95fabbfda753aa4, type: 3}
-          - {fileID: 21300000, guid: 923f5108f737f4d439781948e68882fb, type: 3}
+          - {fileID: 21300000, guid: ae594855e82219c4ea1030be055a3deb, type: 3}
+          - {fileID: 21300000, guid: c6a1e06432711404e9a4eaf0ea54e215, type: 3}
         - content: 'PARKING BRAKE VALVE. A parking brake valve, mounted in correspondence
             with the cabin floor and operated by a knob on the central cockpit pedestal,
             intercepts the hydraulic lines, once pressurized by toe brakes, to hold
             the brake assembly linings tightened around the main wheels brake discs. '
           narration: {fileID: 8300000, guid: aa5c7647cb1a1e042bfa0e148b067e28, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 3bf1e05c092076b45bfd0763be924173, type: 3}
+          - {fileID: 21300000, guid: 17ef47ad0ed608b47ab13ad79b0a6f0e, type: 3}
       - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000
         m_values:
         - content: 'ENGINE. The Tecnam P2006T has two four-cylinder four-stroke Rotax
@@ -12308,8 +12410,8 @@ MonoBehaviour:
 '
           narration: {fileID: 8300000, guid: 730e5a3edde1fa84992f9b4a71757956, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 7ea92780f2a4d8a4f86756cdbe0867fd, type: 3}
-          - {fileID: 21300000, guid: e5fdda04eb2244e4ba26fa547614120c, type: 3}
+          - {fileID: 21300000, guid: d93fafbcd622c8e4d99ab0a8ac2acf85, type: 3}
+          - {fileID: 21300000, guid: 74ae0ea4ade2907479cd625eb6f80617, type: 3}
         - content: 'STARTER PUSH-BUTTON SWITCH. A starter push-button switch, one
             for each engine and connected to the related starter relay, is located
             on the cabin head panel. Starter operation is initiated by selecting
@@ -12319,7 +12421,7 @@ MonoBehaviour:
             OFF position terminates the starter operation. '
           narration: {fileID: 8300000, guid: 3633126350595f4429122c86b76cb636, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: c43c47f0f7be91e4c84d3b9b25268e6c, type: 3}
+          - {fileID: 21300000, guid: b75507e800a7c5d43a37a687651112f9, type: 3}
         - content: ENGINE COWLING. The lower cowling includes the engine air intake
             duct, the oil cooler, and the water cooler air intake. Both upper and
             lower cowlings are made of laminate composite structure, and the inner
@@ -12330,7 +12432,7 @@ MonoBehaviour:
             protected against fire through a coat of ablative paint.
           narration: {fileID: 8300000, guid: 653c61bff526f914b8f1e36e61c4f28e, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 96e918d15af055c4c9d57c2ed7126229, type: 3}
+          - {fileID: 21300000, guid: 3b6c547f54653ed418c5347cf3c93f06, type: 3}
         - content: 'ENGINE DRAINAGE SYSTEM. The engine drains system provides three
             different drainage lines. The Carburettor drainage line gathers fuel
             leakages in a drip tray; then fuel is conveyed within hoses which, passing
@@ -12340,7 +12442,7 @@ MonoBehaviour:
             for oil overflow ejecting. All drainage hoses are clamped together. '
           narration: {fileID: 8300000, guid: 134461c2cfc26b74eb2cd7ee1f82fa1d, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: e9b610ef34cb2944cbd68410b776baf3, type: 3}
+          - {fileID: 21300000, guid: 5da3f2aef6c89974ab0ec6d37bc9a109, type: 3}
         - content: BAFFLES. The sheet metal installed on the engine directs the cooling
             airflow around the cylinders and other components to provide optimum
             engine cooling. These baffles incorporate rubber-asbestos composition
@@ -12350,9 +12452,9 @@ MonoBehaviour:
             and their removal will cause improper air circulation and engine overheating.
           narration: {fileID: 8300000, guid: 62e30e693e951fb4498d72444a8adec7, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: bf6a0fb09459f0b41a65256ceb148ba6, type: 3}
-          - {fileID: 21300000, guid: b107f5cbfe892e64ca6e4ab5670067d0, type: 3}
-          - {fileID: 21300000, guid: c970eb7f4d5c3964a8bda32fa4a02c37, type: 3}
+          - {fileID: 21300000, guid: 31334d5ee1198c243bc1b4245e4c2455, type: 3}
+          - {fileID: 21300000, guid: 29f2e82a175f254418b5ca8f5039d7cd, type: 3}
+          - {fileID: 21300000, guid: e06ad318b00d85643980ba7e513bd85b, type: 3}
         - content: 'ENGINE MOUNT. Tubular steel makes engine mount: this truss has
             welded joints. The engine mounting frame has four mounting pads at the
             rear of the frame. Bolts through the pads attach the engine mount to
@@ -12360,13 +12462,13 @@ MonoBehaviour:
             isolate, through rubber absorbers, the airframe from engine vibrations.'
           narration: {fileID: 8300000, guid: f1abb0c7796dee944b5ce3c0ac3a889d, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 35b53f90200d93d42a694d558f5fe779, type: 3}
+          - {fileID: 21300000, guid: f104afaaf12af5f4d8a82eaedac85b23, type: 3}
         - content: ENGINE SHOCK-MOUNT PADS. The bonded rubber and metal shock mounts
             are designed to reduce the transmission of engine vibrations to the airframe.
             The rubber pads should be wiped clean with a clean dry cloth.
           narration: {fileID: 8300000, guid: 83f9b2396812a41498a2727ccdb12a37, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: e20f6552d56d91540923bee8e95b2133, type: 3}
+          - {fileID: 21300000, guid: 85855a2f58c957c49bef92d824069c92, type: 3}
         - content: ENGINE OIL SYSTEM. is equipped with an oil system designed to
             supply the engine with the necessary amount of oil at a temperature that
             is not higher than that which is safe for continuous operation. A dry
@@ -12376,7 +12478,7 @@ MonoBehaviour:
             forces it through the oil filter to the pre-determined lubrication locations.
           narration: {fileID: 8300000, guid: 860fd58b8af43fb4b86d11a80340be0b, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 046428ecc3211be45833bdf4a1c68c8d, type: 3}
+          - {fileID: 21300000, guid: ee555498dc0a3b9438053441f1a6994e, type: 3}
         - content: AIR CONDITION OIL SYSTEM. The A/C has two independent oil systems
             (one per engine). Each is designed to supply the related engine and propeller
             governors with the appropriate quantity of oil (13 lt/min) at a temperature
@@ -12386,26 +12488,25 @@ MonoBehaviour:
             oil from the oil tank via the oil cooler and forces it through the oil
             filter to the designed lubrication points.
           narration: {fileID: 8300000, guid: 69756c3073d765e4e9e32ed413166e61, type: 3}
-          topicSprites:
-          - {fileID: 21300000, guid: 626123680ebf9684893de8920657c965, type: 3}
+          topicSprites: []
         - content: OIL FILTER. The oil system is equipped with an oil filter (cartridge
             type) designed for a full-flow oil system in order to filter the contaminants
             from the circulated oil before it passes through the bearing surfaces.
           narration: {fileID: 8300000, guid: c848bdb5171739d4d8466ca307963dc2, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 6717cd25380debe4cac5f1e1bb972782, type: 3}
+          - {fileID: 21300000, guid: 572e2f853c1cc894abc00a64d66edc0d, type: 3}
         - content: RADIATOR. The oil radiator is installed on the front end of the
             engine cowling and it is connected to the engine mount.
           narration: {fileID: 8300000, guid: 977e9f2046c5b0e49a3feafa27004c35, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: bd1e15f35c4987f41b14a3eb3332a217, type: 3}
+          - {fileID: 21300000, guid: 6f31bd649b1dd0b40abe7342be4e65cd, type: 3}
         - content: OIL COOLER. The external oil cooler is mounted on the left forward
             baffle. Flexible hoses carry the oil to and from the cooler. Ram air
             passes through the coil cooler and is discharged into the engine compartment.
             A capped tee is provided for draining the oil cooler.
           narration: {fileID: 8300000, guid: c666be6cdd1407e4591e17395c1a9d31, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 36cb6e4e62fd4694cb80cd709faff310, type: 3}
+          - {fileID: 21300000, guid: 5720a0f688889054bba0268451b4b444, type: 3}
         - content: OIL TANK. The oil tank is installed behind the firewall, protected
             from heat sources. Some holes in the bracket structure allow for air
             ventilation. The reservoir also gathers the oil from the breather hose,
@@ -12414,7 +12515,7 @@ MonoBehaviour:
             far from exhausts and other heat sources.
           narration: {fileID: 8300000, guid: 7adec8a550b8f0b44aa6e6cf6ace69de, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: a0bea936b3bfad0468b47bb051c5f08c, type: 3}
+          - {fileID: 21300000, guid: 3a30caffcabdc544fa52bb81e97fb28a, type: 3}
         - content: 'ENGINE FUEL SYSTEM. It is designed to supply fuel to the two
             reciprocating engines Rotax 912S with suitable fuel flow rate and pressure
             (two fuel lines, one for each engine) for the whole of the certified
@@ -12456,9 +12557,9 @@ MonoBehaviour:
 '
           narration: {fileID: 8300000, guid: a45f056308e04fa49986e466df635bde, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: a4eefb300f57b05499b5008e12bc348d, type: 3}
-          - {fileID: 21300000, guid: f0e784abf6487444ba47244d4cb3624b, type: 3}
-          - {fileID: 21300000, guid: 1087a541d678a8540af78447c1de8899, type: 3}
+          - {fileID: 21300000, guid: 9bbe1af49ca72bc41b6e75d8c71b4641, type: 3}
+          - {fileID: 21300000, guid: a6efb8aff04e980448e1a8bd10487198, type: 3}
+          - {fileID: 21300000, guid: 76005cacc576a884fa0d1bf170333b4c, type: 3}
         - content: 'INDUCTION AIR SYSTEM. The air intake system allows airflow towards
             the air box and then to carburetors: hot and cold air flow is conveyed
             to the air box. Cold airflow reaches the air box through the front air
@@ -12469,15 +12570,14 @@ MonoBehaviour:
             air flow increase. '
           narration: {fileID: 8300000, guid: c055c01d957f7be42b79541c22358a11, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 0aaa015d641de6746a5626cc754a107e, type: 3}
+          - {fileID: 21300000, guid: d872146d7b8da5341995b9fa847b3e9d, type: 3}
         - content: IGNITION SYSTEM. The Rotax engine features a dual ignition of
             breaker-less, capacitor-discharge design. The ignition housing is located
             on the back of the engine, protected by a cover. Two ignition switches
             for each engine are connected to the electronic module circuit located
             on the cabin head panel.
           narration: {fileID: 8300000, guid: 8e6e144b753892940b08c0607a5c0fce, type: 3}
-          topicSprites:
-          - {fileID: 21300000, guid: f9d26e5f6a27e50428a63ea7d75e8f29, type: 3}
+          topicSprites: []
         - content: 'AIRCRAFT MAGNETOS (TYPE 4281). Beginning with Serials 15284028
             and A1520915, a lightweight Slick 4281 magneto is used on the engine.
             This magneto is designed for light aircraft engines and is a self-contained
@@ -12509,8 +12609,8 @@ MonoBehaviour:
 '
           narration: {fileID: 8300000, guid: a616ef0e65a151145a5c9060b50f8305, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 6dafd0cc890994a429330249642bc967, type: 3}
-          - {fileID: 21300000, guid: 958f90dde8947e5419e77e2004b9a4dd, type: 3}
+          - {fileID: 21300000, guid: fe89707c985e4e94f941261cf5b94368, type: 3}
+          - {fileID: 21300000, guid: 97a29538a5ccb6a4ca7e80221b5f1c9c, type: 3}
       - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d000000
         m_values:
         - content: "FUEL SYSTEM. The fuel system is designed to supply the two reciprocating
@@ -12529,7 +12629,7 @@ MonoBehaviour:
             tank. \r\n"
           narration: {fileID: 8300000, guid: 6facc4e664d1d34468833483cb7c158e, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 28710862b5f69914d99c60018b5349ba, type: 3}
+          - {fileID: 21300000, guid: 645244c26fa13624382b8e9f90ccf97a, type: 3}
         - content: "FUEL PUMP. An electric fuel pump feeds the pertinent engine in
             case of engine-driven pump failure. The fuel Gascolator (a sediment-filter
             bowl) is located beneath the engine nacelle, between the fuel tank and
@@ -12538,8 +12638,8 @@ MonoBehaviour:
             line drainage. \r\n"
           narration: {fileID: 8300000, guid: 020a7ed85503d6d4f93c8c60185df085, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: bb97eb7c4eaf17140bc65b61738e4c9f, type: 3}
-          - {fileID: 21300000, guid: 4d934ceaf857f14468a04a7ac503f28e, type: 3}
+          - {fileID: 21300000, guid: da0d5a7573120094ab531577a75eeccf, type: 3}
+          - {fileID: 21300000, guid: 11bc3dcb0ecd4bf4bb14680bc44a61ea, type: 3}
         - content: FUEL TANKS. Each fuel tank has a capacity of 100 liters and is
             equipped with a vent valve (its outlet is located on the lower wing skin)
             and a sump fitted with a drain valve for water/moisture drainage purposes.
@@ -12549,15 +12649,15 @@ MonoBehaviour:
             for draining trapped water and sediment.
           narration: {fileID: 8300000, guid: 1f5ac4e182b147a479dfc29d89e5e2d1, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: b73f6a5e5fabc7f49be629d69645046c, type: 3}
+          - {fileID: 21300000, guid: 2f3a6416f319e6447b254e93fd193aee, type: 3}
         - content: "FUEL QUANTITY INDICATORS and FUEL PRESSURE INDICATORS. for each
             engine are located on the RH instrument panel. \r\n"
           narration: {fileID: 8300000, guid: 39ec99c1c7a5b6d42a1e8502b1823520, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 268c0f8e72c72a0429cbe881a15b20f5, type: 3}
-          - {fileID: 21300000, guid: afaf4bae2ac03664792772e930bb82d4, type: 3}
-          - {fileID: 21300000, guid: 26e86816df424d14ab562d93c2159c96, type: 3}
-          - {fileID: 21300000, guid: 7a30366771d373b43ba9284c3647888f, type: 3}
+          - {fileID: 21300000, guid: a4762484517083940b4cf1267b0e231d, type: 3}
+          - {fileID: 21300000, guid: c73a3e8f04eb5bb4e8432406af8b9070, type: 3}
+          - {fileID: 21300000, guid: 10cd8ef3fd16418429d0c01e49fb7830, type: 3}
+          - {fileID: 21300000, guid: cc716129c3cda8e4998249d27382b18d, type: 3}
         - content: "FUEL SELECTORS. Each selector can be set in the OFF position
             only pulling and simultaneously rotating the lever: this avoids an unintentional
             operation. \r\n\r\nLeft fuel selector manages the left engine feeding,
@@ -12566,7 +12666,7 @@ MonoBehaviour:
             from the right fuel tank or from the left one (crossfeed).\r\n"
           narration: {fileID: 8300000, guid: 60259973128073e4b80e272b14f274f7, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 7026c60c2e6e1074c8d7c7fca3d27f09, type: 3}
+          - {fileID: 21300000, guid: ae4ea86f29a6a574cb31827732f69b88, type: 3}
         - content: 'VENT VALVE. It is installed on each fuel tank to avoid a pressure
             unbalance between external air and the interior of the tank, which can
             be caused by thermal dilatation, by the fuel volume decreasing due to
@@ -12575,28 +12675,24 @@ MonoBehaviour:
 '
           narration: {fileID: 8300000, guid: eeb0fd3042ed7544aa036bb08b8e3d85, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 80948334bbe4234479a2e9f231a0dc78, type: 3}
+          - {fileID: 21300000, guid: 03b549214f363fc4d8ca936c262ddee7, type: 3}
         - content: "DRAIN VALVE. The drain valve, installed on the lower part of
             the tank (fuel tank sump), allows for draining the entire fuel line and
             removing the free water. The drain valve is actuated during crew \u201Cwalk
             around.\u201D"
           narration: {fileID: 8300000, guid: 05d572490a938ba458e8cfe573ebd9b9, type: 3}
-          topicSprites:
-          - {fileID: 21300000, guid: f3ecd82282b36fb498fa99940c31978f, type: 3}
-          - {fileID: 21300000, guid: f9e7559a8bec23841b17eeccb20b68cd, type: 3}
-          - {fileID: 21300000, guid: 7fd29f3d66839964fb1853a5a7d1c11b, type: 3}
+          topicSprites: []
         - content: FUEL LEVEL TRANSMITTER. Is installed in each tank providing the
             pilot for monitoring the fuel quantity contained in each fuel tank.
           narration: {fileID: 8300000, guid: dd4832555a7354c40923fe8ccc0ca970, type: 3}
-          topicSprites:
-          - {fileID: 21300000, guid: f701a5cb5f33c254f9c612408395d9fb, type: 3}
+          topicSprites: []
         - content: FUEL LEVEL AND FUEL PRESSURE INDICATOR SYSTEM. Two fuel level
             indicators and two fuel pressure indicators are on the instrument panel's
             right side. These analogical instruments allow the pilot to fuel system
             monitoring.
           narration: {fileID: 8300000, guid: 89171ed7635c6164e9759be3b657fa92, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: aaf2c4c1db5ced648b9008f65cb332bc, type: 3}
+          - {fileID: 21300000, guid: 5c44fe8e7a72b3e47a1338bc9c42be74, type: 3}
         - content: 'FUEL VENT. The vent line is installed in the outboard end of
             the left fuel cell and extends overboard down through the lower wing
             skin. The inboard end of the vent line extends into the fuel tank, then
@@ -12605,8 +12701,8 @@ MonoBehaviour:
             positive ventilation. '
           narration: {fileID: 8300000, guid: f4ff4403b23e220438ce2674d65a8e96, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 8f507643098f8484e8659623797a89a8, type: 3}
-          - {fileID: 21300000, guid: 669b19d8d60b6be42b5e24a8470930e9, type: 3}
+          - {fileID: 21300000, guid: 6f10b1de4e0e9044bbf1baf54338f6ba, type: 3}
+          - {fileID: 21300000, guid: 6ad9ab6f25d59724b9b9ff3d4c4cc88c, type: 3}
         - content: 'CROSS-FEED SYSTEM. The cross-feed system is the mechanical type
             and is composed of the following main components:
 
@@ -12627,7 +12723,7 @@ MonoBehaviour:
 '
           narration: {fileID: 8300000, guid: f147824c30c93874ca0db51e18c256fb, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: c30f1cadf5a134440ad6cf8a9335a09e, type: 3}
+          - {fileID: 21300000, guid: ca83e6f437ec1994e8a5acf47d87efae, type: 3}
         - content: "FUEL FILTERS. The Fuel Filter system is composed of the following
             main components:\r\nFilters\r\nFuel Filter Drain Valve\r\n               
             \r\n\r\nEach fuel line is provided with three fuel filters to avoid that
@@ -12640,14 +12736,14 @@ MonoBehaviour:
             line. The third filter is located in the electrical fuel pump\r\n"
           narration: {fileID: 8300000, guid: 545311df37494fc498787a2cb828fd77, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 61d8975fbd1e3774092a25e95995a5f0, type: 3}
+          - {fileID: 21300000, guid: f7a45d0d72e20f14f954f87108d27e86, type: 3}
         - content: ENGINE DRIVEN FUEL PUMP. The engine-driven mechanical fuel pump
             provides fuel to the engine. The engine pump is certified as part of
             the engine but will be considered, from a functional point of view, as
             part of the Fuel System.
           narration: {fileID: 8300000, guid: c2b5c84abeae29642a4316eeee6332b8, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 90b85883414b5a847882428e6774533e, type: 3}
+          - {fileID: 21300000, guid: 508a927f3e9f7244a8e0dd4ccc28c6f2, type: 3}
         - content: "EMERGENCY ELECTRIC FUEL PUMP. The Emergency Electric Fuel Pump
             system is composed of the following main components:\r\n\r\nElectric
             Fuel Pumps\r\nPump Switches\r\n\r\n\r\nAn Electrical Emergency Fuel Pump
@@ -12660,8 +12756,8 @@ MonoBehaviour:
             that the related emergency pump is turned ON. \r\n"
           narration: {fileID: 8300000, guid: 647b13deec93b8642ac5d93410fde7f1, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: df2dcd5e32af2a342a671f8a8552c535, type: 3}
-          - {fileID: 21300000, guid: 3479022f12d63894ea30a9aa25cfcd95, type: 3}
+          - {fileID: 21300000, guid: 5eb8a5ac2cc3a844d8b4649612e48e47, type: 3}
+          - {fileID: 21300000, guid: adbdb30349451d4489995a9d41978160, type: 3}
       - m_keys: 00000000
         m_values:
         - content: "PROPELLER. Each engine is equipped with a variable pitch propeller
@@ -12679,7 +12775,7 @@ MonoBehaviour:
             and it is mounted on the supports by means of screws.\r\n"
           narration: {fileID: 8300000, guid: 14219d563fa2cf743a6b32740ed4109f, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 079d9ad8b6d001e47ae25b161c65bae6, type: 3}
+          - {fileID: 21300000, guid: 565585266d899734fb3f03f75d02bd34, type: 3}
       - m_keys: 0000000001000000020000000300000004000000050000000600000007000000
         m_values:
         - content: 'UTILITY SYSTEMS. HEATING SYSTEM. The cabin heating system conveys
@@ -12693,7 +12789,7 @@ MonoBehaviour:
             air flows from a pipe in the lower part of the cabin, near the pedals.'
           narration: {fileID: 8300000, guid: c5b1e7db1f9f766408cef19c741f7697, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 0f3ad2fc23e60a14dac7b3ef9346b095, type: 3}
+          - {fileID: 21300000, guid: b2ac6af4e6328c54f995ac617807666a, type: 3}
         - content: DEFROSTER SYSTEM. Defrost/Cabin heat through a hot air valve that
             opens the airflow to windshield defrost and to cabin heat. Both systems
             are operable from the instruments panel. The carburetor heat command
@@ -12703,9 +12799,7 @@ MonoBehaviour:
             out from two outlet ports located above the instrument panel, near the
             windshield.
           narration: {fileID: 8300000, guid: 62141c43b0ab8334fbbc9966b8d63aff, type: 3}
-          topicSprites:
-          - {fileID: 21300000, guid: 0e913feb85ac97a49b3f3736334aaae9, type: 3}
-          - {fileID: 21300000, guid: 621a15066d54ce6468c05f04d7a2f47c, type: 3}
+          topicSprites: []
         - content: VENTILATING SYSTEM. The ventilation air system is composed of
             two ram air diffusers on the instrument panel's left and right sides.
             The external cold air is caught by the Naca intake access point and can
@@ -12713,7 +12807,7 @@ MonoBehaviour:
             air diffuser can be opened by pressing on push point
           narration: {fileID: 8300000, guid: aff5310eff129ae4c9e9287511cb6746, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 0dcf32dac044f1244b5176f4a005c6ce, type: 3}
+          - {fileID: 21300000, guid: 2450cd128c20dbb4fb0aa1114b36dd4d, type: 3}
         - content: LIQUID COOLING SYSTEM. The liquid cooling system is a closed circuit
             with an overflow bottle and an expansion tank. The coolant flow is forced
             by a water pump, driven by the camshaft, from the radiator to the cylinder
@@ -12725,7 +12819,7 @@ MonoBehaviour:
             sucked back into the cooling circuit.
           narration: {fileID: 8300000, guid: 8dda89d0f1459614586f6a571432248e, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: cdca1b1c8e3f077438ed8e42b2859279, type: 3}
+          - {fileID: 21300000, guid: e0504fed07a8ac8409178458de7b56c9, type: 3}
         - content: "The A/C is equipped with two independent cooling systems (one
             per engine), each designed to supply the related engine with the appropriate
             quantity of coolant. \r\n\r\nThe system is fitted with an overflow bottle
@@ -12734,13 +12828,13 @@ MonoBehaviour:
             on the front end of the engine cowling. \r\n"
           narration: {fileID: 8300000, guid: 283e3fd8652ef2e4f9a51af0573f53b4, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: ad1ada5690b98874988078da4663b160, type: 3}
-        - content: A CHT sensor along with the related instrument located on the
-            instrument panel (right side) and a low overflow bottle level indicator
-            on the annunciator panel complete the system.
+          - {fileID: 21300000, guid: 8d391554eb1dbd14e9c45c772807925f, type: 3}
+        - content: A Cylinder Head Temperature or CHT sensor along with the related
+            instrument located on the instrument panel (right side) and a low overflow
+            bottle level indicator on the annunciator panel complete the system.
           narration: {fileID: 8300000, guid: 4e45f8c107e5ead47a86c392828aa54e, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: c2151b4220babee45ac10f6ef89813a0, type: 3}
+          - {fileID: 21300000, guid: ec94e0f0140676e428f2b0aa2ae512f0, type: 3}
         - content: "THERMOSTATIC VALVE. The thermostatic valve, provided with two
             thermal sensors, allows an automatic temperature adjustment by controlling
             coolant flow to the radiator and keeping it at temperatures between 50\xB0C
@@ -12762,18 +12856,18 @@ MonoBehaviour:
             coolant flow is forced through the radiator.\r\n\r\n"
           narration: {fileID: 8300000, guid: c8a633f236054954a9bd886f1cc237d1, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 66421d33b9c94cb429395f4ff711b23c, type: 3}
-          - {fileID: 21300000, guid: f73cee4d4f19a964ea5c449ee87cd5d4, type: 3}
-          - {fileID: 21300000, guid: c54af6252d8620342b6f88373f60b120, type: 3}
-          - {fileID: 21300000, guid: 96b4ce77b203ce24bac4d7deadc27575, type: 3}
-          - {fileID: 21300000, guid: bcfd3e2eedffa1d4f9a20f28adcd949a, type: 3}
+          - {fileID: 21300000, guid: 897aeaed780565e43834d338a13394aa, type: 3}
+          - {fileID: 21300000, guid: 818cc6ba54ea8904abba125076ba3a65, type: 3}
+          - {fileID: 21300000, guid: 7dd0b489cbbbbb84592471b1b2e83844, type: 3}
+          - {fileID: 21300000, guid: d9cb259e5dc08bd4889f0b715905b100, type: 3}
+          - {fileID: 21300000, guid: 253d917856ce2ff4ca366d6163c1b840, type: 3}
         - content: 'EXHAUST SYSTEM. The exhaust system is made of stainless steel
             made: the muffler is manufactured by Rotax, whereas the exhaust manifolds
             are Tecnam products and comply with Rotax engine requirements. Ram air
             is warmed and conveyed to cabin heat, defrost system, and carburetors. '
           narration: {fileID: 8300000, guid: 08dcdf43694493341837058aa232909f, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 40ba325944781c042b84f5baa9e5350d, type: 3}
+          - {fileID: 21300000, guid: 6c43bd9e04a1d6345a732136e979184a, type: 3}
       - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
         m_values:
         - content: "INSTRUMENT PANEL.\r\n\nANALOG. The instrument panel analogical
@@ -12790,10 +12884,10 @@ MonoBehaviour:
             Kg or 1230 Kg maximum takeoff weight.\r\n"
           narration: {fileID: 8300000, guid: aa95a359610c52c468319e900bb974ed, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 710cedc27abf6b24ea64a8fd47891af8, type: 3}
-          - {fileID: 21300000, guid: 43091356106ed3546898b051114819bd, type: 3}
-          - {fileID: 21300000, guid: e255a5b285c30434eb05b6fb6e42ff87, type: 3}
-          - {fileID: 21300000, guid: dbf2803cc5a3cdb4a8af8f5e466b618b, type: 3}
+          - {fileID: 21300000, guid: 643e28b98041b1046b5983ff1f1029c4, type: 3}
+          - {fileID: 21300000, guid: 8c66b9d592890554283eb83eddc54f50, type: 3}
+          - {fileID: 21300000, guid: 684ed3870476f894ca975d8384a26c99, type: 3}
+          - {fileID: 21300000, guid: ed423f34320e13544bdc785976d8ec42, type: 3}
         - content: "ANNUNCIATOR PANEL. Annunciator panel, this scheme regards the
             airplane model embodying MOD2002-50 \u2013 VFR Night. The annunciator
             panel as follows: \r\nALT caution light: it indicates that the alternator
@@ -12802,7 +12896,7 @@ MonoBehaviour:
             that the electrical fuel pump is ON\r\n"
           narration: {fileID: 8300000, guid: cc74b78d46707b24e96ab0f140d9d4cd, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 18a69f0f6ddda3b469d0ab4b74fdd332, type: 3}
+          - {fileID: 21300000, guid: c9ee04d2a4039cb47b79c31dd7db5dbd, type: 3}
         - content: "PITOT AND STATIC SYSTEMS. Two Pitot probes provide dynamic source
             pick-up on the aircraft nose. For the a/c version equipped for IFR, the
             LH Pitot is fitted with a heating system. The static air sources, located
@@ -12826,27 +12920,27 @@ MonoBehaviour:
             moisture in the air to not affect the instruments. \r\n"
           narration: {fileID: 8300000, guid: caca35df0b6d9bd4fa8c301008974888, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: c0d91f4446b81b84395bcd5a50736781, type: 3}
+          - {fileID: 21300000, guid: 751d59cdbbd1e304ba8c438b99e6a20f, type: 3}
         - content: VOLTMETER. The electrical system is equipped with a voltmeter
             located on the instrument panel, upper right side; has a range of 8 to
             16 Volt.
           narration: {fileID: 8300000, guid: 6b87c0ec6b275a444abffccfd83c4f60, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 0fa63c65e69ba0f4ab1d94dfa3ef702a, type: 3}
-          - {fileID: 21300000, guid: e7a2f8b02735d2d4780694bed0db628b, type: 3}
+          - {fileID: 21300000, guid: a77037f3f4eb62249bb333e66a0a1d86, type: 3}
+          - {fileID: 21300000, guid: 0db874a018d6501469b882ec2caeb7ca, type: 3}
         - content: AMMETER. The battery charge/discharge current can be read on an
             ammeter located in the instrument panel, lower right side.
           narration: {fileID: 8300000, guid: 633d6b458a4e10c45a1caa6dc4a3c151, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 545c946bdfbcdfd4eb8c2eb2bf7ffe0d, type: 3}
-          - {fileID: 21300000, guid: 7eaeae1fd73fe944aaa9c4f8b7586550, type: 3}
+          - {fileID: 21300000, guid: eb1fcb8602605b34e9d022e610f4a5ea, type: 3}
+          - {fileID: 21300000, guid: b7a605d2b54875043afda6237a71089a, type: 3}
         - content: ATTITUDE INDICATOR. An attitude indicator informs the pilot of
             the aircraft's orientation relative to earth. It indicates pitch (fore
             and aft tilt) and bank (side to side tilt); a stand-by attitude indicator
             is provided as optional on the Right Instruments Panel Area.
           narration: {fileID: 8300000, guid: 766d2f3f591519f49b37bd9503aa55f5, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: b871dc72f3877e94aac4ca965066c4fa, type: 3}
+          - {fileID: 21300000, guid: d8e4f9d5e311f88469878d39ea66eac4, type: 3}
         - content: AIRSPEED INDICATOR. The aircraft with IFR day/night configuration
             has the main Airspeed indicator on the instrument panel's left side and
             the backup airspeed indicator on the instrument panel's right side. These
@@ -12855,8 +12949,8 @@ MonoBehaviour:
             configuration at 1180 Kg MTOW, for the main and backup airspeed indicators.
           narration: {fileID: 8300000, guid: a16cbc0881d60b941a0e3efbb37cc144, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 90095dcf5a25d44499c17f6189fc1f18, type: 3}
-          - {fileID: 21300000, guid: 90095dcf5a25d44499c17f6189fc1f18, type: 3}
+          - {fileID: 21300000, guid: 0de052a978cbde940a498995595df50c, type: 3}
+          - {fileID: 21300000, guid: 73f275f250a1c7445a5c7647eadfd77a, type: 3}
         - content: "GLOBAL POSITIONING SYSTEM. The Global Positioning System consists
             of a receiver and an antenna. The GPS receiver is embodied within the
             GNS 430W/530W: it provides precise position, velocity, and time measurements
@@ -12879,7 +12973,7 @@ MonoBehaviour:
             provide distance to runway data.\r\n"
           narration: {fileID: 8300000, guid: b1265956e32933649a3d54a742bf2c78, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 98b9d330915ae0842a53e7f740672eea, type: 3}
+          - {fileID: 21300000, guid: b0e54d9d572bf8546a1ae38f61aabc96, type: 3}
         - content: 'TRANSPONDER. P2006T can be installed with two kinds of transponder
             devices: the Garmin GTX 328 and the Garmin GTX 330.
 
@@ -12924,8 +13018,8 @@ MonoBehaviour:
             timers.'
           narration: {fileID: 8300000, guid: aeb8f4bbc29f31b438c21008c1f0a1ab, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: fef6558889188c94a81bb6cc2ed60256, type: 3}
-          - {fileID: 21300000, guid: 3d0cba2944e2b8b46a12e104c800bccb, type: 3}
+          - {fileID: 21300000, guid: 6d378be89265af54eab77cf1a54f565f, type: 3}
+          - {fileID: 21300000, guid: bdbf376bfaf5e8f498376e6605c38a42, type: 3}
         - content: 'TRANSPONDER. P2006T can be installed with two kinds of transponder
             devices: the Garmin GTX 328 and the Garmin GTX 330.
 
@@ -12969,8 +13063,8 @@ MonoBehaviour:
             timers.'
           narration: {fileID: 8300000, guid: 762dc1575395c9b448fb676ea22aa678, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 51e6d268932a4bd4a837cc4adbad9ca2, type: 3}
-          - {fileID: 21300000, guid: 6aaac9f30306a6e419fc313206de54a7, type: 3}
+          - {fileID: 21300000, guid: 728ed1dd6879dd943be5e0ea1d2f0b10, type: 3}
+          - {fileID: 21300000, guid: 8179c7d4c135d4e4ca352827cbb5517d, type: 3}
         - content: STANDBY VACUUM SYSTEM A standby vacuum system may be installed
             in the airplane. The system consists of a vacuum pump driven by an electric
             motor mounted on the aft side of the firewall and associated hoses. One
@@ -12980,8 +13074,8 @@ MonoBehaviour:
             control on the instrument panel controls and protects the system.
           narration: {fileID: 8300000, guid: ba2c5ac7b7aca864e838829dfcc78c28, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 045358ac438bad846bd73df1d8c75dfc, type: 3}
-          - {fileID: 21300000, guid: c6235e078e2ee014dba74805225c0a59, type: 3}
+          - {fileID: 21300000, guid: f2731b9059032f94bac4a2a64637ee17, type: 3}
+          - {fileID: 21300000, guid: b85cbe0bb07491c488d9a52933fdf902, type: 3}
         - content: ENGINE INDICATORS. - TACHOMETER. The tachometer is a mechanical
             indicator driven at half crankshaft speed by a flexible shaft. Most tachometer
             difficulties will be found in the drive shaft functioning properly. The
@@ -12993,8 +13087,8 @@ MonoBehaviour:
             cable for worn spots. Breaks and kinks.
           narration: {fileID: 8300000, guid: e751add5e4b5b5b438ea5172f04cf407, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: c48762df8551fd342b2ec37fdfd381a9, type: 3}
-          - {fileID: 21300000, guid: 3e06b2171ee5c5f4b867d26d9463a2c1, type: 3}
+          - {fileID: 21300000, guid: 5ab96433e88ba524ab05927430a2639f, type: 3}
+          - {fileID: 21300000, guid: 935d48396886bda4c9eb1c96dc2acda8, type: 3}
         - content: ECONOMY MIXTURE INDICATOR (EGT). The economy mixture indicator
             is an exhaust gas temperature (EGT) sensing device that is used to aid
             the pilot in selecting the most desirable fuel-air mixture for cruising
@@ -13002,8 +13096,8 @@ MonoBehaviour:
             the ratio of the fuel-to-air mixture entering the engine cylinders.
           narration: {fileID: 8300000, guid: 8238d2c9a35b17b43816a05c03e15160, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: dafd2f21e6fdf1b49b301c5676096466, type: 3}
-          - {fileID: 21300000, guid: cf2ec53fa199c904095c759011485f82, type: 3}
+          - {fileID: 21300000, guid: 55614fa506f17c340ad7fa01cef31d02, type: 3}
+          - {fileID: 21300000, guid: cc97bcce0c7371d46b91bfb00d9ee452, type: 3}
         - content: MAGNETIC COMPASS. A magnetic compass is a self-contained unit
             requiring no external power source and is installed on the top of the
             windshield into the pilot's primary field of view. A compass correction
@@ -13014,7 +13108,7 @@ MonoBehaviour:
             display.
           narration: {fileID: 8300000, guid: 4890ac9c46f607541ae974338f7848d2, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: b8015a729924ce54fac876f9fe51eb3d, type: 3}
+          - {fileID: 21300000, guid: 64f59a8848652b24c92c824e7246bc33, type: 3}
         - content: 'ACCELEROMETER. The Aerobat offers an accelerometer to assist
             pilots in performing precision aerobatics. The accelerometer continuously
             indicates G forces being imposed on the aircraft. The dial display utilizes
@@ -13029,8 +13123,7 @@ MonoBehaviour:
             is installed in the vacant Omni indicator instrument space.'
           narration: {fileID: 8300000, guid: 67468a254aaea2247b84bdfda1137445, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 3983d4adc82019147b7b620dfb3a3f32, type: 3}
-          - {fileID: 21300000, guid: dae9a1d8c0eea7a43869078258af5a4e, type: 3}
+          - {fileID: 21300000, guid: d707440c61393304f999fad766c021df, type: 3}
         - content: STALL WARNING SYSTEM. The stall warning system consists of an
             airflow sensor and an electric horn. The airflow sensor is mounted on
             the leading edge of the RH wing. As the aircraft approaches a stall,
@@ -13048,7 +13141,7 @@ MonoBehaviour:
             by mouth to draw air through the horn.
           narration: {fileID: 8300000, guid: bcbdbade9f1b6394b8cc8a3719119104, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: c33138e71ab909c44a8d6a883d6223f3, type: 3}
+          - {fileID: 21300000, guid: 1cb9d4781adfc114986bc69f402dfaa5, type: 3}
         - content: TURN-AND-BANK INDICATOR. The turn and bank indicator show the
             turn rate and the turn's coordination (slip or skid). The rate of turn
             is indicated from a rate gyroscopically, and the coordination of the
@@ -13056,7 +13149,7 @@ MonoBehaviour:
             No pitch information is provided.
           narration: {fileID: 8300000, guid: 41ef99039db44b146b3218bf3564fe07, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 49de4506f20ae2a4baa5434e00f47c71, type: 3}
+          - {fileID: 21300000, guid: 0ab75bf6f3db8ca4bb3d2e6cfa691d6b, type: 3}
         - content: TURN COORDINATOR. The turn coordinator is an electrically operated,
             gyroscopic, roll-rate turn indicator. Its gyro simultaneously senses
             the rate of motion roll and yaw axis projected on a single indicator.
@@ -13064,7 +13157,7 @@ MonoBehaviour:
             an a.c. Brushless spin motor with a solid-state inverter.
           narration: {fileID: 8300000, guid: 8fb064445883a5849a8a2d40b326fb8d, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: a0e150aa69ae6f149a6bae8093f4e045, type: 3}
+          - {fileID: 21300000, guid: 10e4f044d9cf4ff45b4e6c05fd9d2347, type: 3}
       - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000
         m_values:
         - content: ELECTRICAL POWER SUPPLY- SYSTEM. The Electrical System is characterized
@@ -13078,7 +13171,7 @@ MonoBehaviour:
             source.
           narration: {fileID: 8300000, guid: a4202d2f6db83604491e70f1a2f87d27, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 64b475ca4cc3ac94ebe4048bf76009bc, type: 3}
+          - {fileID: 21300000, guid: a99b94023f0dc0440afe977569bd02f2, type: 3}
         - content: "AVIONICS BUS. The optional avionic bus (dependent on the battery
             bus) can be installed; it provides power distribution to avionics and
             is energized from the battery bus. There are three switches on the instrument
@@ -13096,10 +13189,10 @@ MonoBehaviour:
             to the ammeter. "
           narration: {fileID: 8300000, guid: 01be4a964428a284da67d2657933ee26, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 54cd1c5565fb2d54e88f916352561622, type: 3}
-          - {fileID: 21300000, guid: 02319eb5b5a07d649b3310d39723b35c, type: 3}
-          - {fileID: 21300000, guid: 19840138212256f40b24ad25ea732349, type: 3}
-          - {fileID: 21300000, guid: d238330b3bd36e349a3fa2944b39bc24, type: 3}
+          - {fileID: 21300000, guid: a78043a2a2e40af4c8ecc6f20ded8f56, type: 3}
+          - {fileID: 21300000, guid: d4fe88b1633adbc40bc503f1305d855e, type: 3}
+          - {fileID: 21300000, guid: 0a5f30e6c22076f4ebbe566a049becf4, type: 3}
+          - {fileID: 21300000, guid: 813c39fd10e0b4d42a6519263722fe25, type: 3}
         - content: 'BATTERY BUS.  is connected to the battery through a relay controlled
             by the Master Switch. There is a 50 Amp breaker between the battery and
             the battery bus. It supplies the essential loads allowing for safe flight
@@ -13108,13 +13201,13 @@ MonoBehaviour:
             independent faults in the supply paths.'
           narration: {fileID: 8300000, guid: a384f5efb03b11240a3e559c8b57b8ab, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 362c7fea87b20ac499be686fb891ea51, type: 3}
+          - {fileID: 21300000, guid: 4ba6ec07b859c4c4f9346e817cec7379, type: 3}
         - content: 'DISTRIBUTION SYSTEM. operates as a single bus with power being
             supplied by the battery and both generators but it is possible to separate
             the left buses from the right buses when required. '
           narration: {fileID: 8300000, guid: c514bb9fd43df65479d66d213d78bcb8, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: f3944ff33dea1a7408193c5754440465, type: 3}
+          - {fileID: 21300000, guid: 3a8a82ecf5b5f2f468094a9e3e0969c9, type: 3}
         - content: 'MASTER SWITCH. The master switch allows for connecting, through
             the battery relay, the battery to its distribution bus. The generator
             switch controls the field signal to the generator: setting the switch
@@ -13122,7 +13215,7 @@ MonoBehaviour:
             bus to the main distribution bus.'
           narration: {fileID: 8300000, guid: 5f5c3580ee00a164f94fd0feea5792cb, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 87e515550f1114e4a8ac85e8e4366dd4, type: 3}
+          - {fileID: 21300000, guid: 7b5cdc05a2a4ffa4792e0fa3eb75bd85, type: 3}
         - content: BATTERY. A battery serves as the supplementary source of DC power.
             Two types of batteries can be installed depending on the a/c setup (VFR
             DAY/NIGHT). BATTERY PRODUCTS) 12V 19Ah in 20 hours. The battery is located
@@ -13137,7 +13230,7 @@ MonoBehaviour:
             in the case of a generator failure.
           narration: {fileID: 8300000, guid: 9141021e888e3e342b3a1a21277b6906, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: d17cd5dfc108a934d81a978916d6b2a4, type: 3}
+          - {fileID: 21300000, guid: 80fde0f9aa5f0074bb1ca4aa91ceb2ee, type: 3}
         - content: 'BATTERY BOX. The engine starting battery is housed in a dedicated
             box under the main battery box. The engine starting battery box is accessible
             through a removable cap which separates the two boxes and covers the
@@ -13146,7 +13239,7 @@ MonoBehaviour:
             housing. '
           narration: {fileID: 8300000, guid: 5c9f4add2e5e5ea409302815a1f39d59, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: c96144da1df9a2d4dab6620f5c893571, type: 3}
+          - {fileID: 21300000, guid: cccc1dc50641c1845b561d007fa5ff22, type: 3}
         - content: 'EMERGENCY LOCATOR TRANSMITTER ELT. The Electrical System is characterized
             by a nominal voltage of continuous type of 14 V dc. The power supply
             is assured by a battery and by two engine-driven generators. The battery,
@@ -13168,8 +13261,8 @@ MonoBehaviour:
 '
           narration: {fileID: 8300000, guid: ea54582a3378b2d46be822286216383f, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 44add6ba7f31f5043a8654158a28063e, type: 3}
-          - {fileID: 21300000, guid: d5fbf08fd816f3b42ae0393a2166f020, type: 3}
+          - {fileID: 21300000, guid: eea4d862ff26e7c4ca982909336411d1, type: 3}
+          - {fileID: 21300000, guid: 4f780b59e14a2184b94fb84f9f60350a, type: 3}
         - content: 'VOLT-AMMETER. The electrical system is equipped with a volt-ammeter
             on the instrument panel, co-pilot side. The instrument ranges from 0
             to 30 Volts and 0 to 60 amps. About the ammeter section, a switch allows
@@ -13179,7 +13272,7 @@ MonoBehaviour:
             is provided. '
           narration: {fileID: 8300000, guid: 577903070de309649a2d7c268d7bd86e, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: f1123703b8f9c0c468607e2e6645cd49, type: 3}
+          - {fileID: 21300000, guid: 7f691acfbc2e65b4b958c5f097c3113c, type: 3}
         - content: BATTERY CONTACTOR. The plunger-type battery contactor is activated
             by turning on the master switch. When the contactor is closed, a silicon
             diode is placed to minimize the spiking of transistorized radio equipment.
@@ -13187,7 +13280,7 @@ MonoBehaviour:
             terminals.
           narration: {fileID: 8300000, guid: abcb61e5ad99ea4468318fae823f3426, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: a899bfe5d6900d542bb6bb16a1194a20, type: 3}
+          - {fileID: 21300000, guid: 3ddc65941fd274240a82958c8d648ed1, type: 3}
         - content: 'AUXILIARY POWER SYSTEM. The engine''s built-in generators auxiliary
             power system allows using a supplemental power supply for mission equipment.
             When the airplane embodies the design change in subject, the Rotax engine
@@ -13197,7 +13290,7 @@ MonoBehaviour:
             power generation system are located.  '
           narration: {fileID: 8300000, guid: 05fcc183010027b43a84893cd66ed857, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 8653e9b50ccbe2341b2dcb19c78a08b3, type: 3}
+          - {fileID: 21300000, guid: beeb351773c9ded459100ba92fcd54cf, type: 3}
         - content: ALTERNATOR POWER SYSTEM. The alternator system consists of a belt-driven
             alternator, a voltage regulator/alternator control unit on the left side
             of the firewall, and a circuit breaker on the instrument panel. An over-voltage
@@ -13208,7 +13301,7 @@ MonoBehaviour:
             panel. The airplane battery provides the power to excite the alternator.
           narration: {fileID: 8300000, guid: 4487b4ebca2acce4f9aeab436fb2f18e, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 0b201ba5f959d514eb64b829ddceb716, type: 3}
+          - {fileID: 21300000, guid: 38de6242dd6a6794e971c2d720e0492e, type: 3}
         - content: ALTERNATOR. The alternator has three phases. Delta is connected
             with integral silicon diode rectifiers. The alternator is rated at 28
             volts at 60 amperes continuous output. The moving center part of the
@@ -13224,13 +13317,13 @@ MonoBehaviour:
             controlling the alternator's output.
           narration: {fileID: 8300000, guid: aa14d2456f627de44b9eff4613c9e374, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 8dfcff5c5939e5a4abb3d5307586aeb8, type: 3}
+          - {fileID: 21300000, guid: f76508fe76ddbd74c8b94895f7fc387a, type: 3}
         - content: VOLTAGE REGULATOR. The voltage regulator is a solid-state regulator.
             The regulator is a remove-and-replace item and not repairable in the
             field. For adjustment.
           narration: {fileID: 8300000, guid: 14424507491c4744d9bc6977f6edff84, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 500b6e84fba65b642bc03964dee0d569, type: 3}
+          - {fileID: 21300000, guid: da332851e6e55c64fabcf02323413ec1, type: 3}
         - content: 'PITOT HEATING SYSTEM. An electrical heater unit may be installed
             in the pitot tube. The heater offsets the possibility of ice formation
             on the pitot tube. The heater is integrally mounted in the pitot tube
@@ -13243,7 +13336,7 @@ MonoBehaviour:
             correctly. '
           narration: {fileID: 8300000, guid: c2e9e5ec96167144293aa3892066f5d9, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 39342128e326f4b4ca28fc41ebc1e9ae, type: 3}
+          - {fileID: 21300000, guid: 64821ea97c787a645a03f5e187dc6e57, type: 3}
         - content: "PITOT PROBES. The two Pitot probes are connected to the airspeed
             indicators, namely the heated one is connected to the LH airspeed indicator
             (Left Instruments Panel Area), and the other one is connected to the
@@ -13253,7 +13346,7 @@ MonoBehaviour:
             on the right side of the central pedestal. "
           narration: {fileID: 8300000, guid: c0e8ff2f86117194ebdd0af37e6effc8, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 0bbcbc384de62984baf274a531f40d12, type: 3}
+          - {fileID: 21300000, guid: 8a4280b6ae1cf95478229734249ecd6f, type: 3}
       - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000
         m_values:
         - content: AIRCRAFT LIGHTING SYSTEM. The aircraft lighting systems consist
@@ -13261,14 +13354,18 @@ MonoBehaviour:
             Lights, Emergency Lights, NAV Lights, Strobe Lights, Taxi Lights, and
             Landing Lights.
           narration: {fileID: 8300000, guid: 2f58fb614b4150e46865561f7e75fa3b, type: 3}
-          topicSprites: []
+          topicSprites:
+          - {fileID: 21300000, guid: 0c67fabc7b3444a449f75658b51c947c, type: 3}
+          - {fileID: 21300000, guid: 55cbc9e21ba766c4eae28e9d1a1e1a9e, type: 3}
         - content: "INSTRUMENT LIGHTS. The internal lights system is composed of
             the following equipment:\r\n\r\nCabin light, providing lighting for crew
             and passengers compartment;\r\nInstruments lights, which in turn are
             composed of three subsystems each one fitted with a dimming device:\r\n\r\nSwitches
             built-in lights\r\nAvionics lights\r\nCockpit lights  \r\n"
           narration: {fileID: 8300000, guid: 34fc47266e5bfbe48811c65b3432ca69, type: 3}
-          topicSprites: []
+          topicSprites:
+          - {fileID: 21300000, guid: 49b4d3173a0e0084cab53fa3af350174, type: 3}
+          - {fileID: 21300000, guid: 37085cca021b06d4bb4c5c4b71807070, type: 3}
         - content: " EXTERNAL LIGHTS. The external lights system consists of the
             following equipment \r\n\r\nLANDING LIGHTS. Provides ground reference
             information during final approach, touchdown, ground roll, and take off
@@ -13288,16 +13385,16 @@ MonoBehaviour:
             on the winglets and on the top of the vertical fin. \r\n"
           narration: {fileID: 8300000, guid: bf3d5ae0e25e25546a6ecfb3cef981c6, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: ededb558dfb59ef4a8c290201d2c734b, type: 3}
-          - {fileID: 21300000, guid: cc7015270a24a104da5b9275468e0abd, type: 3}
-          - {fileID: 21300000, guid: e898a2e23bf027b4bbc437704fe15676, type: 3}
+          - {fileID: 21300000, guid: c2cd121ea794d3144ba521569b21e539, type: 3}
+          - {fileID: 21300000, guid: cab4fafd50101c840acdd4fbd3bd485e, type: 3}
+          - {fileID: 21300000, guid: 9545dcdcfa010bb43a9af8a17b229813, type: 3}
         - content: CABIN LIGHTS.The cabin light is a ceiling light, fitted with control
             switches, located on the overhead panel in correspondence with the crew
             seats.
           narration: {fileID: 8300000, guid: 6c18781b4f983f441b89c26f2bb387bf, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: a0b25f694da2228479809d0fda0403db, type: 3}
-          - {fileID: 21300000, guid: ce2d03f81edaa124d8fa063fd726d1ae, type: 3}
+          - {fileID: 21300000, guid: bf488d1dd90b94540aee50e76db3ea98, type: 3}
+          - {fileID: 21300000, guid: eeaa1a424ebef494aa4b0e26b36a4326, type: 3}
         - content: 'POSITION LIGHTS. They provide the aircraft flight direction identification.
             Navigation lights are installed on the wing tips and on top of the vertical
             stabilizer. All navigation lights are controlled by a single switch on
@@ -13306,7 +13403,7 @@ MonoBehaviour:
             a white lamp is on a vertical stabilizer. '
           narration: {fileID: 8300000, guid: 5bdff2faf2617da4888ef348dcefec9a, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 61e29a0c6817f9b43b9ab20bcfe2cfd1, type: 3}
+          - {fileID: 21300000, guid: fc5394d640a25214b90bf553d03df1b5, type: 3}
         - content: FLASHING BEACON. The flashing beacon light is attached to the
             vertical fin tip. The lamp is iodine-vapor electrically switched by a
             solid-state flasher assembly. The flasher assembly is mounted in the
@@ -13315,8 +13412,7 @@ MonoBehaviour:
             1.5-ohm 75-watt resistor is installed to eliminate a pulsing effect on
             the cabin lighting and ammeter.
           narration: {fileID: 8300000, guid: b37f5c2d8da8fae4dbeea3b245495026, type: 3}
-          topicSprites:
-          - {fileID: 21300000, guid: 9de801446160b704e8aab809d36f65f7, type: 3}
+          topicSprites: []
         - content: 'TRANSISTORIZED LIGHT DIMMING A remotely located, two-circuit
             transistorized dimming assembly is installed to control instrument lighting.
             One circuit controls the compass light, map light, and instrument flood
@@ -13334,15 +13430,15 @@ MonoBehaviour:
             intensity of the red bulb.
           narration: {fileID: 8300000, guid: cf267fa4e54c9144b9db850cbb274aed, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 1490670e6c8c4b342b5120ff9d34b31f, type: 3}
+          - {fileID: 21300000, guid: cdeb032c7402cda4491879d3bf1790dc, type: 3}
         - content: 'INDICATOR LIGHTS. Indicator lights are controlled by a monitor
             device according to the current sensitive relays, installed on the lines
             supplying power to the Pitot heater, detecting the current to the heating
             element. '
           narration: {fileID: 8300000, guid: fa134ecb642083948b6f148a49ba5a6f, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 5692c19b07b2d544187667259dd50f05, type: 3}
-          - {fileID: 21300000, guid: 233c2f96f1221d046a9c23079d7a3149, type: 3}
+          - {fileID: 21300000, guid: 2d350b0023b2ef844aace8b44397654f, type: 3}
+          - {fileID: 21300000, guid: 5bf55f05a6e52f04da600e840dfa02e3, type: 3}
       - m_keys: 00000000010000000200000003000000040000000500000006000000
         m_values:
         - content: AUTOPILOT. The S-TEC Fifty-Five X System is a rate-based autopilot.
@@ -13362,7 +13458,7 @@ MonoBehaviour:
             trim servo is coupled to the stabilator trim tab.
           narration: {fileID: 8300000, guid: 0e2c0eb3a36520d4c99bb55fb1392532, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 91157b141c362f545936482ed6b086e7, type: 3}
+          - {fileID: 21300000, guid: acb9fe52d5bcbc6438c813ad4bd769e2, type: 3}
         - content: 'PROGRAMMER/COMPUTER. allows for selecting the operational mode
             needed and it transmits the suitable signals to the servos to perform
             the selected manoeuvres.
@@ -13373,15 +13469,16 @@ MonoBehaviour:
 '
           narration: {fileID: 8300000, guid: 1a3f2e112140f064985ecb1f8293cd6f, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 7466d8381bd026d4e8ed606e263f8e87, type: 3}
-          - {fileID: 21300000, guid: dbbc2a2a16c46b44296c0a78776dadcb, type: 3}
-          - {fileID: 21300000, guid: c49f8b261fcad8b43bc19dd8350fc44a, type: 3}
+          - {fileID: 21300000, guid: 232088fd9203188408264f307a9e1d67, type: 3}
+          - {fileID: 21300000, guid: ea29948cb00b97c4d8d67a69df871413, type: 3}
+          - {fileID: 21300000, guid: dfd38da607ebda5409e70362b40c5791, type: 3}
         - content: A/P MASTER SWITCH. is located on the left side of the instruments
             panel, easily accessible for the pilot. It allows for turning ON/OFF
             the A/P as a whole.
           narration: {fileID: 8300000, guid: 0077fab97b68f304ca88da3570e12807, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 5759aa2f5c4aa1b4080a88103c704e7d, type: 3}
+          - {fileID: 21300000, guid: cbea96f9b42ca8a4684ec391d49c505d, type: 3}
+          - {fileID: 21300000, guid: 43d2063bfe2e04a4d97b1ab43b187084, type: 3}
         - content: 'ABSOLUTE PRESSURE TRANSDUCER. Gives information about the altitude:
             it is connected to both pressure static sources using a T fitting, and
             it is fixed to the first fuselage bulkhead.'
@@ -13408,23 +13505,23 @@ MonoBehaviour:
             Master Switch allows for disabling the Manual Electric Trim switch.'
           narration: {fileID: 8300000, guid: c58d735e72bb73d46a8c9e172600201d, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 380f96338fc3da8468d8777820211fb8, type: 3}
+          - {fileID: 21300000, guid: a521b1fa251cff64f87706d65a2364b6, type: 3}
         - content: Roll Servo. The roll servo, enslaved to the ailerons, is located
             beneath the crew compartment floor. The AP roll servo brindle control
             cable acts on the LH ailerons control line to which it is connected by
             means of two clamps.
           narration: {fileID: 8300000, guid: ee33fca2bb3244242a7f94295173632f, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 8e3232aab7c777e4895872ed008c8b76, type: 3}
-          - {fileID: 21300000, guid: 3bbacca75ef5e0e4184c1dea7ec5e68b, type: 3}
+          - {fileID: 21300000, guid: 64a05494989eceb48ae45931265e23c7, type: 3}
+          - {fileID: 21300000, guid: 6a99d85b8522b8140a2d2e0bc17aacf2, type: 3}
         - content: Pitch Servo. Its control cable is directly connected to the stabilator
             control rod to which it is connected using two clamps. The rotational
             movement of the servo, as controlled by the Computer, is converted into
             the longitudinal movement of the stabilator control rod
           narration: {fileID: 8300000, guid: 9d77814c7caf15442b3ee2e2039d504d, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 6ba3409c3dbb5674685598f3d1ad9b62, type: 3}
-          - {fileID: 21300000, guid: aad02fb6b91738547b581eb801ba3b55, type: 3}
+          - {fileID: 21300000, guid: 881fbcef8a54e6f4b9d0fb2201b3bc6a, type: 3}
+          - {fileID: 21300000, guid: b7fab30433d422144b84852dcd116a6f, type: 3}
       - m_keys: 000000000100000002000000
         m_values:
         - content: 'COMM 1.The standard equipment Garmin GNS 430W provides a communications
@@ -13468,7 +13565,7 @@ MonoBehaviour:
 '
           narration: {fileID: 8300000, guid: 9d7fb77e915b44d468f35e98e44b8e87, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 5d2b63452e4f80540813c89b099ef4a6, type: 3}
+          - {fileID: 21300000, guid: 8add9110d11ee5b4fbcf7802af29361b, type: 3}
         - content: "COMM 2. The optional COMM/NAV 2 equipment is the Garmin Apollo
             SL30 which includes a 760-channel VHF Comm transceiver and 200-channel
             VOR/LOC/GS navigation.\r\n  \nSL30 is installed on the central instruments
@@ -13476,8 +13573,8 @@ MonoBehaviour:
             frame for ease of installation, connections, and service of the unit.\r\n"
           narration: {fileID: 8300000, guid: 6b10973ffbc741e4385196c3d251097f, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 02c046c86744e2f4ea2efb536a31cedc, type: 3}
-          - {fileID: 21300000, guid: c5ea53e1070a2814dab60e2db447939c, type: 3}
+          - {fileID: 21300000, guid: 99750b319eaf15e4b8292a99b41d979a, type: 3}
+          - {fileID: 21300000, guid: e29a216718d5e1541aac59990ee79f89, type: 3}
         - content: "AUDIO PANEL. Garmin GMA340 (or a similar GMA347) is the audio
             management device used on P2006T. The audio panel handles internal audio
             communications (INTERCOM), external audio communications (allowing COM1
@@ -13504,10 +13601,10 @@ MonoBehaviour:
             location\r\n \r\n \r\nCOMM devices typical layout\r\n"
           narration: {fileID: 8300000, guid: 39e26f0cab2b1e44bb5fe7b9d610b65e, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: c51df120e91d20a40b595f16b6488e02, type: 3}
-          - {fileID: 21300000, guid: 964350593c552e74c9fe80948f0a722d, type: 3}
-          - {fileID: 21300000, guid: e53b92aac2492234aab5c11a0ffebbaa, type: 3}
-          - {fileID: 21300000, guid: 950b28644062b904d9a9b25178505988, type: 3}
+          - {fileID: 21300000, guid: b32730cec4c4d1248bf9bfb65d7eaa23, type: 3}
+          - {fileID: 21300000, guid: dba1a96c434a8b2469881503ebfbc0f7, type: 3}
+          - {fileID: 21300000, guid: 0d868a0929e980f41b7898840d7c9a7f, type: 3}
+          - {fileID: 21300000, guid: 2ac32c2b684eeec45a34877b660d18a2, type: 3}
   contentTMP: {fileID: 1364019647}
   miniLoaderPicture: {fileID: 1261112799}
   pictureContentParentObj: {fileID: 1534303454}
@@ -13515,7 +13612,7 @@ MonoBehaviour:
   pictureContentScrollbar: {fileID: 1494328717}
   nextButton: {fileID: 2138866384}
   previousButton: {fileID: 79613722}
-  pageCounter: 0
+  pageCounter: 2
   pictureCounter: 0
 --- !u!114 &781873196
 MonoBehaviour:
@@ -13529,8 +13626,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a7efcc3b3c86c4bb8f633e45b7238e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bgSource: {fileID: 0}
-  sfxSource: {fileID: 0}
+  bgSource: {fileID: 930703465}
+  sfxSource: {fileID: 930703465}
   voiceSource: {fileID: 930703465}
   currentVolume: 0
 --- !u!114 &781873197
@@ -13859,10 +13956,10 @@ MonoBehaviour:
         choiceTwo: WINGS
         choiceThree: FIN
         answer: RUDDER
-      - question: "The lever assembly is mounted on the center console structure
-          and utilizes a pin to positively lock the\r trim system in any of the 3
-          positions left or right of the center of the \"neutral\" trim position.
-          The lever also\r\nserves as the trim position indicator."
+      - question: The lever assembly is mounted on the center console structure and
+          utilizes a pin to positively lock the trim system in any of the 3 positions
+          left or right of the center of the "neutral" trim position. The lever also
+          serves as the trim position indicator.
         questionSprite: {fileID: 0}
         choiceOne: TRIM TAB CONTROL WHEEL
         choiceTwo: ELEVATOR TRIM CONTROL SYSTEM
@@ -14139,16 +14236,12 @@ MonoBehaviour:
         choiceThree: BLACK BOX
         answer: BUS BAR
       - question: 'Is a plunger type and is actuated by turning on the master switch.
-          The contactor is bolted to the left-hand
+          The contactor is bolted to the left-hand side of the firewall A silicon
+          diode is installed to eliminate the spicking of transistorized radio equipment
+          when the contactor is closed. Nylon covers are installed on the terminals
+          to prevent accidental short circuits
 
-          side of the firewall
-          A silicon diode is installed to eliminate the spiking of transistorized
-          radio equipment
-
-          when the contactor is closed. Nylon covers are
-          installed on the terminals to prevent accidental short
-
-          circuits.'
+'
         questionSprite: {fileID: 0}
         choiceOne: ALTERNATOR
         choiceTwo: RAM AIR TURBINE
@@ -14164,9 +14257,9 @@ MonoBehaviour:
         choiceThree: RAM AIR TURBINE
         answer: VOLTAGE REGULATOR
       - question: "Consists of a belt-driven alternator, a voltage regulator/ alternator
-          control unit mounted on the left-\rhand side of the firewall, and a circuit
-          breaker located on the instrument panel. The system is controlled by\r\nthe
-          left-hand portion of the split rocker, master switch labeled \"ALT.\""
+          control unit mounted on the left-hand side of the firewall, and a circuit
+          breaker located on the instrument panel. The system is controlled by\r
+          the left-hand portion of the split rocker, master switch labeled \"ALT.\""
         questionSprite: {fileID: 0}
         choiceOne: ALTERNATOR
         choiceTwo: EMERGENCY LOCATOR TRANSMITTER
@@ -14208,10 +14301,12 @@ MonoBehaviour:
         choiceTwo: NONE OF THE ABOVE
         choiceThree: BATTERY BOX
         answer: BATTERY CONTACTOR
-      - question: "A ground service receptacle may be installed to permit the use
-          of external power for cold weather\r starting or when performing lengthy
-          electrical maintenance. The receptacle is mounted on the left-hand\r\nside
-          of the firewall with an access door in the engine cowl."
+      - question: 'A ground service receptacle may be installed to permit the use
+          of external power for cold weather starting or when performing lengthy
+          electrical maintenance. The receptacle is mounted on the left-hand
+
+          side
+          of the firewall with an access door in the engine cowl.'
         questionSprite: {fileID: 0}
         choiceOne: COURTESY LIGHTS
         choiceTwo: FUEL SELECTOR VALVE
@@ -15911,8 +16006,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 110.403, y: 6}
-  m_SizeDelta: {x: 100.879, y: 0}
+  m_AnchoredPosition: {x: 173.143, y: 6}
+  m_SizeDelta: {x: 226.358, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &818128118
 MonoBehaviour:
@@ -15964,11 +16059,11 @@ MonoBehaviour:
   m_fontSize: 28
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 28
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -16037,7 +16132,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819173281}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 31290678}
@@ -16045,8 +16140,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -105.399994, y: 6}
-  m_SizeDelta: {x: 78.074, y: 0}
+  m_AnchoredPosition: {x: -226.702, y: 6}
+  m_SizeDelta: {x: 320.678, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &819173283
 MonoBehaviour:
@@ -16068,7 +16163,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: System 1
+  m_text: GENERAL DESCRIPTION
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16098,11 +16193,11 @@ MonoBehaviour:
   m_fontSize: 28
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 28
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -19013,8 +19108,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -105.399994, y: 6}
-  m_SizeDelta: {x: 78.074, y: 0}
+  m_AnchoredPosition: {x: -208.739, y: 6}
+  m_SizeDelta: {x: 284.752, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1044065090
 MonoBehaviour:
@@ -19066,11 +19161,11 @@ MonoBehaviour:
   m_fontSize: 28
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 28
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -20642,7 +20737,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204344068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1164378678}
@@ -20650,8 +20745,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 99, y: 6}
-  m_SizeDelta: {x: 78.074, y: 0}
+  m_AnchoredPosition: {x: 201.386, y: 6}
+  m_SizeDelta: {x: 282.846, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1204344070
 MonoBehaviour:
@@ -20703,11 +20798,11 @@ MonoBehaviour:
   m_fontSize: 28
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 28
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -22124,7 +22219,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290623115}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1588221350}
@@ -22132,8 +22227,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 109.869, y: 6}
-  m_SizeDelta: {x: 95.812, y: 0}
+  m_AnchoredPosition: {x: 241.022, y: 6}
+  m_SizeDelta: {x: 358.118, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1290623117
 MonoBehaviour:
@@ -22185,11 +22280,11 @@ MonoBehaviour:
   m_fontSize: 28
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 28
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -22266,8 +22361,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -105.399994, y: 6}
-  m_SizeDelta: {x: 78.074, y: 0}
+  m_AnchoredPosition: {x: -167.443, y: 6}
+  m_SizeDelta: {x: 202.161, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1292771494
 MonoBehaviour:
@@ -22319,11 +22414,11 @@ MonoBehaviour:
   m_fontSize: 28
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 28
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -25070,7 +25165,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1614643432}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 926434453}
@@ -25078,8 +25173,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -105.399994, y: 6}
-  m_SizeDelta: {x: 78.074, y: 0}
+  m_AnchoredPosition: {x: -211.127, y: 6}
+  m_SizeDelta: {x: 289.527, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1614643434
 MonoBehaviour:
@@ -25101,7 +25196,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: System 2
+  m_text: LANDING GEAR. BRAKES AND HYDRAULIC SYSTEM
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -25128,14 +25223,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
+  m_fontSize: 24.85
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 28
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -25413,7 +25508,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1644632268}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 706927090}
@@ -25421,8 +25516,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -105.399994, y: 6}
-  m_SizeDelta: {x: 78.074, y: 0}
+  m_AnchoredPosition: {x: -177.112, y: 6}
+  m_SizeDelta: {x: 221.499, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1644632270
 MonoBehaviour:
@@ -25444,7 +25539,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: System 3
+  m_text: FLIGHT CONTROL SYSTEM
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -25471,14 +25566,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
+  m_fontSize: 25.55
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 28
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -27353,8 +27448,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 109.869, y: 6}
-  m_SizeDelta: {x: 95.812, y: 0}
+  m_AnchoredPosition: {x: 166.929, y: 6}
+  m_SizeDelta: {x: 209.932, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1798266946
 MonoBehaviour:
@@ -27406,11 +27501,11 @@ MonoBehaviour:
   m_fontSize: 28
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 28
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -27658,7 +27753,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -38.599976, y: -6.4000244}
+  m_AnchoredPosition: {x: -38.600098, y: -6.4000244}
   m_SizeDelta: {x: 118, y: 98}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1824540433
@@ -29814,7 +29909,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004936243}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1871593549}
@@ -29822,8 +29917,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 115.136, y: 6}
-  m_SizeDelta: {x: 98.345, y: 0}
+  m_AnchoredPosition: {x: 213.266, y: 6}
+  m_SizeDelta: {x: 294.604, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2004936245
 MonoBehaviour:
@@ -29875,11 +29970,11 @@ MonoBehaviour:
   m_fontSize: 28
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 28
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -30527,7 +30622,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103953595}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1722308681}
@@ -30535,8 +30630,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -105.399994, y: 6}
-  m_SizeDelta: {x: 78.074, y: 0}
+  m_AnchoredPosition: {x: -132.041, y: 6}
+  m_SizeDelta: {x: 131.356, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2103953597
 MonoBehaviour:
@@ -30588,11 +30683,11 @@ MonoBehaviour:
   m_fontSize: 28
   m_fontSizeBase: 28
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 28
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0

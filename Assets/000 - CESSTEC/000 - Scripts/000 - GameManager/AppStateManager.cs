@@ -125,10 +125,12 @@ public class AppStateManager : MonoBehaviour
                         topicController.BackButton();
                     else if (GetCurrentAppState == AppState.VIEW3D)
                         threeDViewController.BackButton();
-                    else if (GetCurrentAppState == AppState.START)
-                        errorController.ShowConfirmation("Are you sure you want to quit?", () => { Application.Quit(); }, null);
                     else
                         RemoveAppStateHistory();
+                }
+                else
+                {
+                    errorController.ShowConfirmation("Are you sure you want to quit?", () => { Application.Quit(); }, null);
                 }
             }
         }

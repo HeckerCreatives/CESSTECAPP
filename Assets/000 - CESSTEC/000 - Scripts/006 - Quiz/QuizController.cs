@@ -44,7 +44,7 @@ public class QuizController : MonoBehaviour
     [SerializeField] private QuizData quizData;
 
     [Header("DEBUGGER")]
-    [ReadOnly] [SerializeField] private int currentIndex;
+    [SerializeField] private int currentIndex;
     [ReadOnly] [SerializeField] private QuizData quizDataTemp;
 
     //  ======================================
@@ -65,9 +65,22 @@ public class QuizController : MonoBehaviour
         ChangeAnswer -= AnswerChange;
     }
 
+    private void Update()
+    {
+        UseKeyboardNextPrevious();
+    }
+
     private void AnswerChange(object sender, EventArgs e)
     {
         ResetColorAnswers();
+    }
+
+    private void UseKeyboardNextPrevious()
+    {
+        if (appState.GetCurrentAppState != AppStateManager.AppState.QUIZ) return;
+
+        if (Input.GetKeyUp(KeyCode.LeftArrow) && currentIndex > 0) NextPreviousButton(false);
+        else if (Input.GetKeyUp(KeyCode.RightArrow) && currentIndex < quizContent.Count - 1) NextPreviousButton(true);
     }
 
     private void ResetSettings()
@@ -129,7 +142,7 @@ public class QuizController : MonoBehaviour
 
         pageInformationTMP.text = "PAGE " + (currentIndex + 1).ToString() + " OUT OF " + quizContent.Count;
 
-        questionTMP.text = quizContent[currentIndex + 1].question;
+        questionTMP.text = quizContent[currentIndex + 1].question.Replace("\r","");
 
         if (quizContent[currentIndex + 1].questionSprite != null)
         {

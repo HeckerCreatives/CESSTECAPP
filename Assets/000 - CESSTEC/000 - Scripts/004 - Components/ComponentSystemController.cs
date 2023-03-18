@@ -59,6 +59,11 @@ public class ComponentSystemController : MonoBehaviour
     [SerializeField] private GameObject tecnamP2002JFTitle;
     [SerializeField] private GameObject tecnamP20006TTitle;
     [SerializeField] private Image airplaneImg;
+    [SerializeField] private List<string> cessna152Systems;
+    [SerializeField] private List<string> tecnamp2002Systems;
+    [SerializeField] private List<string> cessna172Systems;
+    [SerializeField] private List<string> tecnamp2006Systems;
+    [SerializeField] private List<TextMeshProUGUI> systemList;
 
     [Header("Sprites")]
     [SerializeField] private Sprite cessna152Sprite;
@@ -80,24 +85,39 @@ public class ComponentSystemController : MonoBehaviour
         switch (CurrentAirplaneType)
         {
             case AirplaneType.CESSNA152:
+                ChangeSystemNames(cessna152Systems);
                 cessna152Title.SetActive(true);
                 airplaneImg.sprite = cessna152Sprite;
                 break;
             case AirplaneType.TECNAMP2002JF:
+                ChangeSystemNames(tecnamp2002Systems);
                 tecnamP2002JFTitle.SetActive(true);
                 airplaneImg.sprite = technamp2002ifSprite;
                 break;
             case AirplaneType.CESSNA172:
+                ChangeSystemNames(cessna172Systems);
                 cessna172Title.SetActive(true);
                 airplaneImg.sprite = cessna172Sprite;
                 break;
             case AirplaneType.TECNAMP20006T:
+                ChangeSystemNames(tecnamp2006Systems);
                 tecnamP20006TTitle.SetActive(true);
                 airplaneImg.sprite = technamp2006tSprite;
                 break;
         }
 
         action?.Invoke();
+    }
+
+    private void ChangeSystemNames(List<string> names)
+    {
+        for (int a = 0; a < systemList.Count; a++)
+        {
+            if (a >= names.Count)
+                systemList[a].text = "NO SYSTEM";
+            else
+                systemList[a].text = names[a];
+        }
     }
 
     #region BUTTON
