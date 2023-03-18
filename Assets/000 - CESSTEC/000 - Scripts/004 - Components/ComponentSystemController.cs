@@ -31,8 +31,8 @@ public class ComponentSystemController : MonoBehaviour
         System8,
         System9,
         System10,
-        System12,
         System11,
+        System12,
         System13,
         System14
     }
