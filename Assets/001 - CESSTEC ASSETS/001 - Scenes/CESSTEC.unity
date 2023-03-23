@@ -9475,6 +9475,7 @@ MonoBehaviour:
           narration: {fileID: 8300000, guid: e163adc204941d341a9ce36ac235182a, type: 3}
           topicSprites:
           - {fileID: 21300000, guid: 3aacfa4ad6d74844b99da1824908d0c5, type: 3}
+          - {fileID: 21300000, guid: b37e9cbb84b45a845a9bfdebf0935b5b, type: 3}
       - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e000000
         m_values:
         - content: ENGINE. The aircraft is powered by a Rotax 912 S2 engine featuring
@@ -12085,7 +12086,8 @@ MonoBehaviour:
             aileron has a trim tab adjustable on the ground: its deflection allows
             for lateral trimming of the airplane.\r\n"
           narration: {fileID: 8300000, guid: 4c611f08ec511684e853d5444f48b72c, type: 3}
-          topicSprites: []
+          topicSprites:
+          - {fileID: 21300000, guid: 3b0d31391f8d02445ad1326803c6da4d, type: 3}
         - content: U-SHAPED CONTROL WHEELS. Hinged on the top of the control column,
             control the ailerons. The control wheel motion is transferred to the
             ailerons through a cable loop, up to the interconnecting rod linking
@@ -12488,7 +12490,8 @@ MonoBehaviour:
             oil from the oil tank via the oil cooler and forces it through the oil
             filter to the designed lubrication points.
           narration: {fileID: 8300000, guid: 69756c3073d765e4e9e32ed413166e61, type: 3}
-          topicSprites: []
+          topicSprites:
+          - {fileID: 21300000, guid: b5abb3bfe9a055740a922506577552fe, type: 3}
         - content: OIL FILTER. The oil system is equipped with an oil filter (cartridge
             type) designed for a full-flow oil system in order to filter the contaminants
             from the circulated oil before it passes through the bearing surfaces.
@@ -12577,7 +12580,8 @@ MonoBehaviour:
             for each engine are connected to the electronic module circuit located
             on the cabin head panel.
           narration: {fileID: 8300000, guid: 8e6e144b753892940b08c0607a5c0fce, type: 3}
-          topicSprites: []
+          topicSprites:
+          - {fileID: 21300000, guid: b21ca021ccce663449ba4370ed5cf244, type: 3}
         - content: 'AIRCRAFT MAGNETOS (TYPE 4281). Beginning with Serials 15284028
             and A1520915, a lightweight Slick 4281 magneto is used on the engine.
             This magneto is designed for light aircraft engines and is a self-contained
@@ -12681,11 +12685,14 @@ MonoBehaviour:
             removing the free water. The drain valve is actuated during crew \u201Cwalk
             around.\u201D"
           narration: {fileID: 8300000, guid: 05d572490a938ba458e8cfe573ebd9b9, type: 3}
-          topicSprites: []
+          topicSprites:
+          - {fileID: 21300000, guid: 39928f0c2e3c59e4fb84a58b8da301fc, type: 3}
+          - {fileID: 21300000, guid: add9fc42c5af7bd4bae33fd42eeff288, type: 3}
         - content: FUEL LEVEL TRANSMITTER. Is installed in each tank providing the
             pilot for monitoring the fuel quantity contained in each fuel tank.
           narration: {fileID: 8300000, guid: dd4832555a7354c40923fe8ccc0ca970, type: 3}
-          topicSprites: []
+          topicSprites:
+          - {fileID: 21300000, guid: 3468c722412acd24d8d90003f191ac1d, type: 3}
         - content: FUEL LEVEL AND FUEL PRESSURE INDICATOR SYSTEM. Two fuel level
             indicators and two fuel pressure indicators are on the instrument panel's
             right side. These analogical instruments allow the pilot to fuel system
@@ -12799,7 +12806,9 @@ MonoBehaviour:
             out from two outlet ports located above the instrument panel, near the
             windshield.
           narration: {fileID: 8300000, guid: 62141c43b0ab8334fbbc9966b8d63aff, type: 3}
-          topicSprites: []
+          topicSprites:
+          - {fileID: 21300000, guid: 5493d1e90e4723445a5e19719a85839a, type: 3}
+          - {fileID: 21300000, guid: 478d9bed039807c4f875a2cc21b32f09, type: 3}
         - content: VENTILATING SYSTEM. The ventilation air system is composed of
             two ram air diffusers on the instrument panel's left and right sides.
             The external cold air is caught by the Naca intake access point and can
@@ -13123,7 +13132,7 @@ MonoBehaviour:
             is installed in the vacant Omni indicator instrument space.'
           narration: {fileID: 8300000, guid: 67468a254aaea2247b84bdfda1137445, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: d707440c61393304f999fad766c021df, type: 3}
+          - {fileID: 21300000, guid: 3edae8cd026770b479f258536b207ef5, type: 3}
         - content: STALL WARNING SYSTEM. The stall warning system consists of an
             airflow sensor and an electric horn. The airflow sensor is mounted on
             the leading edge of the RH wing. As the aircraft approaches a stall,
@@ -13301,7 +13310,7 @@ MonoBehaviour:
             panel. The airplane battery provides the power to excite the alternator.
           narration: {fileID: 8300000, guid: 4487b4ebca2acce4f9aeab436fb2f18e, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 38de6242dd6a6794e971c2d720e0492e, type: 3}
+          - {fileID: 21300000, guid: 1c69de825e5212f4598296f9530f663d, type: 3}
         - content: ALTERNATOR. The alternator has three phases. Delta is connected
             with integral silicon diode rectifiers. The alternator is rated at 28
             volts at 60 amperes continuous output. The moving center part of the
@@ -13336,7 +13345,7 @@ MonoBehaviour:
             correctly. '
           narration: {fileID: 8300000, guid: c2e9e5ec96167144293aa3892066f5d9, type: 3}
           topicSprites:
-          - {fileID: 21300000, guid: 64821ea97c787a645a03f5e187dc6e57, type: 3}
+          - {fileID: 21300000, guid: 57e359cd5e7121a4896ef5623346240c, type: 3}
         - content: "PITOT PROBES. The two Pitot probes are connected to the airspeed
             indicators, namely the heated one is connected to the LH airspeed indicator
             (Left Instruments Panel Area), and the other one is connected to the
@@ -13412,7 +13421,8 @@ MonoBehaviour:
             1.5-ohm 75-watt resistor is installed to eliminate a pulsing effect on
             the cabin lighting and ammeter.
           narration: {fileID: 8300000, guid: b37f5c2d8da8fae4dbeea3b245495026, type: 3}
-          topicSprites: []
+          topicSprites:
+          - {fileID: 21300000, guid: 64a8e8282c78da64e8b1c65397d0da8d, type: 3}
         - content: 'TRANSISTORIZED LIGHT DIMMING A remotely located, two-circuit
             transistorized dimming assembly is installed to control instrument lighting.
             One circuit controls the compass light, map light, and instrument flood
@@ -13420,7 +13430,8 @@ MonoBehaviour:
             arrangement on a dual rheostat assembly is mounted on the instrument
             panel. '
           narration: {fileID: 8300000, guid: 8cae99ad8cdfdf744a66047646e4170b, type: 3}
-          topicSprites: []
+          topicSprites:
+          - {fileID: 21300000, guid: a04b6d6b8e07c164e9c76ddbe58b914c, type: 3}
         - content: MAP LIGHT. Map lighting and red non-glare instrument lighting
             are provided by an adjustable light mounted on the upper forward part
             of the left door post. The switch is a three-position type with red,
@@ -13483,7 +13494,9 @@ MonoBehaviour:
             it is connected to both pressure static sources using a T fitting, and
             it is fixed to the first fuselage bulkhead.'
           narration: {fileID: 8300000, guid: 88db704accdd36a4d99b35553d2ab195, type: 3}
-          topicSprites: []
+          topicSprites:
+          - {fileID: 21300000, guid: c2b503e1efbf2de469674c7255136507, type: 3}
+          - {fileID: 21300000, guid: 8cfa4cd06a8c0634ebfab56aa7b5b73f, type: 3}
         - content: 'Trim Tab Servo, Manual Electric Trim Switch, and Trim Master
             Switch. The trim servo receives the signal from the Computer and allows
             the trim tab rotation. It is located on the fuselage tail, mounted on
@@ -13647,6 +13660,8 @@ MonoBehaviour:
   componentSystem: {fileID: 781873193}
   errorController: {fileID: 781873198}
   loadingNoBG: {fileID: 1220360900}
+  selectedColor: {r: 0, g: 0.10449934, b: 1, a: 1}
+  unselectedColor: {r: 1, g: 1, b: 1, a: 1}
   pageInformationTMP: {fileID: 607013381}
   questionTMP: {fileID: 114965936}
   questionImage: {fileID: 407336660}

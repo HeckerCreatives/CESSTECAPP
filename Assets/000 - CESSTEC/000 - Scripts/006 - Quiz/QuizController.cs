@@ -31,6 +31,8 @@ public class QuizController : MonoBehaviour
     [SerializeField] private GameObject loadingNoBG;
 
     [Header("EXAM")]
+    [SerializeField] private Color selectedColor;
+    [SerializeField] private Color unselectedColor;
     [SerializeField] private TextMeshProUGUI pageInformationTMP;
     [SerializeField] private TextMeshProUGUI questionTMP;
     [SerializeField] private Image questionImage;
@@ -154,7 +156,7 @@ public class QuizController : MonoBehaviour
 
         for(int a = 0; a < answersTMP.Count; a++)
         {
-            answerBtnImg[a].color = new Color(1, 1, 1, 1);
+            answerBtnImg[a].color = unselectedColor;
             answersTMP[a].text = quizContent[currentIndex + 1].quizAnswers[a];
         }
 
@@ -196,10 +198,10 @@ public class QuizController : MonoBehaviour
     private void ResetColorAnswers()
     {
         for (int a = 0; a < answerBtnImg.Count; a++)
-            answerBtnImg[a].color = new Color(1f, 1f, 1f, 1f);
+            answerBtnImg[a].color = unselectedColor;
 
         if (answerIndexContent.ContainsKey(currentIndex + 1))
-            answerBtnImg[answerIndexContent[currentIndex + 1]].color = new Color(0.1951762f, 0.9622642f, 0.2903914f, 1);
+            answerBtnImg[answerIndexContent[currentIndex + 1]].color = selectedColor;
     }
 
     private IEnumerator CountAnswers()
@@ -221,7 +223,7 @@ public class QuizController : MonoBehaviour
         }
 
         PlayerPrefs.SetString(((int)componentSystem.CurrentAirplaneType).ToString(), "1");
-        PlayerPrefs.SetInt(((int)componentSystem.CurrentAirplaneType).ToString(), tempScore);
+        PlayerPrefs.SetInt(((int)componentSystem.CurrentAirplaneType).ToString()+"_score", tempScore);
 
         loadingNoBG.SetActive(false);
 
