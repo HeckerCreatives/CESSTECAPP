@@ -23,16 +23,20 @@ public class TopicController : MonoBehaviour
     [SerializeField] private GameObject miniLoaderPicture;
     [SerializeField] private GameObject pictureContentParentObj;
     [SerializeField] private Transform pictureContentTF;
-    [SerializeField] private Scrollbar pictureContentScrollbar;
 
     [Header("BUTTONS")]
     [SerializeField] private Button nextButton;
     [SerializeField] private Button previousButton;
+    [SerializeField] private Button nextPictureBtn;
+    [SerializeField] private Button previousPictureBtn;
 
     [Header("DEBUGGER")]
     [ReadOnly] [SerializeField] private int pageCounter;
     [ReadOnly] [SerializeField] private int pictureCounter;
-
+    [ReadOnly][SerializeField] private int totalPictures;
+    [ReadOnly][SerializeField] private int currentPictureIndex;
+    [ReadOnly][SerializeField] private bool canNextPrevious;
+ 
     //  ==============================
 
     Coroutine pictureContentCoroutine;
@@ -94,7 +98,9 @@ public class TopicController : MonoBehaviour
 
     IEnumerator ShowPictureContent()
     {
-        pictureContentScrollbar.value = 1f;
+        canNextPrevious = false;
+        nextPictureBtn.gameObject.SetActive(false);
+        previousPictureBtn.gameObject.SetActive(false);
 
         for (var i = pictureContentTF.childCount - 1; i >= 0; i--)
         {
@@ -126,8 +132,15 @@ public class TopicController : MonoBehaviour
             objRT.localRotation = Quaternion.identity;
             objImg.sprite = contentSprite;
 
+            objImg.gameObject.SetActive(false);
+
             yield return null;
         }
+
+        pictureContentTF.GetChild(0).gameObject.SetActive(true);
+        totalPictures = AirplaneTopicDataList[componentSystem.CurrentAirplaneType][componentSystem.CurrentSystems][pageCounter].topicSprites.Count;
+        currentPictureIndex = 0;
+        CheckPictureButtons();
 
         miniLoaderPicture.SetActive(false);
         pictureContentParentObj.SetActive(true);
@@ -171,7 +184,65 @@ public class TopicController : MonoBehaviour
         gameManager.CanUseButtons = true;
     }
 
+    private void ShowPictures(bool value)
+    {
+        if (value)
+        {
+            pictureContentTF.GetChild(currentPictureIndex - 1).gameObject.SetActive(false);
+            pictureContentTF.GetChild(currentPictureIndex).gameObject.SetActive(true);
+        }
+        else
+        {
+            pictureContentTF.GetChild(currentPictureIndex + 1).gameObject.SetActive(false);
+            pictureContentTF.GetChild(currentPictureIndex).gameObject.SetActive(true);
+        }
+        CheckPictureButtons();
+    }
+
+    private void CheckPictureButtons()
+    {
+        if (totalPictures == 0 || totalPictures == 1)
+        {
+            nextPictureBtn.gameObject.SetActive(false);
+            previousPictureBtn.gameObject.SetActive(false);
+        }
+        else
+        {
+            if (currentPictureIndex == 0)
+            {
+                nextPictureBtn.gameObject.SetActive(true);
+                previousPictureBtn.gameObject.SetActive(false);
+            }
+            else if (currentPictureIndex > 0 && currentPictureIndex < totalPictures - 1)
+            {
+                nextPictureBtn.gameObject.SetActive(true);
+                previousPictureBtn.gameObject.SetActive(true);
+            }
+            else if (currentPictureIndex >= totalPictures - 1)
+            {
+                nextPictureBtn.gameObject.SetActive(false);
+                previousPictureBtn.gameObject.SetActive(true);
+            }
+        }
+
+        canNextPrevious = true;
+    }
+
     #region BUTTON
+
+    public void NextPreviousPictureBtn(bool value)
+    {
+        if (!canNextPrevious) return;
+
+        canNextPrevious = false;
+
+        if (value)
+            currentPictureIndex++;
+        else
+            currentPictureIndex--;
+
+        ShowPictures(value);
+    }
 
     public void NextPreviousButton(bool value)
     {
