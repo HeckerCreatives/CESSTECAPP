@@ -305,4 +305,5 @@ public class AirplaneTopic
     [TextArea] public string content;
     public AudioClip narration;
     public List<Sprite> topicSprites;
+    public List<string> topicCitations;
 }
