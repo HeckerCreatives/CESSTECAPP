@@ -4873,7 +4873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &542922856
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6234,7 +6234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
-  m_VerticalFit: 1
+  m_VerticalFit: 2
 --- !u!114 &625374575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7801,6 +7801,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 781873190}
   quizController: {fileID: 781873197}
+  componentSystem: {fileID: 781873193}
   errorController: {fileID: 781873198}
   topicController: {fileID: 781873195}
   threeDViewController: {fileID: 781873199}
@@ -7873,11 +7874,45 @@ MonoBehaviour:
   errorController: {fileID: 781873198}
   threeDViewController: {fileID: 781873199}
   loadingNoBG: {fileID: 1220360900}
+  doneSystemBtn: {r: 0.5372549, g: 0.5372549, b: 0.5372549, a: 1}
+  notDoneSystemBtn: {r: 1, g: 1, b: 1, a: 1}
+  doneSystemTMP: {r: 0.6039216, g: 0.36078432, b: 0, a: 1}
+  notDoneSystemTMP: {r: 1, g: 0.6, b: 0, a: 1}
   cessna152Title: {fileID: 2059389063}
   cessna172Title: {fileID: 1153139564}
   tecnamP2002JFTitle: {fileID: 1550488604}
   tecnamP20006TTitle: {fileID: 481151786}
   airplaneImg: {fileID: 1788013036}
+  systemButtonList:
+  - {fileID: 31290679}
+  - {fileID: 926434454}
+  - {fileID: 706927091}
+  - {fileID: 1722308682}
+  - {fileID: 684533183}
+  - {fileID: 334417043}
+  - {fileID: 315994681}
+  - {fileID: 1164378679}
+  - {fileID: 1029835285}
+  - {fileID: 1967806243}
+  - {fileID: 163028013}
+  - {fileID: 1730815271}
+  - {fileID: 1871593550}
+  - {fileID: 1588221351}
+  systemListTMP:
+  - {fileID: 819173283}
+  - {fileID: 1614643434}
+  - {fileID: 1644632270}
+  - {fileID: 2103953597}
+  - {fileID: 1292771494}
+  - {fileID: 1044065090}
+  - {fileID: 733612717}
+  - {fileID: 1204344070}
+  - {fileID: 352286204}
+  - {fileID: 1798266946}
+  - {fileID: 430930864}
+  - {fileID: 818128118}
+  - {fileID: 2004936245}
+  - {fileID: 1290623117}
   cessna152Systems:
   - GENERAL DESCRIPTION
   - FUSELAGE
@@ -14128,6 +14163,67 @@ MonoBehaviour:
           - {fileID: 21300000, guid: f256386307982b24283e1b6b80cbefce, type: 3}
           - {fileID: 21300000, guid: 60e569d3ade916d4c9d6e36a030d4458, type: 3}
           topicCitations: []
+  <SytemAirplaneStats>k__BackingField:
+    m_keys: 01000000020000000300000004000000
+    m_values:
+    - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
+      m_values:
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+    - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d000000
+      m_values:
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+    - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
+      m_values:
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+    - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d000000
+      m_values:
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
+      - isDone: 0
   contentTMP: {fileID: 1364019647}
   miniLoaderPicture: {fileID: 1261112799}
   pictureContentParentObj: {fileID: 1534303454}
@@ -14174,8 +14270,9 @@ MonoBehaviour:
   componentSystem: {fileID: 781873193}
   errorController: {fileID: 781873198}
   loadingNoBG: {fileID: 1220360900}
-  selectedColor: {r: 0, g: 0.10449934, b: 1, a: 1}
+  selectedColor: {r: 0, g: 0.8901961, b: 0.019607844, a: 1}
   unselectedColor: {r: 1, g: 1, b: 1, a: 1}
+  wrongColor: {r: 1, g: 0, b: 0, a: 1}
   pageInformationTMP: {fileID: 607013381}
   questionTMP: {fileID: 114965936}
   questionImage: {fileID: 407336660}
@@ -14195,1678 +14292,535 @@ MonoBehaviour:
   quizData:
     m_keys: 01000000020000000300000004000000
     m_values:
-    - m_keys: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f0000004000000041000000
+    - m_keys: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000023000000
       m_values:
       - question: What type of wing configuration is the CESSNA 152?
         questionSprite: {fileID: 0}
         choiceOne: LOW WING
-        choiceTwo: MID WING
-        choiceThree: BACK WING
+        choiceTwo: UPPER WING
+        choiceThree: MID WING
         answer: HIGH WING
       - question: What is the standard total fuel capacity of the CESSNA 152?
         questionSprite: {fileID: 0}
-        choiceOne: 25.2 GAL
-        choiceTwo: 26.6 GAL
-        choiceThree: 27 GAL
+        choiceOne: 69 GAL
+        choiceTwo: 25.2 GAL
+        choiceThree: 26.6 GAL
         answer: 26 GAL
-      - question: "Is the CESSNA 152 equipped with fixed\_tricycle landing gear?"
+      - question: These are the one-piece acrylic plastic panels set in sealing strips
+          and held in place by retaining strips.
         questionSprite: {fileID: 0}
-        choiceOne: NO
-        choiceTwo: SOMETIMES
-        choiceThree: MAYBE
-        answer: YES
-      - question: 'Located in the cabin top, may be installed These windows are one-piece.
-          acrylic plastic panels set in
-
-          sealing strips and held in place
-          by retaining strips.'
-        questionSprite: {fileID: 0}
-        choiceOne: CABIN DOOR
-        choiceTwo: SAFETY BELTS
-        choiceThree: PLASTIC PANELS
+        choiceOne: SHOULDER HARNESS
+        choiceTwo: CABIN DOOR
+        choiceThree: SAFETY BELTS
         answer: OVERHEAD CABIN WINDOWS
-      - question: 'Consist of individual chair units for the pilot and co-pilot positions
-          with fore-and-aft adjustment on seat
-
-          rails and two position
-          adjustable backs. Optional pilot and co-pilot seats feature a fore-and-aft
-          adjustment
-
-          plus a 3-position vertical adjustment.'
+      - question: These consist of individual chair units for the pilot and co-pilot
+          positions with fore-and-aft adjustment on seat rails and two position adjustable
+          backs.
         questionSprite: {fileID: 0}
         choiceOne: SHOULDER HARNESS
         choiceTwo: GLIDER TOW-HOOK
-        choiceThree: SEAT BELTS
+        choiceThree: SAFETY BELTS
         answer: STANDARD SEATS
-      - question: 'Are held in place by rubber cement, sheet metal screws, and retaining
-          strips. When fitting a new carpet.
-
-          use the old one as a pattern
-          for trimming and marking screw holes'
+      - question: It is made primarily of metal construction, consisting of ribs
+          and spars covered with skin are ABS or glass fiber construction. The hinge
+          brackets at the rear fin spar attach the rudder.
         questionSprite: {fileID: 0}
-        choiceOne: CABIN DOOR WEATHERSTRIP
-        choiceTwo: OVERHEAD WINDOW
-        choiceThree: RUBBER PLATE
-        answer: CARPETING
-      - question: 'Reel allows free movement for the seat occupant but will lock
-          when subjected to a sudden load. The
-
-          proper operation of the
-          reel can be checked by applying a quick jerk to the belt. the inertia reel
-          should lock
-
-          and hold.'
-        questionSprite: {fileID: 0}
-        choiceOne: MOVABLE WINDOW
-        choiceTwo: LATCHES
-        choiceThree: BRAKES
-        answer: INERTIA REEL SHOULDER HARNESS
-      - question: 'Is permanently bolted to the cabin structure and has no adjustment
-          provisions. The seat structure is
-
-          mounted on hinge brackets
-          with pivot bolts. thus allowing the seat to be pivoted upward for more
-          baggage
-
-          area.'
-        questionSprite: {fileID: 0}
-        choiceOne: LOCK
-        choiceTwo: SAFETY BELTS
-        choiceThree: SAFETY BRAKES
-        answer: AUXILIARY SEAT
-      - question: 'Is primarily of metal construction, consisting of ribs and spars
-          covered with skin are ABS or glass fiber
-
-          construction. Hinge
-          brackets at the rear fin spar attach the rudder.'
-        questionSprite: {fileID: 0}
-        choiceOne: WING STRUTS
-        choiceTwo: WINGS
-        choiceThree: TAIL
+        choiceOne: SHOULDER HARNESS
+        choiceTwo: WING STRUTS
+        choiceThree: WINGS
         answer: FIN
-      - question: 'Equipped with two extruded rubber abrasion boots, one on the leading
-          edge of each horizontal
-
-          stabilizer. These boots are installed
-          to protect the stabilizer leading edge from damage caused by rocks
-
-          thrown
-          back by the propeller.'
-        questionSprite: {fileID: 0}
-        choiceOne: WINGS
-        choiceTwo: HORIZONTAL STABILIZER
-        choiceThree: BOOT STABILIZER
-        answer: STABILIZER ABRASION BOOTS
-      - question: 'Has a single lift strut that transmits a part of the wing load
-          to the lower portion of the fuselage. The strut
-
-          consists of
-          a streamlined tube with fittings for attachment at the fuselage and wing.'
-        questionSprite: {fileID: 0}
-        choiceOne: HORIZONTAL STABILIZER
-        choiceTwo: FIN
-        choiceThree: WEIGHT STABILIZER
-        answer: WING STRUT
-      - question: 'A Semi-monocoque type, with two main spars and suitable ribs for
-          the attachment of the skin panels, are
-
-          riveted to ribs. spars
-          and stringers to complete the structure. An all-metal. piano-hinged aileron.
-          flaps and a
-
-          detachable wingtip are mounted on each wing assembly.'
+      - question: This is a semi-monocoque type with two main spars and suitable
+          ribs for the attachment of the skin panels, and are riveted to ribs, spars,
+          and stringers to complete the structure?
         questionSprite: {fileID: 0}
         choiceOne: STABILIZER ABRASION BOOTS
-        choiceTwo: FIN
-        choiceThree: BELLY
+        choiceTwo: WING STRUTS
+        choiceThree: FIN
         answer: WINGS
-      - question: 'Consisting of ribs and spars covered with skin. Stabilizer tips
-          are of ABS construction. A formed metal
-
-          leading edge is riveted
-          to the assembly to complete the structure.'
+      - question: This consists of ribs and spars covered with skin and forms a metal
+          leading edge which is riveted to the assembly to complete the structure.
         questionSprite: {fileID: 0}
         choiceOne: STABILIZER ABRASION
-        choiceTwo: WING STRUTS
-        choiceThree: WING ROTATOR
+        choiceTwo: STABILIZER ABRASION BOOTS
+        choiceThree: WING STRUTS
         answer: HORIZONTAL STABILIZER
-      - question: 'Equipped with a fixed tricycle landing gear, consisting of tubular
-          spring-steel main gear struts, and
-
-          an air/oil steerable nose
-          gear shock strut.'
+      - question: What is equipped with a fixed tricycle landing gear, consisting
+          of tubular spring-steel main gear struts, and an air/oil steerable nose
+          gear shock strut?
         questionSprite: {fileID: 0}
-        choiceOne: TORQUE LINKS
-        choiceTwo: MAIN LANDING GEAR
-        choiceThree: SECONDARY LANDING GEAR
+        choiceOne: WING STRUTS
+        choiceTwo: TORQUE LINKS
+        choiceThree: 'MAIN LANDING GEAR '
         answer: LANDING GEAR
-      - question: 'What part of the CESSNA 152 is in the picture:'
-        questionSprite: {fileID: 21300000, guid: be23d1e46b695a54a86ca52c60ad4c65, type: 3}
-        choiceOne: AIR PODS CAP
-        choiceTwo: LANDING GEAR COWLING
-        choiceThree: NOSE GEAR.
-        answer: MAIN LANDING GEAR FAIRINGS
-      - question: 'Consists of a control knob on the instrument panel which is connected
-          to the linkage at the brake master
-
-          cylinders. At the brake master
-          cylinders, the control operates locking plates that trap pressure in the
-          system
-
-          after the master cylinder piston rods have been depressed
-          by the operation of the rudder pedals.'
+      - question: What consists of a control knob on the instrument panel which is
+          connected to the linkage at the brake master cylinders?
         questionSprite: {fileID: 0}
-        choiceOne: SHIMMY DAMPER.
-        choiceTwo: BRAKE MASTER CYLINDERS
-        choiceThree: MASTER HAND BREAK
+        choiceOne: LANDING GEAR
+        choiceTwo: SHIMMY DAMPER
+        choiceThree: BRAKE MASTER CYLINDERS
         answer: PARKING BRAKE SYSTEM
-      - question: 'Consists of two master cylinders. located immediately forward
-          of the pilot''s rudder pedals. brake lines
-
-          and hose connecting
-          each master cylinder to its wheel brake cylinder. and the single-disc.'
+      - question: What consists of two master cylinders. located immediately forward
+          of the pilot's rudder pedals?
         questionSprite: {fileID: 0}
         choiceOne: NOSE GEAR
-        choiceTwo: BRAKE MASTER CYLINDERS
-        choiceThree: PARKING BRAKE SYSTEM
-        answer: BRAKE SYSTEM.
-      - question: 'Is accomplished through the use of the rudder pedals. Spring-loaded
-          steering rod assemblies connect the
-
-          nose gear steering collar
-          to the arms on the rudder bars. Steering is afforded up to approximately
-          10
-
-          degrees on each side of neutral'
-        questionSprite: {fileID: 0}
-        choiceOne: NOSE GEAR.
-        choiceTwo: WHEEL BRAKE ASSEMBLIES
-        choiceThree: NOSE ROTOR
-        answer: NOSE WHEEL STEERING SYSTEM
-      - question: 'Is comprised of an electric motor and transmission assembly, drive
-          pulleys, push-pull rods, cables and a
-
-          follow-up control. Power
-          from the motor and transmission assembly is transmitted to the flaps by
-          a system
-
-          of drive pulleys, cables, and push-pull rods.'
+        choiceTwo: PARKING BRAKE SYSTEM
+        choiceThree: BRAKE MASTER CYLINDERS
+        answer: BRAKE SYSTEM
+      - question: What comprises of an electric motor and transmission assembly,
+          drive pulleys, push-pull rods, cables and a follow-up control?
         questionSprite: {fileID: 0}
         choiceOne: STABILIZER CONTROL SYSTEM
-        choiceTwo: WING FLAP CONTROL SYSTEM
-        choiceThree: BREAK CONTROL SYSTEM
+        choiceTwo: NOSE GEAR
+        choiceThree: FLAPS
         answer: WING FLAP CONTROL SYSTEM
-      - question: 'Consists of a sheathed cable assembly. pointers and micro switches.
-          One end of the cable is attached to
-
-          the flap operating the switch
-          operating arm. The other end is clamped to the flap direct cable, above
-          the
-
-          headliner in the rear cabin area.'
+      - question: These are control surfaces attached to the trailing edge of the
+          wings, near the wingtip, that control the aircraft about its longitudinal
+          axis allowing the aircraft to "roll" or "bank".
         questionSprite: {fileID: 0}
         choiceOne: FLAPS
-        choiceTwo: WING FLAP CONTROL SYSTEM
-        choiceThree: FIN
-        answer: FLAP FOLLOW-UP AND INDICATING SYSTEM
-      - question: 'Are control surfaces attached to the trailing edge of the wings,
-          near the wingtip, that control the aircraft
-
-          about its longitudinal
-          axis allowing the aircraft to "roll" or "bank".'
-        questionSprite: {fileID: 0}
-        choiceOne: HORIZONTAL STABILIZER.
-        choiceTwo: WING FLAP CONTROL SYSTEM
-        choiceThree: ALIERONS
+        choiceTwo: HORIZONTAL STABILIZER
+        choiceThree: WING FLAP CONTROL SYSTEM
         answer: AILERONS
-      - question: 'Used to pitch the aircraft up and down by creating a load on the
-          tail. The aircraft pitch attitude is
-
-          controlled by changing
-          the deflection of the elevator, creating a load on the tail. The elevators
-          control the
-
-          angle of attack of the wings.'
+      - question: This is used to pitch the aircraft up and down by creating a load
+          on the tail.
         questionSprite: {fileID: 0}
-        choiceOne: WINGS
-        choiceTwo: TRIM TAB
-        choiceThree: TAB RIM
+        choiceOne: WING FLAP CONTROL SYSTEM
+        choiceTwo: WINGS
+        choiceThree: TRIM TAB
         answer: ELEVATORS
-      - question: 'What part of the flight control system is in the picture:'
-        questionSprite: {fileID: 21300000, guid: 139e3f3665865bb4f807c6eb882f116f, type: 3}
-        choiceOne: TRIM TAB
-        choiceTwo: RUDDER
-        choiceThree: ESCALATOR
-        answer: ELEVATORS
-      - question: 'Located at the pilot''s feet, control the rudder as well as aircraft
-          steering on the ground, either directly or
-
-          indirectly. Rudders
-          may have yaw dampeners which reduce sensitivity and ease control for the
-          pilot.'
-        questionSprite: {fileID: 0}
-        choiceOne: FLIGHT CONTROL PEDALS
-        choiceTwo: RUDDER
-        choiceThree: ELEVATORS
-        answer: RUDDER PEDALS
-      - question: 'Consists of two control wheels, one for the pilot and one for
-          the co-pilot, attached to columns and linked
-
-          by universal joints
-          to the control "U" located behind the instrument panel. Lateral rotation
-          of either control
-
-          wheel is transmitted to the ailerons, one
-          per wing, via a series of sprockets. chains, pulleys, cables, bell
-
-          cranks,
-          and push-pull tubes.'
-        questionSprite: {fileID: 0}
-        choiceOne: AILERON
-        choiceTwo: ALIERON
-        choiceThree: ALIERON CONTROL SYSTEM
-        answer: AILERON CONTROL SYSTEM
-      - question: 'Are precision-engineered to combine quiet operation with a non-hydraulic,
-          maintenance-free design. The
-
-          unit is corrosion free, ensures
-          very accurate tab positioning, and provides maximum lift force.'
+      - question: What unit is corrosion free, ensures very accurate tab positioning,
+          and provides maximum lift force and is precision-engineered to combine
+          quiet operation with a non-hydraulic, maintenance-free design?
         questionSprite: {fileID: 0}
         choiceOne: ELEVATOR TRIM CONTROL SYSTEM
-        choiceTwo: WING STRUTS
-        choiceThree: WING THRUSTERS
+        choiceTwo: TRIM TAB
+        choiceThree: WING STRUTS
         answer: TRIM TAB ACTUATOR
-      - question: 'A part of the flight control system that controls the direction
-          (left or right) of "yaw" about an airplane''s
-
-          vertical axis.'
-        questionSprite: {fileID: 21300000, guid: 08a1dfc7df18924448ac316dcd1d43bd, type: 3}
+      - question: A part of the flight control system that controls the direction
+          (left or right) of "yaw" about an airplane's vertical axis.
+        questionSprite: {fileID: 0}
         choiceOne: STABILIZER ABRASION BOOTS
-        choiceTwo: WINGS
-        choiceThree: FIN
+        choiceTwo: TRIM TAB ACTUATOR
+        choiceThree: WINGS
         answer: RUDDER
-      - question: The lever assembly is mounted on the center console structure and
-          utilizes a pin to positively lock the trim system in any of the 3 positions
-          left or right of the center of the "neutral" trim position. The lever also
+      - question: This lever assembly is mounted on the center console structure
+          and utilizes a pin to positively lock the trim system in any of the 3 positions
+          left or right of the center of the "neutral' trim position. The lever also
           serves as the trim position indicator.
         questionSprite: {fileID: 0}
         choiceOne: TRIM TAB CONTROL WHEEL
-        choiceTwo: ELEVATOR TRIM CONTROL SYSTEM
-        choiceThree: ALIERON CONTROL SYSTEM
+        choiceTwo: STABILIZER ABRASION BOOTS
+        choiceThree: 'ELEVATOR TRIM CONTROL SYSTEM '
         answer: RUDDER TRIM CONTROL SYSTEM
-      - question: 'Consists of upper and lower cowl segments and a nose cap. A large
-          access door on the right side of the
-
-          upper cowl provides access
-          to the fuel strainer drain oil filler cap and dipstick. A small access
-          door on the
-
-          left side of the upper cowl permits access to the
-          ground service receptacle.'
+      - question: What consists of upper and lower cowl segments and a nose cap,
+          has a large access door on the right side of the upper cowl provides access
+          to the fuel strainer drain oil filler cap and dipstick, and a small access
+          door on the left side of the upper cowl permits access to the ground service
+          receptacle?
         questionSprite: {fileID: 0}
         choiceOne: ENGINE HOOD
-        choiceTwo: ENGINE MOUNT
-        choiceThree: ENGINE RUDDER
+        choiceTwo: ENGINE UPPER
+        choiceThree: ENGINE MOUNT
         answer: ENGINE COWLING
-      - question: 'Sheet metal installed on the engine directs the cooling airflow
-          around the cylinders and other engine
-
-          components to provide
-          optimum engine cooling. These baffles incorporate rubber-asbestos composition
-
-          seals
-          at points of contact with the engine cowling to help confine and direct
-          cooling air to the desired area.'
-        questionSprite: {fileID: 0}
-        choiceOne: INDUCTION AIR SYSTEM
-        choiceTwo: AIRCRAFT EXHAUST SYSTEM
-        choiceThree: RUBBER BREAK SYSTEM
-        answer: BAFFLES
-      - question: 'The bonded rubber and metal shock mounts are designed to reduce
-          the transmission of engine vibrations
-
-          to the airframe.'
-        questionSprite: {fileID: 0}
-        choiceOne: ENGINE MOUNT
-        choiceTwo: ENGINE OIL SYSTEM
-        choiceThree: ENGINE BREAK SYSTEM
-        answer: ENGINE SHOCK-MOUNT PADS
-      - question: 'A single-barrel float-type up-draft carburetor is installed on
-          the engine. The carburetor is equipped with
-
-          a manual mixture
-          control and an idle cut-off.'
+      - question: This is a single-barrel float-type up-draft carburetor that is
+          installed on the engine. The carburetor is equipped with a manual mixture
+          control and an idle cut-off.
         questionSprite: {fileID: 0}
         choiceOne: ENGINE OIL SYSTEM
-        choiceTwo: STARTING SYSTEM
-        choiceThree: ENGINE MOUNT
+        choiceTwo: ENGINE COWLING SYSTEM
+        choiceThree: STARTING SYSTEM
         answer: ENGINE FUEL SYSTEM
-      - question: 'The throttle, mixture, and carburetor heat controls are of the
-          push-pull type. The mixture control is
-
-          equipped to lock in any
-          position desired. To move the control, the spring-loaded button, located
-          at the end
-
-          of the control knob, must be depressed. When the
-          button is released, the control is locked. The mixture
-
-          control
-          also has a Vernier adjustment. Turning the knob in either direction will
-          change the control setting.'
+      - question: This is where the throttle, mixture, and carburetor heat controls
+          are of the push-pull type. The mixture control is equipped to lock in any
+          position desired.
         questionSprite: {fileID: 0}
         choiceOne: IGNITION SYSTEM
-        choiceTwo: STARTING SYSTEM
-        choiceThree: ENGINE MOUNT
+        choiceTwo: ENGINE OIL SYSTEM
+        choiceThree: STARTING SYSTEM
         answer: ENGINE CONTROLS
-      - question: Is gravity fed from the metal wing tanks, through a shutoff valve
-          and a fuel strainer, to the carburetor.
-        questionSprite: {fileID: 0}
-        choiceOne: FUEL VENT
-        choiceTwo: FUEL BAYS TANK
-        choiceThree: FUEL CELL
-        answer: FUEL
-      - question: 'Is comprised of a manually-operated pump located on the instrument
-          panel. and lines to all engine
-
-          cylinders. Operation of the pump
-          plunger forces fuel directly into the engine cylinders.'
+      - question: This is comprised of a manually-operated pump located on the instrument
+          panel and lines to all engine cylinders.
         questionSprite: {fileID: 0}
         choiceOne: FUEL STRAINER
-        choiceTwo: AUXILIARY ELECTRIC FUEL PUMP
-        choiceThree: FUEL
+        choiceTwo: ENGINE CONTROLS
+        choiceThree: AUXILIARY ELECTRIC FUEL PUMP
         answer: PRIMING SYSTEM
       - question: 'A fuel drain is located between:'
         questionSprite: {fileID: 0}
-        choiceOne: THE SELECTOR VALVE AND VENT
-        choiceTwo: THE CARBURATOR AND STRAINER
-        choiceThree: THE AUXILIARY ELECTRIC FUEL PUMP
+        choiceOne: FUEL STRAINER
+        choiceTwo: THE SELECTOR VALVE AND VENT
+        choiceThree: THE CARBURATOR AND STRAINER
         answer: THE SHUTOFF VALVE AND STRAINER
-      - question: 'Is installed in the outboard end of the left fuel cell and extends
-          overboard down through the lower wing
-
-          skin. The inboard end
-          of the _____ extends into the fuel tank, then forward and slightly upward.'
+      - question: What is the rigid metal tank that is installed in the inboard panel
+          of each wing?
         questionSprite: {fileID: 0}
-        choiceOne: FUEL VENT
-        choiceTwo: FUEL SELECTOR VALVE
-        choiceThree: VENT OUT
-        answer: VENT LINE
-      - question: 'A rigid metal tank is installed in the inboard panel of each wing.
-          The standard range tank is shown. The
-
-          long-range tank is similar
-          except in capacity. Sump drain plugs or valves, one in each tank, are provided
-          for
-
-          draining trapped water and sediment.'
+        choiceOne: FUEL STRAINER
+        choiceTwo: PRIMING SYSTEM
+        choiceThree: FUEL AUXILIARY SYSTEM
+        answer: FUEL TANK
+      - question: This system consists of the heat exchange section of the exhaust
+          muffler, a shut-off valve mounted on the right forward side of the firewall,
+          a push-pull controller on the instrument panel. outlets, and flexible ducting
+          connecting the system.
         questionSprite: {fileID: 0}
         choiceOne: PRIMING SYSTEM
-        choiceTwo: FUEL AUXILIARY SYSTEM
-        choiceThree: FUEL SOURCE
-        answer: FUEL TANK
-      - question: 'Consists of the heat exchange section of the exhaust muffler.
-          a shut-off valve mounted on the right
-
-          forward side of the firewall.
-          a push-pull control on the instrument panel. outlets and flexible ducting
-
-          connecting
-          the system.'
-        questionSprite: {fileID: 0}
-        choiceOne: DEFROSTER SYSTEM
-        choiceTwo: VENTILATING SYSTEM
-        choiceThree: COOLING SYSTEM
+        choiceTwo: DEFROSTER SYSTEM
+        choiceThree: VENTILATING SYSTEM
         answer: HEATING SYSTEM
-      - question: 'Is comprised of an air scoop mounted in the inboard leading edge
-          of each wing, an adjustable ventilator
-
-          mounted on each side
+      - question: This system is comprised of an air scoop mounted in the inboard
+          leading edge of each wing, an adjustable ventilator mounted on each side
           of the cabin near the upper corners of the windshield, a fresh air scoop
-          door
-
-          mounted on the right side of the fuselage, a control knob
-          on the instrument panel. and flexible ducting
-
-          connecting the
-          system.'
+          door mounted on the right side of the fuselage, a control knob on the instrument
+          panel, and flexible ducting connecting the system.
         questionSprite: {fileID: 0}
         choiceOne: DEFROSTER SYSTEM
-        choiceTwo: HEATING SYSTEM
-        choiceThree: COOLING SYSTEM
+        choiceTwo: PRIMING SYSTEM
+        choiceThree: HEATING SYSTEM
         answer: VENTILATING SYSTEM
-      - question: 'Consists of the duct across the aft side of the firewall, and
-          a defroster outlet mounted on the left side of
-
-          the cowl deck.
-          immediately aft of the windshield, and flexible ducting connecting the
-          system.'
+      - question: This system consists of the duct across the aft side of the firewall,
+          a defroster outlet mounted on the left side of the cowl deck immediately
+          aft of the windshield, and flexible ducting connecting the system.
+        questionSprite: {fileID: 0}
+        choiceOne: HEATING SYSTEM
+        choiceTwo: VENTILATING SYSTEM
+        choiceThree: NONE OF THE ABOVE
+        answer: DEFROSTER SYSTEM
+      - question: This conveys ram air pressure to determine an aircraft's airspeed,
+          Mach number, altitude, and altitude trend. A static line sump is installed
+          at the source button to collect condensation in the system.
         questionSprite: {fileID: 0}
         choiceOne: VENTILATING SYSTEM
-        choiceTwo: NONE OF THE ABOVE
-        choiceThree: COOLING SYSTEM
-        answer: DEFROSTER SYSTEM
-      - question: 'What instrument panel is shown in this picture:'
-        questionSprite: {fileID: 21300000, guid: ef52423a7c4132246bfcbe5bafec67a3, type: 3}
-        choiceOne: TURN INDICATOR
-        choiceTwo: TRUE AIRSPEED INDICATOR
-        choiceThree: INSTRUMENT PANELS
-        answer: ACCELEROMETER.
-      - question: "Conveys ram air pressure to determine an aircraft's\_airspeed,\_Mach
-          number,\_altitude, and\_altitude\r\ntrend. static line sump is installed
-          at the source button to collect condensation in the system."
-        questionSprite: {fileID: 0}
-        choiceOne: INSTRUMENT PANELS
-        choiceTwo: PANEL ENCODING SYSTEM
-        choiceThree: TRUE AIRSPEED INDICATOR
+        choiceTwo: INSTRUMENT PANELS
+        choiceThree: PANEL ENCODING SYSTEM
         answer: PITOT AND STATIC SYSTEMS
-      - question: 'Consists of a stationary panel and a shock-mounted panel. The
-          stationary panel contains fuel and engine
-
-          instruments that are
-          NOT sensitive to vibration. The shock-mounted panel contains major flight
-          instruments
-
-          such as horizontal and directional gyros which ARE
-          affected by vibration. Most of the instruments are
-
-          screw-mounted
-          on the panel backs.'
-        questionSprite: {fileID: 0}
-        choiceOne: INSTRUMENTAL PANELS
-        choiceTwo: INDICATOR PANEL
-        choiceThree: INSTRUMENT INDICATOR
-        answer: INSTRUMENT PANEL
-      - question: 'The system consists of a vacuum pump, driven by an electric motor,
-          mounted on the aft side of the
-
-          firewall and associated hoses.
-          One hose is the vacuum pump vent hose and the other connects to a
-
-          manifold
-          with the engine-driven vacuum pump, just prior to the system relief valve.'
-        questionSprite: {fileID: 0}
-        choiceOne: ENGINE INDICATORS
-        choiceTwo: ECONOMY MIXTURE INDICATOR
-        choiceThree: INSTRUMENTAL PANELS
-        answer: STANDBY VACUUM SYSTEM
-      - question: 'Is an exhaust gas temperature (EGT) sensing device that is used
-          to aid the pilot in selecting the most
-
-          desirable fuel-air mixture
-          for cruising flight at less than 75% power. Exhaust gas temperature (EGT)
-          varies
-
-          with the ratio of the fuel-to-air mixture entering the
-          engine cylinders.'
+      - question: 'This is an exhaust gas temperature (EGT) sensing device that is
+          used to aid the pilot in selecting the most desirable fuel-air mixture
+          for cruising flight at less than 75% power. '
         questionSprite: {fileID: 0}
         choiceOne: STANDBY VACUUM SYSTEM
-        choiceTwo: ENGINE QUANTITY INDICATING METER
-        choiceThree: STANDBY VACUUM SYSTEM
+        choiceTwo: PITOT AND STATIC SYSTEMS
+        choiceThree: ENGINE QUANTITY INDICATING METER
         answer: ECONOMY MIXTURE INDICATOR
-      - question: 'Is liquid-filled with expansion provisions to compensate for temperature
-          changes. It is equipped with
-
-          compensating cases. The ______
-          is internally lighted and controlled by the panel lights rheostat No
-
-          maintenance
-          is required on the compass except for a check on a compass rose every 200
-          hours for
-
-          adjustment.'
+      - question: What system is composed of the left leading edge and is connected
+          to a reed-type horn by means of plastic tubing?
         questionSprite: {fileID: 0}
-        choiceOne: TACHOMETER
-        choiceTwo: TEMPERATURE METER
-        choiceThree: STANDBY VACUUM SYSTEM
-        answer: MAGNETIC COMPASS
-      - question: 'System is composed of the left leading edge. connected to a reed-type
-          horn by means of plastic tubing.
-
-          The horn Is actuated approximately
-          5 to 10 knots above stalling speed as a negative air pressure area at the
-
-          wing
-          leading edge causes a reverse flow of air through the horn.'
-        questionSprite: {fileID: 0}
-        choiceOne: STANDBY VACUUM SYSTEM
-        choiceTwo: TACHOMETER
-        choiceThree: MAGNETIC COMPASS
+        choiceOne: PITOT AND STATIC SYSTEMS
+        choiceTwo: STANDBY VACUUM SYSTEM
+        choiceThree: TACHOMETER
         answer: STALL WARNING SYSTEM
-      - question: 'Is a self-contained, solid-state unit, having its own power supply,
-          with an externally mounted antenna.
-
-          The unit is mounted in the
-          tail cone aft of the baggage curtain on the right-hand side. The transmitters
-          are
-
-          designed to provide a broadcast tone that is audio-modulated
-          in a swept manner over the range of 1600 to
-
-          300 Hz in a distinct,
-          easily cognizable distress signal for reception by search and rescue personnel
-          and
-
-          others monitoring the emergency frequencies.'
+      - question: What is a self-contained solid-state unit with its own power supply,
+          with an externally mounted antenna and is mounted in the tail cone aft
+          of the baggage curtain on the right-hand side?
+        questionSprite: {fileID: 0}
+        choiceOne: STALL WARNING SYSTEM
+        choiceTwo: BLACK BOX
+        choiceThree: RAM AIR TURBINE
+        answer: EMERGENCY LOCATOR TRANSMITTER
+      - question: It is a plunger-type device and is actuated by turning on the master
+          switch. In addition, nylon covers are installed on the terminals to prevent
+          accidental short circuits.
         questionSprite: {fileID: 0}
         choiceOne: BLACK BOX
-        choiceTwo: RAM AIR TURBINE
-        choiceThree: TACHOMETER
-        answer: EMERGENCY LOCATOR TRANSMITTER
-      - question: 'Supplies to the Electrical power for electrical equipment and
-          electronic installations, it is interconnected
-
-          by a jumper wire
-          and attached to the circuit breaker on the lower, center of the instrument
-          panel.'
-        questionSprite: {fileID: 0}
-        choiceOne: MASTER SWITCH
-        choiceTwo: ELECTRICAL PANEL
-        choiceThree: BLACK BOX
-        answer: BUS BAR
-      - question: 'Is a plunger type and is actuated by turning on the master switch.
-          The contactor is bolted to the left-hand side of the firewall A silicon
-          diode is installed to eliminate the spicking of transistorized radio equipment
-          when the contactor is closed. Nylon covers are installed on the terminals
-          to prevent accidental short circuits
-
-'
-        questionSprite: {fileID: 0}
-        choiceOne: ALTERNATOR
-        choiceTwo: RAM AIR TURBINE
-        choiceThree: MASTER SWITCH
-        answer: BATTERY CONTACTOR
-      - question: 'Is a solid state regulator. The regulator is removed and replaces
-          the item and is not repairable in the field
-
-          for adjustment'
-        questionSprite: {fileID: 0}
-        choiceOne: ALTERNATOR
-        choiceTwo: GROUND SERVICE RECEPTACLE
+        choiceTwo: ALTERNATOR
         choiceThree: RAM AIR TURBINE
-        answer: VOLTAGE REGULATOR
-      - question: "Consists of a belt-driven alternator, a voltage regulator/ alternator
-          control unit mounted on the left-hand side of the firewall, and a circuit
-          breaker located on the instrument panel. The system is controlled by\r
-          the left-hand portion of the split rocker, master switch labeled \"ALT.\""
+        answer: BATTERY CONTACTOR
+      - question: What is a solid state regulator that is of repairable in the field
+          for adjustment?
         questionSprite: {fileID: 0}
-        choiceOne: ALTERNATOR
-        choiceTwo: EMERGENCY LOCATOR TRANSMITTER
-        choiceThree: PITOT TUBE
-        answer: ALTERNATOR POWER SYSTEM
-      - question: 'An electrical heater unit may be installed in the pitot tube.
-          The heater offsets the possibility of ice
-
-          formation on the pitot
-          tube. The heater is integrally mounted in the pitot tube and is operated
-          by a rocker
-
-          switch on the instrument panel.'
+        choiceOne: BATTERY CONTACTOR
+        choiceTwo: ALTERNATOR
+        choiceThree: GROUND SERVICE RECEPTACLE
+        answer: VOLTAGE REGULATOR
+      - question: 'This is an electrical heater unit that may be installed in the
+          pitot tube. The heater is integrally mounted in the pitot tube and is operated
+          by a rocker switch on the instrument panel. '
         questionSprite: {fileID: 0}
         choiceOne: PITOT TUBE
         choiceTwo: NONE OF THE ABOVE
-        choiceThree: ALTERNATOR
+        choiceThree: VOLTAGE REGULATOR
         answer: PITOT HEATER
-      - question: 'The meter indicates the amount of current flowing either to or
-          from the battery. With a low battery and
-
-          the engine operating
-          at cruise speed, the ammeter will show the full alternator output when
-          all electrical
-
-          equipment is off.'
+      - question: These are attached to the wing tips and the aft end of the vertical
+          fin tip.
         questionSprite: {fileID: 0}
-        choiceOne: ELECTRICAL VOLTAGE METER
-        choiceTwo: BATTERY BOX
-        choiceThree: ALTERNATOR
-        answer: AMMETER
-      - question: "Is a plunger type and is actuated by turning on the master switch.
-          The contactor is bolted to the left-\rhand side of the firewall A silicon
-          diode is installed to eliminate the spiking of transistorized radio\r\nequipment
-          when the contactor is closed. Nylon covers are installed on the terminals
-          to prevent accidental\r\nshort circuits."
+        choiceOne: NONE OF THE ABOVE
+        choiceTwo: MAP LIGHT
+        choiceThree: ANTI-COLLISION STROBE LIGHTS
+        answer: NAVIGATION LIGHTS
+      - question: These are attached to the wing tips and the aft end of the vertical
+          fin tip.
         questionSprite: {fileID: 0}
-        choiceOne: BATTERY
-        choiceTwo: NONE OF THE ABOVE
-        choiceThree: BATTERY BOX
-        answer: BATTERY CONTACTOR
-      - question: 'A ground service receptacle may be installed to permit the use
-          of external power for cold weather starting or when performing lengthy
-          electrical maintenance. The receptacle is mounted on the left-hand
-
-          side
-          of the firewall with an access door in the engine cowl.'
-        questionSprite: {fileID: 0}
-        choiceOne: COURTESY LIGHTS
-        choiceTwo: FUEL SELECTOR VALVE
-        choiceThree: BOTH A AND B
-        answer: COMPASS AND RADIO DIAL LIGHTING.
-      - question: 'System consists of a belt-driven alternator, a voltage regulator/
-          alternator control unit, mounted on the
-
-          left-hand side of the
-          firewall, and a circuit breaker located on the instrument panel. The system
-          is
-
-          controlled by the left-hand portion of the split rocker'
-        questionSprite: {fileID: 0}
-        choiceOne: MAGNETO
-        choiceTwo: BATTERY CONTACTOR CLOSING CIRCUIT
-        choiceThree: FUEL SELECTOR VALVE
-        answer: ALTERNATOR POWER SYSTEM
-      - question: 'Is attached to the vertical fin tip. The lamp is iodine-vapor
-          electrically switched by a solid-state flasher
-
-          assembly The
-          flasher assembly is mounted in the aft section of the tail cone. The switching
-          frequency of the
-
-          flasher assembly operates the lamp at approximately
-          45 flashes per minute'
-        questionSprite: {fileID: 0}
-        choiceOne: LANDING AND TAXI LIGHT
-        choiceTwo: NAVIGATION LIGHTS
-        choiceThree: MAP LIGHT
-        answer: FLASHING BEACON
-      - question: 'Are attached to the wing tips and the aft end of the vertical
-          fin tip. The lamps are controlled by a rocker-
-
-          type switch located
-          on the instrument panel. A circuit breaker is installed to protect the
-          circuit.'
+        choiceOne: NONE OF THE ABOVE
+        choiceTwo: MAP LIGHT
+        choiceThree: ANTI-COLLISION STROBE LIGHTS
+        answer: NAVIGATION LIGHTS
+      - question: These are installed on each wingtip with the navigation lights.
         questionSprite: {fileID: 0}
         choiceOne: MAP LIGHT
-        choiceTwo: ANTI-COLLISION STROBE LIGHTS
-        choiceThree: FLASHING BEACON
-        answer: NAVIGATION LIGHTS
-      - question: 'Consist of landing and taxi lights. Navigation lights. Anti-collision
-          strobe lights, flashing beacon lights,
-
-          dome, and instrument
-          lights. Control wheel map light, compass, and radio dial lights.'
-        questionSprite: {fileID: 0}
-        choiceOne: LIGHTING SYSTEM
-        choiceTwo: TRANSISTORIZED LIGHT DIMMING
-        choiceThree: ANTI-COLLISION STROBE LIGHTS
-        answer: AIRCRAFT LIGHTING SYSTEM
-      - question: 'Installed each wing tip with the navigation lights. Strobe lights
-          are vibration resistant and operate on the
-
-          principle of a capacitor
-          discharge into a xenon tube, producing an extremely high-intensity flash.
-          Energy is
-
-          supplied to the lights from individual power supplies
-          mounted on each wing tip rib.'
-        questionSprite: {fileID: 0}
-        choiceOne: FLASHING BEACON
-        choiceTwo: INSTRUMENT AND DOME LIGHTS
-        choiceThree: LIGHTING SYSTEM
+        choiceTwo: FLASHING BEACON
+        choiceThree: INSTRUMENT AND DOME LIGHTS
         answer: ANTI-COLLISION STROBE LIGHTS
-      - question: 'Is mounted in the lower half of the engine cowl. This position
-          facilitates the use of one lamp or both a
-
-          landing and a taxi
-          light. A light cover provides weather protection for the lamp. The landing
-          and taxi light is
-
-          controlled by a rocker-type switch located
-          on the instrument panel A circuit breaker is used to protect the
-
-          landing
-          and taxi light circuit.'
+      - question: What is mounted in the lower half of the engine cowl?
         questionSprite: {fileID: 0}
         choiceOne: ANTI-COLLISION STROBE LIGHTS
         choiceTwo: INSTRUMENT AND DOME LIGHTS
-        choiceThree: FLASHING BEACON
+        choiceThree: COOOOWLER
         answer: LANDING AND TAXI LIGHT
-      - question: 'Are installed in the overhead console. The dome light consists
-          of a frosted lens and a single bulb
-
-          controlled by a rocker switch
-          on the instrument panel. The instrument flood light consists of a red lens
-          and
-
-          a single bulb controlled by a rheostat switch located on
-          the instrument panel below the pilot''s control
-
-          wheel.'
-        questionSprite: {fileID: 0}
-        choiceOne: INSTRUMENT LIGHTS
-        choiceTwo: TRANSISTORIZED LIGHT DIMMING
-        choiceThree: LANDING AND TAXI LIGHT
-        answer: INSTRUMENT AND DOME LIGHTS
-      - question: 'Is mounted on the lower side of the control wheel. Light intensity
-          is controlled by a thumb-operated
-
-          rheostat. For dimming the
-          rheostat should be turned clockwise.'
-        questionSprite: {fileID: 0}
-        choiceOne: INSTRUMENT AND DOME LIGHTS
-        choiceTwo: LANDING AND TAXI LIGHT
-        choiceThree: FLASHING BEACON
-        answer: CONTROL WHEEL MAP LIGHT
-    - m_keys: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000
+    - m_keys: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000
       m_values:
-      - question: 'How many seats can the TECNAM P2002JF can accommodate? '
-        questionSprite: {fileID: 0}
-        choiceOne: 1
-        choiceTwo: 3
-        choiceThree: 4
-        answer: 2
       - question: What type of wing configuration is the TECNAM P2002JF?
         questionSprite: {fileID: 0}
-        choiceOne: Mid-Wing
-        choiceTwo: High-Wing
-        choiceThree: Center-Wing
-        answer: Low-Wing
-      - question: How wide is the TECNAM P2002JF?
+        choiceOne: Upper-wing
+        choiceTwo: Mid-wing
+        choiceThree: High-wing
+        answer: Low-wing
+      - question: What is made of a light alloy semi-monocoque structure, wrapped
+          around by stressed stretched panels that consists the cabin and baggage
+          compartment?
         questionSprite: {fileID: 0}
-        choiceOne: 6.6m
-        choiceTwo: 7.6m
-        choiceThree: 5.6m
-        answer: 8.6m
-      - question: It is made of light-alloy semi-monocoque structure wrapped around
-          by stressed stretched panels that consists the cabin and baggage compartment.
+        choiceOne: Low-wing
+        choiceTwo: FUSELAGE
+        choiceThree: FORWARD FUSELAGE
+        answer: FUSELAGE
+      - question: What is made of plexiglas and resins, and can be closed through
+          three lockers sliding on a specific surface, it allows the opening and
+          closing of the cockpit?
         questionSprite: {fileID: 0}
         choiceOne: CABIN DOOR
         choiceTwo: FORWARD FUSELAGE
-        choiceThree: CANOPY
-        answer: FUSELAGE
-      - question: It is made of Plexiglas and resins. It can be closed through three
-          lockers Sliding on a specific surface, it allows the opening and closing
-          of the cockpit.
-        questionSprite: {fileID: 0}
-        choiceOne: CABIN DOOR
-        choiceTwo: OVERHEAD CABIN WINDOWS
-        choiceThree: FUSELAGE
+        choiceThree: OVERHEAD CABIN WINDOWS
         answer: CANOPY
-      - question: It is located behind the seats; That has fire protection equipment
-          under and contains the First aid kit.
+      - question: What is located behind the seats that has fire protection equipment
+          under and contains the first aid kit?
         questionSprite: {fileID: 0}
-        choiceOne: AFT FUSELAGE
-        choiceTwo: CABIN
-        choiceThree: CABIN DOOR
-        answer: BAGGAGE COMPARTMENT
-      - question: It is fitted in each seat that secures the Pilot and Co-Pilot and
-          has four attaching points.
-        questionSprite: {fileID: 0}
-        choiceOne: BOTH A AND B
-        choiceTwo: SHOULDER HARNESS
-        choiceThree: SEAT BELTS
-        answer: SAFETY BELTS
-      - question: It gives the Pilot external visibility of the aircraft one of each
-          side and a wide windshield.
-        questionSprite: {fileID: 0}
-        choiceOne: EXTERNAL LIGHTS
-        choiceTwo: OVERHEAD CABIN WINDOWS
+        choiceOne: OVERHEAD CABIN WINDOWS
+        choiceTwo: AFT FUSELAGE
         choiceThree: CABIN
-        answer: WINDSHIELD AND WINDOWS
-      - question: It contains elevator trim tab actuator and made primarily of all-metal
-          construction.
+        answer: BAGGAGE COMPARTMENT
+      - question: What contains the elevator trim tab actuator and is made primarily
+          of all-metal construction?
         questionSprite: {fileID: 0}
         choiceOne: VERTICAL STABILIZER
-        choiceTwo: VERTICAL FIN
-        choiceThree: HORIZONTAL FIN
+        choiceTwo: BAGGAGE COMPARTMENT
+        choiceThree: VERTICAL FIN
         answer: HORIZONTAL STABILIZER
-      - question: It is made up of light alloy and consists of a flap and aileron
+      - question: What is made up of light alloy and consists of a flap and aileron
           that has a central light alloy torque box which carries all the wing bending,
-          shear, and torque loads.
+          shear, and torque loads?
         questionSprite: {fileID: 0}
         choiceOne: WING STRUTS
-        choiceTwo: EMPENNAGES
-        choiceThree: WING ANGLE
+        choiceTwo: VERTICAL FIN
+        choiceThree: EMPENNAGES
         answer: WINGS
-      - question: It is an all-moving type of stabilator and is covered by stressed
-          aluminum alloy skin.
-        questionSprite: {fileID: 0}
-        choiceOne: VERTICAL TAIL
-        choiceTwo: FLAPS
-        choiceThree: FIN
-        answer: HORIZONTAL EMPENNAGES
-      - question: It contains the Rudder and is entirely metallic that is made up
-          of aluminum alloy.
+      - question: This contains the rudder and is entirely metallic made with aluminum
+          alloy?
         questionSprite: {fileID: 0}
         choiceOne: FIN
         choiceTwo: HORIZONTAL STABILIZER
-        choiceThree: WING
+        choiceThree: VERTICAL FIN
         answer: VERTICAL TAIL
-      - question: The vertical fin is made up of a ________ with aluminum alloy stressed
-          skin.
-        questionSprite: {fileID: 0}
-        choiceOne: SINGLE-SPAR
-        choiceTwo: MULTI-SPAR
-        choiceThree: PAIR-SPAR
-        answer: TWIN-SPAR
-      - question: It is a fixed tricycle gear with nose wheel steering and divided
-          in two parts.
+      - question: What is a fixed tricycle gear with nose wheel steering and is divided
+          in two parts?
         questionSprite: {fileID: 0}
         choiceOne: MAIN LANDING GEAR
         choiceTwo: NOSE LANDING GEAR
-        choiceThree: FRONT LANDING GEAR
+        choiceThree: HORIZONTAL STABILIZER
         answer: LANDING GEAR
-      - question: It is an independent hydraulically actuated brake system for each
-          main wheel. It is controlled by the rudder pedal.
+      - question: What is controlled by the rudder pedal and is an independent hydraulically-actuated
+          brake system for each main wheel?
         questionSprite: {fileID: 0}
         choiceOne: LEVER BRAKE SYSTEM
-        choiceTwo: PARKING BRAKE SYSTEM
-        choiceThree: HAND BRAKE SYSTEM
+        choiceTwo: MAIN LANDING GEAR
+        choiceThree: PARKING BRAKE SYSTEM
         answer: TOE BRAKE SYSTEM
-      - question: This braking system is controlled by a knob on the instrument panel
-          connect to linkage at the brake master cylinders.
-        questionSprite: {fileID: 0}
-        choiceOne: TOE BRAKE SYSTEM
-        choiceTwo: LEVER BRAKE SYSTEM
-        choiceThree: HAND BRAKE SYSTEM
-        answer: PARKING BRAKE SYSTEM
-      - question: "These are actuated by applying pressure at the top of the rudder
-          pedals and are located forward of the pilot\u2019s rudder pedals."
+      - question: "What are actuated by applying pressure at the top of the rudder
+          pedals and are located forward of the pilot\u2019s rudder pedals?"
         questionSprite: {fileID: 0}
         choiceOne: BRAKE SYSTEM
         choiceTwo: PARKING BRAKE SYSTEM
-        choiceThree: LEVER BRAKE SYSTEM
+        choiceThree: TOE BRAKE SYSTEM
         answer: BRAKE MASTER CYLINDERS
-      - question: It is used to steer the aircraft on the ground and is a non-retractile
-          leg with a rubber disc-dumper.
-        questionSprite: {fileID: 0}
-        choiceOne: MAIN LANDING GEAR
-        choiceTwo: LANDING GEAR
-        choiceThree: CLUSTER GEAR
-        answer: NOSE GEAR
-      - question: "It can be partially extended and fully extended to provide extra
-          lift and drag to the \raircraft.\r"
+      - question: What can be partially and fully extended to provide extra lift
+          and drag to the aircraft?
         questionSprite: {fileID: 0}
         choiceOne: AILERONS
-        choiceTwo: WINGS
-        choiceThree: ALIERONS
-        answer: FLAPS
-      - question: This controls the ailerons and stabilators to maneuver the aircraft.
-        questionSprite: {fileID: 0}
-        choiceOne: RUDDER PEDALS
-        choiceTwo: FLAPS
+        choiceTwo: BRAKE SYSTEM
         choiceThree: WINGS
-        answer: FLIGHT CONTROL STICK
-      - question: It is split in two parts interconnected at the support brackets
-          and attached to the stabilator and is controlled through an electric actuator.
+        answer: FLAPS
+      - question: What is split in two parts interconnected at the support brackets,
+          is attached to the stabilator, and is controlled through an electric actuator?
         questionSprite: {fileID: 0}
         choiceOne: LONGITUDINAL TRIM CONTROL
         choiceTwo: STABILATOR CONTROL SYSTEM
-        choiceThree: RUDDER PEDALS
+        choiceThree: WINGS
         answer: TRIM TAB
-      - question: "It is located in the vertical stabilizer that controls the aircraft\u2019s
-          yaw."
+      - question: What is located in the wings that control the rolling motion of
+          the aircraft?
         questionSprite: {fileID: 0}
-        choiceOne: AILERON
-        choiceTwo: STABILATORS
-        choiceThree: FLAPS
-        answer: RUDDER
-      - question: It is made up of fiberglass, light alloy, and aluminum panels that
-          provides engine cover.
+        choiceOne: FLAPS
+        choiceTwo: STABILATOR CONTROL SYSTEM
+        choiceThree: STABILATORS
+        answer: AILERONS
+      - question: What is made up of fiberglass, light alloy, and aluminum panels
+          that provides engine cover?
         questionSprite: {fileID: 0}
-        choiceOne: ENGINE MOUNT
-        choiceTwo: ENGINE OIL
-        choiceThree: ENGINE COVER
+        choiceOne: ENGINE AILERONS
+        choiceTwo: ENGINE MOUNT
+        choiceThree: ENGINE OIL
         answer: ENGINE COWLING
-      - question: It is protected from heat sources and installed behind the firewall.
-        questionSprite: {fileID: 0}
-        choiceOne: OIL COOLER
-        choiceTwo: ENGINE FUEL SYSTEM
-        choiceThree: OIL COOLING
-        answer: OIL TANK
-      - question: This is installed on the front end of the engine cowling and it
-          is connected to the engine mount.
-        questionSprite: {fileID: 0}
-        choiceOne: ENGINE OIL SYSTEM
-        choiceTwo: OIL RADIATOR SYSTEM
-        choiceThree: OIL FILTRATION
-        answer: OIL FILTER SYSTEM
-      - question: It is a system that has two aluminum tanks integrated within each
-          wing leading edge that also provide indication of fuel pressure and fuel
-          quantity.
+      - question: "What is the system that has two aluminum tanks integrated within
+          each wing\u2019s leading edge that also provides indication of fuel pressure
+          and fuel quantity?"
         questionSprite: {fileID: 0}
         choiceOne: ENGINE OIL SYSTEM
         choiceTwo: IGNITION SYSTEM
-        choiceThree: ENGINE RUDDER SYSTEM
+        choiceThree: COWLING FUEL SYSTEM
         answer: ENGINE FUEL SYSTEM
-      - question: It is designed for use with light aircraft engines and is a completely
-          self-contained assembly. The rotor revolves on two ball bearings positioned
-          on either side of the rotating magnet. The rotor and bearing assembly are
-          contained within the drive end frame, with bearing preloading determined
-          by a loading spring, eliminating the need for selective shimming.
+      - question: What is designed for use with light aircraft engines and is a completely
+          self-contained assembly?
         questionSprite: {fileID: 0}
         choiceOne: CARBURETOR
-        choiceTwo: IGNITION SYSTEM
-        choiceThree: RUDDER
+        choiceTwo: ENGINE FUEL SYSTEM
+        choiceThree: IGNITION SYSTEM
         answer: AIRCRAFT MAGNETOS
-      - question: "It is made up aluminum metal that is installed inboard the leading
-          edge of the aircraft\u2019s wings."
+      - question: "What is made up aluminum metal that is installed inboard the leading
+          edge of the aircraft\u2019s wings?"
         questionSprite: {fileID: 0}
-        choiceOne: FUEL SYSTEM
-        choiceTwo: FUEL OUTLET
-        choiceThree: FUEL CELL
+        choiceOne: FUEL OUTLET
+        choiceTwo: FUEL FLEX
+        choiceThree: FUEL SYSTEM
         answer: FUEL TANK
-      - question: A manually-operated pump located on the instrument panel. and lines
-          to all engine cylinders. Operation of the pump plunger forces fuel directly
-          into the engine cylinders.
+      - question: What is a manually-operated pump located on the instrument panel
+          and lines to all engine cylinders?
         questionSprite: {fileID: 0}
         choiceOne: FUEL SHUTOFF VALVE
         choiceTwo: FUEL SYSTEM
         choiceThree: FUEL OUTLET
         answer: 'PRIMING SYSTEM '
-      - question: It is equipped with a standard mesh filter that is located at the
-          lowest point of the inboard sidewall of each fuel tank.
-        questionSprite: {fileID: 0}
-        choiceOne: FUEL VENT
-        choiceTwo: FUEL FILLER CAP
-        choiceThree: FUEL CELL
-        answer: FUEL OUTLET
-      - question: It is designed to supply fuel to the engine with suitable fuel
-          flow rate and pressure for the whole of the certified flight envelope.
-          Also equipped with two aluminum fuel tanks integrated within the wing box
-          and accessible for inspection
-        questionSprite: {fileID: 0}
-        choiceOne: FUEL VENT
-        choiceTwo: PRIMING SYSTEM
-        choiceThree: FUEL VENTILATION SYSTEM
-        answer: FUEL SYSTEM
-      - question: It incorporates a vent and safety valve that provides both vacuum
+      - question: This incorporates a vent and safety valve that provides both vacuum
           and positive pressure relief.
         questionSprite: {fileID: 0}
         choiceOne: FUEL SHUTOFF VALVE
         choiceTwo: FUEL VENT
-        choiceThree: VENTILATION VALVE
+        choiceThree: FUEL OUTLET
         answer: VENTED FUEL FILLER CAP
-      - question: "It conveys the hot air drawn from the engine heat exchanger. It
-          also utilizes hot air coming from engine heat exchanger: here cold ram-air
-          is warmed by engine exhaust gases and then it is routed to the system\u2019s
-          hoses."
+      - question: What utilizes hot air coming from the engine heat exchanger and
+          also conveys the hot air drawn from the engine heat exchanger?
         questionSprite: {fileID: 0}
         choiceOne: VENTILATING SYSTEM
         choiceTwo: DEFROSTER SYSTEM
-        choiceThree: VENT SYSTEM
+        choiceThree: VENTED FUEL FILLER CAP
         answer: HEATING SYSTEM
-      - question: It is composed of two ram air diffusers located to left and right
-          side of instruments panel.
+      - question: What is composed of two ram air diffusers located to left and right
+          side of instruments panel?
         questionSprite: {fileID: 0}
-        choiceOne: DEFROSTER SYSTEM
-        choiceTwo: HEATING SYSTEM
-        choiceThree: COOLING SYSTEM
+        choiceOne: VENTED FUEL FILLER CAP
+        choiceTwo: DEFROSTER SYSTEM
+        choiceThree: HEATING SYSTEM
         answer: VENTILATING SYSTEM
-      - question: It provides heat through a hot air valve to windshield and to cabin
-          heat. Both systems are operable from the instruments panel.
+      - question: Which system provides heats through a hot air valve that opens
+          the air flow to defrost the windshield and to provide heat to the cabin.
+          Both systems are operable from the instrument panel.
         questionSprite: {fileID: 0}
         choiceOne: VENTILATING SYSTEM
-        choiceTwo: HEATING SYSTEM
-        choiceThree: COOLING SYSTEM
+        choiceTwo: VENTED FUEL FILLER CAP
+        choiceThree: HEATING SYSTEM
         answer: DEFROSTER SYSTEM
-      - question: The __________ is divided into five parts. The left side includes
-          the flight instruments; the right side includes the control instruments;
-          the central panel includes the communication instruments. The two lower
-          panels include switches.
+      - question: 'What provides precise position, velocity, and time measurements
+          for enroute, terminal, and non-precision approaches. '
         questionSprite: {fileID: 0}
-        choiceOne: GLOBAL POSITIONING
+        choiceOne: HEATING SYSTEM
         choiceTwo: PITOT AND STATIC SYSTEM
-        choiceThree: GLOBAL PANEL
-        answer: INSTRUMENT PANEL
-      - question: It provides precise position, velocity, and time measurements for
-          enroute, terminal and non-precision approaches. The position, velocity,
-          and time determinations are computed by the receiver based on satellite
-          signals.
-        questionSprite: {fileID: 0}
-        choiceOne: PITOT AND STATIC SYSTEM
-        choiceTwo: INSTRUMENT PANEL
-        choiceThree: GLOBAL PANEL
+        choiceThree: INSTRUMENT PANEL
         answer: GLOBAL POSITIONING
-      - question: Heading information is provided by a directional gyro indicator.
-          It is a self-contained unit requiring no external power source and installed
-          on the top of the windshield into the pilot primary field of view.
-        questionSprite: {fileID: 0}
-        choiceOne: ATTITUDE INDICATOR
-        choiceTwo: ACCELEROMETER
-        choiceThree: GLOBAL POSITIONING
-        answer: MAGNETIC COMPASS
-      - question: The ____________ consists of an airflow sensor and of an electric
+      - question: The ____________ consists of an airflow sensor and an electric
           horn.  The airflow sensor is mounted on the leading edge of the RH wing. 
-          The sensor activates the acoustic alarm system made up of a cabin-installed
+          The sensor activates the acoustic alarm system made of a cabin-installed
           horn.
         questionSprite: {fileID: 0}
         choiceOne: PITOT AND STATIC SYSTEM
-        choiceTwo: INSTRUMENT PANEL
-        choiceThree: ACCELEROMETER
+        choiceTwo: GLOBAL POSITIONING
+        choiceThree: INSTRUMENT PANEL
         answer: STALL WARNING SYSTEM
       - question: The ____________ is an electrically operated, gyroscopic, roll-rate
           turn indicator. Its gyro simultaneously senses the rate of motion roll
-          and yaw axis which is projected on a single indicator. The gyro is a non-tumbling
-          type requiring no caging mechanism and incorporates an a.c. brushless spin
-          motor with a solid-state inverter.
+          and yaw axis which is projected on a single indicator. The gyro is of a
+          non-tumbling type, requiring no caging mechanism and incorporates an A.C.
+          brushless spin motor with a solid-state inverter.
         questionSprite: {fileID: 0}
-        choiceOne: TURN-AND-SLIP INDICATOR
-        choiceTwo: ATTITUDE INDICATOR
-        choiceThree: ALTITUDE INDICATOR
+        choiceOne: GLOBAL POSITIONING
+        choiceTwo: TURN-AND-SLIP INDICATOR
+        choiceThree: ATTITUDE INDICATOR
         answer: TURN COORDINATOR
-      - question: It maintains the constant output voltage with an automatic overvoltage
-          device protecting the circuits and the electric components form an excessive
-          voltage.
+      - question: What maintains the constant output voltage with an automatic overvoltage
+          device, protecting the circuits and the electric components from excessive
+          voltage?
         questionSprite: {fileID: 0}
         choiceOne: ALTERNATOR
-        choiceTwo: ALTERNATOR POWER SYSTEM
-        choiceThree: TURN COORDINATOR
+        choiceTwo: TURN-AND-SLIP INDICATOR
+        choiceThree: ALTERNATOR POWER SYSTEM
         answer: VOLTAGE REGULATOR
-      - question: This provides secondary source of DC power and is located in the
-          tail cone, right side, wing/fuselage rear attachments zone.
+      - question: What provides a secondary source of DC power and is located in
+          the tail cone, right side, wing/fuselage rear attachments zone?
         questionSprite: {fileID: 0}
         choiceOne: VOLTAGE REGULATOR
-        choiceTwo: ALTERNATOR
-        choiceThree: INVERTER
-        answer: BATTERY
-      - question: In the event of crash, this is activated automatically transmits
-          the standard swept ton on 121.5MHz lasting until battery power is gone.
-          It is positioned in baggage compartment, on the upper floor.
-        questionSprite: {fileID: 0}
-        choiceOne: ALTERNATOR POWER SYSTEM
-        choiceTwo: MASTER SWITCH
+        choiceTwo: ALTERNATOR POWER SYSTEM
         choiceThree: ALTERNATOR
-        answer: EMERGENCY LOCATOR TRANSMITTER
-      - question: The ______________ is characterized by a nominal voltage of 14
-          VDC. The power supply is assured by a battery and by one internal engine-driven
-          generator.
-        questionSprite: {fileID: 0}
-        choiceOne: BATTERY
-        choiceTwo: ALTERNATOR
-        choiceThree: INVERTER
-        answer: ELECTRICAL SYSTEM
-      - question: 'It allows for connecting power to the instruments and can be switched
-          off. '
+        answer: BATTERY
+      - question: 'This allows for connecting power to the instruments and can be
+          switched off. '
         questionSprite: {fileID: 0}
         choiceOne: BATTERY
         choiceTwo: AVIONICS BUS
         choiceThree: ALTERNATOR
         answer: MASTER SWITCH
-      - question: The ______________ consist of instrument lights, position lights,
-          landing lights, dome lights, strobe lights and navigation lights.
+      - question: The ______________ consists of instrument lights, position lights,
+          landing lights, dome lights, strobe lights, and navigation lights.
         questionSprite: {fileID: 0}
         choiceOne: AIRCRAFT ELECTRICAL SYSTEM
-        choiceTwo: GLOBAL POSITIONING SYSTEM
-        choiceThree: MASTER SWITCH
+        choiceTwo: AIRCRAFT LANDING SYSTEM
+        choiceThree: GLOBAL POSITIONING SYSTEM
         answer: AIRCRAFT LIGHTING SYSTEM
-      - question: It provides ground reference information during final approach,
-          touchdown, ground roll and take off and illuminates any major obstructions
-          in the airplane approach glide path or on runway at night. It is mounted
-          in the lower half of the engine cowl.
-        questionSprite: {fileID: 0}
-        choiceOne: LANDING LIGHTS
-        choiceTwo: TAXI LIGHTS
-        choiceThree: NONE OF THE ABOVE
-        answer: LANDING LIGHTS & TAXI LIGHTS
-      - question: It operates at approximately 45 flashes per minute and is attached
-          to the vertical fin tip.
+      - question: What operates at approximately 45 flashes per minute and is attached
+          to the vertical fin tip?
         questionSprite: {fileID: 0}
         choiceOne: STROBE LIGHTS
-        choiceTwo: NAVIGATION LIGHTS
-        choiceThree: NONE OF THE ABOVE
-        answer: FLASHING BEACON
-      - question: 'It is also called as anti-collision lights that is installed on
-          top of the vertical stabilizer. '
-        questionSprite: {fileID: 0}
-        choiceOne: FLASHING BEACON
-        choiceTwo: NAVIGATION LIGHTS
-        choiceThree: NONE OF THE ABOVE
-        answer: STROBE LIGHTS
-      - question: It is also called as navigation lights and are installed in wing
-          tips and on top of vertical stabilizer.
-        questionSprite: {fileID: 0}
-        choiceOne: INSTRUMENT LIGHTS
-        choiceTwo: LANDING LIGHTS
+        choiceTwo: FLASHING WINGS
         choiceThree: NAVIGATION LIGHTS
-        answer: POSITION LIGHTS
-      - question: __________ is a closed circuit with an overflow bottle and an expansion
-          tank.
+        answer: FLASHING BEACON
+      - question: The __________ is a closed circuit with an overflow bottle and
+          an expansion tank.
         questionSprite: {fileID: 0}
         choiceOne: LIGHTING SYSTEM
-        choiceTwo: TEMPERATURE SYSTEM
-        choiceThree: POSITION LIGHTS
+        choiceTwo: SOLID COOLING SYSTEM
+        choiceThree: TEMPERATURE SYSTEM
         answer: LIQUID COOLING SYSTEM
-      - question: How many thermal sensors are there in the Liquid Cooling System?
+      - question: How many thermal sensors are there in the liquid cooling system?
         questionSprite: {fileID: 0}
         choiceOne: ONE
         choiceTwo: THREE
         choiceThree: FOUR
         answer: TWO
-      - question: What is the proper quantity of coolant and its maximum allowable
-          temperature?
-        questionSprite: {fileID: 0}
-        choiceOne: "65lt/min at 140\xB0C"
-        choiceTwo: "60lt/min at 130\xB0C"
-        choiceThree: "50lt/min at 125\xB0C"
-        answer: "55lt/min at 135\xB0C"
       - question: What is the main difference between Garmin GNS 430W and Garmin
           GNS 530W?
         questionSprite: {fileID: 0}
         choiceOne: HIGHER FREQUENCY
-        choiceTwo: NONE OF THE ABOVE
-        choiceThree: LESSER FREQUENCY
+        choiceTwo: LOWER FREQUENCY
+        choiceThree: NONE OF THE ABOVE
         answer: GREATER SCREEN DIMENSION
       - question: Where is the Antenna VOR is located?
         questionSprite: {fileID: 0}
         choiceOne: BELLY OF THE AIRCRAFT
         choiceTwo: WING OF THE AIRCRAFT
-        choiceThree: TAIL OF THE AIRCRAFT
+        choiceThree: HEAD OF THE AIRCRAFT
         answer: TOP OF THE VERTICAL STABILIZER
-      - question: Where is the Antenna ADF is located?
-        questionSprite: {fileID: 0}
-        choiceOne: WING OF THE AIRCRAFT
-        choiceTwo: TOP OF THE VERTICAL STABILIZER
-        choiceThree: TAIL OF THE AIRCRAFT
-        answer: BELLY OF THE AIRCRAFT
-    - m_keys: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e000000
+    - m_keys: 00000000
       m_values:
-      - question: What type of wing configuration is the CESSNA 172?
+      - question: 
         questionSprite: {fileID: 0}
-        choiceOne: LOW WING
-        choiceTwo: MID WING
-        choiceThree: TOP WING
-        answer: HIGH WING
-      - question: What is the Wingspan of CESSNA 172?
-        questionSprite: {fileID: 0}
-        choiceOne: 38 FT 1 IN (12.00M)
-        choiceTwo: 39 FT 1 IN (11.00M)
-        choiceThree: 37 FT 1 IN (12.00M)
-        answer: 36 FT 1 IN (11.00M)
-      - question: Is the CESSNA 172 equipped with fixed tricycle landing gear?
-        questionSprite: {fileID: 0}
-        choiceOne: NO
-        choiceTwo: BOTH
-        choiceThree: NONE OF THE ABOVE
-        answer: YES
-      - question: Is of semi-monocoque construction. consisting of formed bulkheads,
-          longitudinal stringers, and reinforcing channels. and skin panels.
-        questionSprite: {fileID: 0}
-        choiceOne: CABIN DOOR
-        choiceTwo: SAFETY BELTS
-        choiceThree: SHOULDER HARNESS
-        answer: FUSELAGE
-      - question: Are used to ensure baggage cannot enter the seating area during
-          the flight.
-        questionSprite: {fileID: 0}
-        choiceOne: GLIDER TOW-HOOK
-        choiceTwo: SHOULDER HARNESS
-        choiceThree: SAFETY BELTS
-        answer: CARGO TIE-DOWNS
-      - question: Is installed on each side of the aircraft consisting of a sheet
-          of outer skin chemically   bonded to a formed inner pan assembly.
-        questionSprite: {fileID: 0}
-        choiceOne: CABIN DOOR WEATHERSTRIP
-        choiceTwo: OVERHEAD WINDOW
-        choiceThree: CARGO TIE-DOWNS
-        answer: CABIN DOOR
-      - question: Is installed on each side of the aircraft consisting of a sheet
-          of outer skin chemically   bonded to a formed inner pan assembly.
-        questionSprite: {fileID: 0}
-        choiceOne: CABIN DOOR WEATHERSTRIP
-        choiceTwo: OVERHEAD WINDOW
-        choiceThree: GLIDER TOW-HOOK
-        answer: CABIN DOOR
-      - question: These windows are one-piece, acrylic plastic panels, set in sealing
-          strips and held in place by retaining strips.
-        questionSprite: {fileID: 0}
-        choiceOne: MOVABLE WINDOW
-        choiceTwo: LATCHES
-        choiceThree: CABIN DOOR WEATHERSTRIP
-        answer: OVERHEAD WINDOW
-      - question: This clamp is used to operate a cable assembly that drives a cable
-          pin from the upper aft end of the cabin door into the aft upper door sill.
-        questionSprite: {fileID: 0}
-        choiceOne: LOCK
-        choiceTwo: SAFETY BELTS
-        choiceThree: SEAT BELTS
-        answer: LATCHES
-      - question: These boots are installed to protect the leading edge from damage
-          caused by rocks thrown back by the propeller.
-        questionSprite: {fileID: 0}
-        choiceOne: WINGS
-        choiceTwo: HORIZONTAL STABILIZER
-        choiceThree: VERTICAL STABILIZER
-        answer: STABILIZER ABRASION BOOTS
-      - question: Is a semi cantilever, semi-monocoque type, with two main spars
-          and suitable ribs for the attachment of the skin. Skin panels are riveted
-          to ribs. spars and stringers to complete the structure
-        questionSprite: {fileID: 0}
-        choiceOne: FIN
-        choiceTwo: STABILIZER ABRASION BOOTS
-        choiceThree: LOCK
-        answer: WINGS
-      - question: Consists of a streamlined tube riveted to two end fittings for
-          attachment at the fuselage and wing.
-        questionSprite: {fileID: 0}
-        choiceOne: HORIZONTAL STABILIZER
-        choiceTwo: FIN
-        choiceThree: TAIL
-        answer: WING STRUT
-      - question: Is a rear spar attached to the rudder primarily of metal construction,
-          consisting of ribs and spars covered with skin.
-        questionSprite: {fileID: 0}
-        choiceOne: STABILIZER ABRASION BOOTS
-        choiceTwo: WINGS
-        choiceThree: TAIL
-        answer: FIN
-      - question: 'It contains a covered opening that provides access to the actuator.
-          Hinges are located on the rear spar assembly to support the elevators.
-
-'
-        questionSprite: {fileID: 0}
-        choiceOne: STABILIZER ABRASION
-        choiceTwo: WING STRUTS
-        choiceThree: FIN
-        answer: HORIZONTAL STABILIZER
-      - question: Employs a handle and a ratchet mechanism connected by a cable to
-          the linkage at the brake master cylinders. Pulling out on the handle depresses
-          both master cylinder piston rods, and the handle ratchet locks the handle
-          in this position until the handle is turned and released.
-        questionSprite: {fileID: 0}
-        choiceOne: TORQUE LINKS
-        choiceTwo: NOSE WHEEL STEERING SYSTEM
-        choiceThree: HAND BRAKE SYSTEM
-        answer: PARKING BRAKE SYSTEM
-      - question: 'What part of the CESSNA is in the picture:'
-        questionSprite: {fileID: 21300000, guid: 7eeb5c3243ee1244e806557d7b3f10a1, type: 3}
-        choiceOne: NOSE GEAR
-        choiceTwo: MAIN LANDING GEAR FAIRINGS
-        choiceThree: FRONT WHEELS
-        answer: MAIN LANDING GEAR
-      - question: Keep the lower strut aligned with the nose gear steering system,
-          but permit shock strut action.
-        questionSprite: {fileID: 0}
-        choiceOne: SHIMMY DAMPER
-        choiceTwo: BRAKE MASTER CYLINDERS
-        choiceThree: MAIN LANDING GEAR
-        answer: TORQUE LINKS
-      - question: Are rigid tubing, except for the flexible hose used at the brake
-          master cylinders. A separate line is used to connect each brake master
-          cylinder to its corresponding wheel brake cylinder.
-        questionSprite: {fileID: 0}
-        choiceOne: NOSE GEAR
-        choiceTwo: BRAKE MASTER CYLINDERS
-        choiceThree: HAND BRAKES
-        answer: HYDRAULIC BRAKE LINES
-      - question: The shock strut is attached to the firewall with upper and lower
-          strut fittings, which is accomplished by two steering tubes lining the
-          nose gear steering collar to the rudder pedal bars.
-        questionSprite: {fileID: 0}
-        choiceOne: NOSE WHEEL STEERING SYSTEM
-        choiceTwo: WHEEL BRAKE ASSEMBLIES
-        choiceThree: NOSE PROPELLER
-        answer: NOSE GEAR
-      - question: Is comprised of an electric motor and transmission assembly, drive
-          pulleys, push-pull rods, cables, and a follow-up control. Power from the
-          motor and transmission assembly is transmitted to the flaps by a system
-          of drive pulleys, cables, and push-pull rods.
-        questionSprite: {fileID: 0}
-        choiceOne: STABILIZER CONTROL SYSTEM
-        choiceTwo: FLAPS
-        choiceThree: VERTICAL CONTROL SYSTEM
-        answer: WING FLAP CONTROL SYSTEM
-      - question: Consists of a sheathed cable assembly. pointers and micro switches.
-          One end of the cable is attached to the flap operating the switch operating
-          arm. The other end is clamped to the flap direct cable, above the headliner
-          in the rear cabin area.
-        questionSprite: {fileID: 0}
-        choiceOne: FLAPS
-        choiceTwo: WING FLAP CONTROL SYSTEM
-        choiceThree: VERTICAL CONTROL SYSTEM
-        answer: FLAP FOLLOW-UP AND INDICATING SYSTEM
-      - question: Are control surfaces attached to the trailing edge of the wings,
-          near the wingtip, that control the aircraft about its longitudinal axis
-          allowing the aircraft to "roll" or "bank"?
-        questionSprite: {fileID: 0}
-        choiceOne: HORIZONTAL STABITIZER
-        choiceTwo: WING FLAP CONTROL SYSTEM
-        choiceThree: ALIERONS
-        answer: AILERONS
-      - question: Used to pitch the aircraft up and down by creating a load on the
-          tail. The aircraft pitch attitude is controlled by changing the deflection
-          of the elevator, creating a load on the tail. The elevators control the
-          angle of attack of the wings.
-        questionSprite: {fileID: 0}
-        choiceOne: WINGS
-        choiceTwo: TRIM TAB
-        choiceThree: ALIERONS
-        answer: ELEVATORS
-      - question: Are precision-engineered to combine quiet operation with a non-hydraulic,
-          maintenance-free design. The unit is corrosion free, ensures very accurate
-          tab positioning, and provides maximum lift force.
-        questionSprite: {fileID: 0}
-        choiceOne: FIN
-        choiceTwo: TRIM TAB CONTROL WHEEL
-        choiceThree: TRIM TAB
-        answer: TRIM TAB ACTUATOR
-      - question: Located at the pilot's feet, control the rudder as well as aircraft
-          steering on the ground, either directly or indirectly. Rudders may have
-          yaw dampeners which reduce sensitivity and ease control for the pilot
-        questionSprite: {fileID: 0}
-        choiceOne: FLIGHT CONTROL PEDALS
-        choiceTwo: RUDDER
-        choiceThree: FIN
-        answer: RUDDER PEDALS
-      - question: Consists of two control wheels, one for the pilot and one for the
-          co-pilot, attached to columns and linked by universal joints to the control
-          "U" located behind the instrument panel. Lateral rotation of either control
-          wheel is transmitted to the ailerons, one per wing, via a series of sprockets.
-          chains, pulleys, cables, bell cranks, and push-pull tubes.
-        questionSprite: {fileID: 0}
-        choiceOne: AILERON
-        choiceTwo: ALIERON
-        choiceThree: RUDDER CONTROL SYSTEM
-        answer: AILERON CONTROL SYSTEM
-      - question: The force of the airflow striking the tab causes the main control
-          surface to deflect to a position that corrects the unbalanced condition
-          of the aircraft.  a constant task required after any power setting, airspeed,
-          altitude, or configuration change. Proper trimming decreases pilot workload,
-          especially important for instrument flying.
-        questionSprite: {fileID: 0}
-        choiceOne: ELEVATOR TRIM CONTROL SYSTEM
-        choiceTwo: WING STRUTS
-        choiceThree: ALIERON
-        answer: TRIM TAB
-      - question: Control the direction of "yaw" about an airplane's vertical axis. 
-          ________are like the elevators, except that they swing in a different plane
-          side to side instead of up and down.
-        questionSprite: {fileID: 0}
-        choiceOne: WINGS
-        choiceTwo: STABILIZER ABRASION BOOTS
-        choiceThree: WING STRUTS
-        answer: RUDDER
-      - question: The lever assembly is mounted on the center console structure and
-          utilizes a pin to positively lock the trim system in any of 3 positions
-          left or right of the center of the "neutral' trim position. The lever also
-          serves as the trim position indicator.
-        questionSprite: {fileID: 0}
-        choiceOne: TRIM TAB CONTROL WHEEL
-        choiceTwo: ELEVATOR TRIM CONTROL SYSTEM
-        choiceThree: STABILIZER ABRASION BOOTS
-        answer: RUDDER TRIM CONTROL SYSTEM
-      - question: Attaches to shock mounts, which in turn, are fastened to the fuselage.
-          provides access to the engine oil dipstick. oil filler neck and strainer
-          drain control.
-        questionSprite: {fileID: 0}
-        choiceOne: EXHAUST SYSTEM
-        choiceTwo: ENGINE MOUNT
-        choiceThree: TRIM TAB CONTROL WHEEL
-        answer: ENGINE COWLING
-      - question: A Muffler is located beneath the engine. The muffler assembly is
-          enclosed in a shroud that captures exhaust heat that is used to heat the
-          aircraft cabin.
-        questionSprite: {fileID: 0}
-        choiceOne: AIRCRAFT MAGNETOS
-        choiceTwo: INDUCTION AIR SYSTEM
-        choiceThree: ENGINE COWLING
-        answer: EXHAUST SYSTEM
-      - question: Is composed of sections of steel tubing welded together and reinforced
-          with gussets. The mount is fastened to the fuselage at four points. The
-          engine is attached to the engine mount with shock-mount assemblies that
-          absorb engine vibrations.
-        questionSprite: {fileID: 0}
-        choiceOne: ENGINE OIL SYSTEM
-        choiceTwo: ENGINE SHOCK-MOUNT PADS
-        choiceThree: EXHAUST SYSTEM
-        answer: ENGINE MOUNT
-      - question: Contains a valve, operated by the carburetor heat control in the
-          cabin. which permits air from an exhaust heated source to be selected in
-          the event carburetor icing or filter icing should be encountered.
-        questionSprite: {fileID: 0}
-        choiceOne: STARTING SYSTEM
-        choiceTwo: ENGINE OIL SYSTEM
-        choiceThree: ENGINE SHOCK-MOUNT PADS
-        answer: INDUCTION AIR SYSTEM
-      - question: Is comprised of dual magnetos, two spark plugs in each cylinder,
-          an ignition wiring harness, an ignition switch mounted on the instrument
-          panel, and required wiring between the ignition switch and magnetos.
-        questionSprite: {fileID: 0}
-        choiceOne: OIL COOLER
-        choiceTwo: STARTING SYSTEM
-        choiceThree: ENGINE OIL SYSTEM
-        answer: IGNITION SYSTEM
-      - question: Is installed in the inboard panel of each wing that stores fuel
-          in each tank in each tank, is provided for draining trapped water and sediment.
-        questionSprite: {fileID: 0}
-        choiceOne: FUAL VENT
-        choiceTwo: INTEGRAL FUEL BAYS
-        choiceThree: IGNITION SYSTEM
-        answer: FUEL TANKS
-      - question: It is plumbed into the fuel system parallel to the engine-driven
-          fuel pump. The __________ may be used as a standby in case of engine-driven
-          fuel pump failure.
-        questionSprite: {fileID: 0}
-        choiceOne: FUEL STRAINER
-        choiceTwo: AUXILIARY FUEL ELECTRIC PUMP
-        choiceThree: FUEL TANKS
-        answer: AUXILIARY ELECTRIC FUEL PUMP
-      - question: 'The fuel selector valve is located beneath the floorboard just
-          aft and slightly to the left of the pedestal structure. A shaft links the
-          valve to a handle mounted on the pedestal structure. The positions of the
-          handle are labeled as:'
-        questionSprite: {fileID: 0}
-        choiceOne: ON. LEFT. BOTH OFF and RIGHT
-        choiceTwo: NONE OF THE ABOVE
-        choiceThree: ON. LEFT. BOTH ON and RIGHT
-        answer: OFF. LEFT. BOTH ON and RIGHT
-      - question: Is installed on the inboard end of the vent line inside of the
-          fuel tank A crossover line connects the two tanks together. A tee is installed
-          on each end of the crossover line. A separate vent line is attached to
-          the tees. connecting the crossover line to each of the aft fuel supply
-          lines from each fuel tank.
-        questionSprite: {fileID: 0}
-        choiceOne: FUEL VENT
-        choiceTwo: FUEL SELECTOR VALVE
-        choiceThree: VENT SYSTEM
-        answer: VENT VALVE
-      - question: A three-cylinder priming system is available as optional equipment.
-          Operating the primer on this optional system delivers fuel to the intake
-          port of each individual cylinder, it operates the primer delivers fuel
-          to the intake port of cylinder.
-        questionSprite: {fileID: 0}
-        choiceOne: FUEL COOLER
-        choiceTwo: FUEL AUXILIARY SYSTEM
-        choiceThree: FUEL SELECTOR VALVE
-        answer: PRIMING SYSTEM
-      - question: Is installed in the inboard panel of each wing that stores fuel
-          in each tank in each tank, is provided for draining trapped water and sediment.
-        questionSprite: {fileID: 0}
-        choiceOne: FUAL VENT
-        choiceTwo: INTEGRAL FUEL BAYS
-        choiceThree: PRIMING SYSTEM
-        answer: FUEL TANKS
-      - question: It is plumbed into the fuel system parallel to the engine-driven
-          fuel pump. The __________ may be used as a standby in case of engine-driven
-          fuel pump failure.
-        questionSprite: {fileID: 0}
-        choiceOne: AUXILLIARY ELECTRIC FUEL PUMP
-        choiceTwo: FUEL STRAINER
-        choiceThree: AUXILIARY FUEL ELECTRIC PUMP
-        answer: AUXILIARY ELECTRIC FUEL PUMP
-      - question: 'The fuel selector valve is located beneath the floorboard just
-          aft and slightly to the left of the pedestal structure. A shaft links the
-          valve to a handle mounted on the pedestal structure. The positions of the
-          handle are labeled as:'
-        questionSprite: {fileID: 0}
-        choiceOne: ON. LEFT. BOTH OFF and RIGHT
-        choiceTwo: ON. LEFT. BOTH ON and RIGHT
-        choiceThree: NONE OF THE ABOVE
-        answer: OFF. LEFT. BOTH ON and RIGHT
-      - question: Is installed on the inboard end of the vent line inside of the
-          fuel tank A crossover line connects the two tanks together. A tee is installed
-          on each end of the crossover line. A separate vent line is attached to
-          the tees. connecting the crossover line to each of the aft fuel supply
-          lines from each fuel tank.
-        questionSprite: {fileID: 0}
-        choiceOne: FUEL VENT
-        choiceTwo: FUEL SELECTOR VALVE
-        choiceThree: FUEL COOLER
-        answer: VENT VALVE
-      - question: A three-cylinder priming system is available as optional equipment.
-          Operating the primer on this optional system delivers fuel to the intake
-          port of each individual cylinder, it operates the primer delivers fuel
-          to the intake port of cylinder
-        questionSprite: {fileID: 0}
-        choiceOne: FUEL COOLER
-        choiceTwo: FUEL AUXILIARY SYSTEM
-        choiceThree: FUEL SELECTOR VALVE
-        answer: PRIMING SYSTEM
-      - question: Is installed in the inboard panel of each wing that stores fuel
-          in each tank in each tank, is provided for draining trapped water and sediment.
-        questionSprite: {fileID: 0}
-        choiceOne: FUAL VENT
-        choiceTwo: INTEGRAL FUEL BAYS
-        choiceThree: FUEL COOLER
-        answer: FUEL TANKS
-      - question: It is plumbed into the fuel system parallel to the engine-driven
-          fuel pump. The __________ may be used as a standby in case of engine-driven
-          fuel pump failure.
-        questionSprite: {fileID: 0}
-        choiceOne: AUXILLIARY ELECTRIC FUEL PUMP
-        choiceTwo: FUEL STRAINER
-        choiceThree: FUEL TANKS
-        answer: AUXILIARY ELECTRIC FUEL PUMP
-      - question: 'The fuel selector valve is located beneath the floorboard just
-          aft and slightly to the left of the pedestal structure. A shaft links the
-          valve to a handle mounted on the pedestal structure. The positions of the
-          handle are labeled as:'
-        questionSprite: {fileID: 0}
-        choiceOne: ON. LEFT. BOTH OFF and RIGHT
-        choiceTwo: OFF. LEFT. BOTH OFF and RIGHT
-        choiceThree: NONE OF THE ABOVE
-        answer: OFF. LEFT. BOTH ON and RIGHT
-      - question: 'What instrument panel is shown in this picture:'
-        questionSprite: {fileID: 21300000, guid: 24d34d50dc3e73e4d9893c067d2315a1, type: 3}
-        choiceOne: ACCELEROMETER
-        choiceTwo: TRUE AIRSPEED INDICATOR
-        choiceThree: INSTRUMENT PANELS
-        answer: TURN INDICATOR
-      - question: Conveys ram air pressure to determine an aircraft's airspeed, Mach
-          number, altitude, and altitude trend. static line sump is installed at
-          the source button to collect condensation in the system.
-        questionSprite: {fileID: 0}
-        choiceOne: INSTRUMENT PANELS
-        choiceTwo: PANEL ENCODING SYSTEM
-        choiceThree: TURN INDICATOR
-        answer: PITOT AND STATIC SYSTEMS
-      - question: Is an electrically operated indicator mounted in the instrument
-          cluster with the oil pressure gauge. Is routed from the indicator to the
-          sending unit installed in the engine. The other lead supplies power from
-          the bus bar to the indicator.
-        questionSprite: {fileID: 0}
-        choiceOne: ELECTRICAL ENGINE INDICATOR
-        choiceTwo: TEMPERATURE GAUGE SYSTEM
-        choiceThree: PANEL ENCODING SYSTEM
-        answer: TEMPERATURE GAUGE
-      - question: Is equipped with a conversion ring, which may be rotated until
-          pressure altitude is aligned with outside air temperature. then airspeed
-          indicated on the instrument is read as true airspeed on the adjustable
-          ring.
-        questionSprite: {fileID: 0}
-        choiceOne: TRUE AIRSPEED INDICATOR
-        choiceTwo: ACCELEROMETER
-        choiceThree: TEMPERATURE GAUGE
-        answer: VACUUM SYSTEM
-      - question: Used on CESSNA single-engine aircraft is a mechanical indicator
-          driven at half crankshaft speed by a flexible shaft.  ______ METER will
-          be usually found in the drive shaft. To function properly, shaft housing
-          must be free of kinks, dents, and sharp bends. There should be no bend
-          on a radius shorter than six inches and no bend within three inches of
-          either terminal
-        questionSprite: {fileID: 0}
-        choiceOne: ENGINE QUANTITY INDICATING METER
-        choiceTwo: CRANKSHAFT INDICATING METER
-        choiceThree: TRUE AIRSPEED INDICATOR
-        answer: ENGINE INDICATORS-TACHOMETER
-      - question: The switch is an interlocking split rocker with battery mode on
-          the right-hand side and alternator mode on the left-hand side. This arrangement
-          allows the battery to be on the line without the alternator, however, operation
-          of the alternator without the battery on the line is not possible.
-        questionSprite: {fileID: 0}
-        choiceOne: POWER SUPPLY SWITCH
-        choiceTwo: ALTERNATOR SWITCH
-        choiceThree: CRANKSHAFT INDICATING METER
-        answer: MASTER SWITCH
-      - question: A reverse polarity protection system is utilized whereby ground
-          power must pass through an external power contactor to be connected to
-          the bus.
-        questionSprite: {fileID: 0}
-        choiceOne: GROUND POWER UNIT
-        choiceTwo: RAM AIR TURBINE
-        choiceThree: EMERGENCY LOCATOR TRANSMITTER
-        answer: GROUND SERVICE RECEPTACLE
-      - question: The transmitters are designed to provide a broadcast tone that
-          is audio modulated in a swept manner over the range of 1600 to 300 Hz in
-          a distinct, easily recognizable distress signal for reception by search
-          and rescue personnel and others monitoring the emergency frequencies.
-        questionSprite: {fileID: 0}
-        choiceOne: BLACK BOX
-        choiceTwo: URGENCY ACCIDENT LOCATOR
-        choiceThree: RAM AIR TURBINE
-        answer: EMERGENCY LOCATOR TRANSMITTER
-      - question: Battery contactor closing circuit consists of _____amp fuse, a
-          resistor, and a diode located on the firewall fuse bracket adjacent to
-          the battery. This serves to shunt a small charge around the battery contactor
-          so that ground power may be used to close the contactor when the battery
-          is too dead to energize the contactor by itself.
-        questionSprite: {fileID: 0}
-        choiceOne: 12 AMP
-        choiceTwo: NONE OF THE ABOVE
-        choiceThree: 9 AMP
-        answer: 5 AMP
-      - question: The system consists of a belt-driven alternator, a voltage regulator/
-          alternator control unit, mounted on the left-hand side of the firewall,
-          and a circuit breaker located on the instrument panel. The system is controlled
-          by the left-hand portion of the split rocker.
-        questionSprite: {fileID: 0}
-        choiceOne: MAGNETO
-        choiceTwo: BATTERY CONTACTOR CLOSING CIRCUIT
-        choiceThree: NAVIGATION LIGHTS
-        answer: ALTERNATOR POWER SYSTEM
-      - question: A white strobe light may be installed on each wing tip with the
-          navigation lights. Strobe lights are vibration resistant and operate on
-          the principle of a capacitor discharge into a xenon tube, producing an
-          extremely high-intensity flash. Energy is supplied to the lights from individual
-          power supplies mounted on each wing tip rib.
-        questionSprite: {fileID: 0}
-        choiceOne: NAVIGATION LIGHTS
-        choiceTwo: FLASHING BEACON
-        choiceThree: LIGHT BEACON
-        answer: ANTI-COLLISION STROBE LIGHTS
-      - question: This system consists of landing and taxi lights. navigation lights,
-          anti-collision strobe lights, and flashing beacon lights. dome. instrument
-          flood lights and courtesy lights, control wheel map lights, compass, and
-          radio dial lights.
-        questionSprite: {fileID: 0}
-        choiceOne: ELECTRICAL LIGHTING SYSTEM
-        choiceTwo: LIGHTING REGULATOR UNIT
-        choiceThree: NAVIGATION LIGHTS
-        answer: AIRCRAFT LIGHTING SYSTEM
-      - question: Is installed to control instrument lighting. One circuit controls
-          the compass light. map light and instrument flood lights. The other circuit
-          controls radio lighting. A concentric knob arrangement on a dual rheostat
-          assembly is mounted on the instrument panel.
-        questionSprite: {fileID: 0}
-        choiceOne: INSTRUMENT LIGHT SYSTEM
-        choiceTwo: COURTESY LIGHT
-        choiceThree: ELECTRICAL LIGHTING SYSTEM
-        answer: TRANSISTORIZED LIGHT DIMMING
-      - question: Contained within the individual units. The lights are controlled
-          by the instrument flood light switch on the overhead console. Intensity
-          is controlled by a rheostat located on the instrument panel.
-        questionSprite: {fileID: 0}
-        choiceOne: COURTESY LIGHTS
-        choiceTwo: FUEL SELECTOR VALVE
-        choiceThree: BOTH A AND B
-        answer: COMPASS AND RADIO DIAL LIGHTING
-      - question: Are mounted on each wing tip and the aft end of the vertical fin
-          tip. The lights are controlled by a rocker-type switch located on the instrument
-          panel. A circuit breaker is installed on the panel to protect system.
-        questionSprite: {fileID: 0}
-        choiceOne: ANTI-COLLISION STROBE LIGHTS
-        choiceTwo: FLASHING BEACON
-        choiceThree: COURTESY LIGHTS
-        answer: NAVIGATION LIGHTS
+        choiceOne: 
+        choiceTwo: 
+        choiceThree: 
+        answer: 
     - m_keys: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b000000
       m_values:
       - question: What type of wing configuration is the TECNAM P2006T?
@@ -26105,7 +25059,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1672623018
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31256,7 +30210,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TAKE EXAM
+  m_text: TAKE QUIZ
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -33,6 +33,7 @@ public class QuizController : MonoBehaviour
     [Header("EXAM")]
     [SerializeField] private Color selectedColor;
     [SerializeField] private Color unselectedColor;
+    [SerializeField] private Color wrongColor;
     [SerializeField] private TextMeshProUGUI pageInformationTMP;
     [SerializeField] private TextMeshProUGUI questionTMP;
     [SerializeField] private Image questionImage;
@@ -100,7 +101,7 @@ public class QuizController : MonoBehaviour
     public IEnumerator ShuffleQuestions(Action action = null)
     {
         Dictionary<int, QuizTempContent> tempQuizContent = new Dictionary<int, QuizTempContent>();
-        Dictionary<int, QuizTempContent> shuffleTempQuizContent = new Dictionary<int, QuizTempContent>();
+        Dictionary<int, QuizTempContent> shuffleTempQuizContent;
 
         //  ADDING TEMP
         for (int a = 0; a < quizData[componentSystem.CurrentAirplaneType].Count; a++)
@@ -200,8 +201,28 @@ public class QuizController : MonoBehaviour
         for (int a = 0; a < answerBtnImg.Count; a++)
             answerBtnImg[a].color = unselectedColor;
 
-        if (answerIndexContent.ContainsKey(currentIndex + 1))
-            answerBtnImg[answerIndexContent[currentIndex + 1]].color = selectedColor;
+        if (answerContent.ContainsKey(currentIndex + 1))
+        {
+            if (answerContent[currentIndex + 1] != quizContent[currentIndex + 1].answer)
+            {
+                int index = 0;
+                for (int a = 0; a < quizContent.Count; a++)
+                {
+                    if (quizContent[currentIndex + 1].answer == quizContent[currentIndex + 1].quizAnswers[a])
+                    {
+                        index = a;
+                        break;
+                    }
+                }
+
+                answerBtnImg[answerIndexContent[currentIndex + 1]].color = wrongColor;
+                answerBtnImg[index].color = selectedColor;
+            }
+            else
+            {
+                answerBtnImg[answerIndexContent[currentIndex + 1]].color = selectedColor;
+            }
+        }
     }
 
     private IEnumerator CountAnswers()
@@ -280,7 +301,14 @@ public class QuizController : MonoBehaviour
         gameManager.CanUseButtons = false;
 
         if (value)
+        {
+            if (!answerContent.ContainsKey(currentIndex + 1))
+            {
+                errorController.ShowError("Please choose answer first !", () => gameManager.CanUseButtons = true);
+                return;
+            }
             currentIndex++;
+        }
         else
             currentIndex--;
 
@@ -290,14 +318,10 @@ public class QuizController : MonoBehaviour
     public void ChooseAnswer(int index)
     {
         if (answerContent.ContainsKey(currentIndex + 1))
-            answerContent[currentIndex + 1] = answersTMP[index].text;
-        else
-            answerContent.Add(currentIndex + 1, answersTMP[index].text);
+            return;
 
-        if (answerIndexContent.ContainsKey(currentIndex + 1))
-            answerIndexContent[currentIndex + 1] = index;
-        else
-            answerIndexContent.Add(currentIndex + 1, index);
+        answerContent.Add(currentIndex + 1, answersTMP[index].text);
+        answerIndexContent.Add(currentIndex + 1, index);
 
         ChangeAnswer?.Invoke(this, EventArgs.Empty);
     }

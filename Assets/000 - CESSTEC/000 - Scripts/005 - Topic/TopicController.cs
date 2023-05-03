@@ -15,6 +15,7 @@ public class TopicController : MonoBehaviour
 
     [field: Header("CONTENTS")]
     [field: SerializeField] public TopicData AirplaneTopicDataList { get; private set; }
+    [field: SerializeField] public AirplaneSystemStats SytemAirplaneStats { get; private set; }
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI contentTMP;
@@ -91,6 +92,8 @@ public class TopicController : MonoBehaviour
             pictureContentParentObj.SetActive(false);
             StopCoroutine(pictureContentCoroutine);
         }
+        if (pageCounter >= AirplaneTopicDataList[componentSystem.CurrentAirplaneType][componentSystem.CurrentSystems].Count - 1)
+            SytemAirplaneStats[componentSystem.CurrentAirplaneType][componentSystem.CurrentSystems].isDone = true;
 
         ShowContent(AirplaneTopicDataList);
         pictureContentCoroutine = StartCoroutine(ShowPictureContent());
@@ -298,6 +301,18 @@ public class AirplaneSystems : SerializableDictionary<ComponentSystemController.
 
 [Serializable]
 public class AirplaneTopicContent : SerializableDictionary<int, AirplaneTopic> { }
+
+[Serializable]
+public class AirplaneSystemStats : SerializableDictionary<ComponentSystemController.AirplaneType, SystemStats> { }
+
+[Serializable]
+public class SystemStats : SerializableDictionary<ComponentSystemController.Systems, AirplaneSystemStatus> { }
+
+[Serializable]
+public class AirplaneSystemStatus
+{
+    [ReadOnly] public bool isDone;
+}
 
 [Serializable]
 public class AirplaneTopic

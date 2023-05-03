@@ -65,6 +65,7 @@ public class AppStateManager : MonoBehaviour
 
     [SerializeField] private GameManager gameManager;
     [SerializeField] private QuizController quizController;
+    [SerializeField] private ComponentSystemController componentSystem;
     [SerializeField] private ErrorController errorController;
     [SerializeField] private TopicController topicController;
     [SerializeField] private ThreeDViewController threeDViewController;
@@ -174,6 +175,8 @@ public class AppStateManager : MonoBehaviour
                 aboutUsCG.gameObject.SetActive(true);
                 break;
             case AppState.COMPONENTS:
+
+                componentSystem.CheckDone();
 
                 if (Back)
                 {

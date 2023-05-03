@@ -13,6 +13,8 @@ using UnityEditor;
 [CustomPropertyDrawer(typeof(QuizNumber))]
 [CustomPropertyDrawer(typeof(Airplane))]
 [CustomPropertyDrawer(typeof(Developers))]
+[CustomPropertyDrawer(typeof(SystemStats))]
+[CustomPropertyDrawer(typeof(AirplaneSystemStats))]
 public class AnySerializableDictionaryPropertyDrawer : SerializableDictionaryPropertyDrawer {}
 
 [CustomPropertyDrawer(typeof(ColorArrayStorage))]

@@ -54,11 +54,17 @@ public class ComponentSystemController : MonoBehaviour
     [SerializeField] private GameObject loadingNoBG;
 
     [Header("MENU")]
+    [SerializeField] private Color doneSystemBtn;
+    [SerializeField] private Color notDoneSystemBtn;
+    [SerializeField] private Color doneSystemTMP;
+    [SerializeField] private Color notDoneSystemTMP;
     [SerializeField] private GameObject cessna152Title;
     [SerializeField] private GameObject cessna172Title;
     [SerializeField] private GameObject tecnamP2002JFTitle;
     [SerializeField] private GameObject tecnamP20006TTitle;
     [SerializeField] private Image airplaneImg;
+    [SerializeField] private List<Button> systemButtonList;
+    [SerializeField] private List<TextMeshProUGUI> systemListTMP;
     [SerializeField] private List<string> cessna152Systems;
     [SerializeField] private List<string> tecnamp2002Systems;
     [SerializeField] private List<string> cessna172Systems;
@@ -116,7 +122,31 @@ public class ComponentSystemController : MonoBehaviour
             if (a >= names.Count)
                 systemList[a].text = "NO SYSTEM";
             else
+            {
                 systemList[a].text = names[a];
+            }
+        }
+    }
+
+    public void CheckDone()
+    {
+        int index = 0;
+        foreach (var systemName in topicController.SytemAirplaneStats[CurrentAirplaneType].Keys)
+        {
+            if (index == (int)systemName)
+            {
+                if (topicController.SytemAirplaneStats[CurrentAirplaneType][systemName].isDone)
+                {
+                    systemButtonList[index].image.color = doneSystemBtn;
+                    systemListTMP[index].color = doneSystemTMP;
+                }
+                else
+                {
+                    systemButtonList[index].image.color = notDoneSystemBtn;
+                    systemListTMP[index].color = notDoneSystemTMP;
+                }
+            }
+            index++;
         }
     }
 
@@ -159,13 +189,13 @@ public class ComponentSystemController : MonoBehaviour
 
         gameManager.CanUseButtons = false;
 
-        if (PlayerPrefs.GetString(((int)CurrentAirplaneType).ToString()) == "1")
-        {
-            errorController.ShowError("You have a score of " + PlayerPrefs.GetInt(((int)CurrentAirplaneType).ToString()+" Score"), null);
-            gameManager.CanUseButtons = true;
-            loadingNoBG.SetActive(false);
-            return;
-        }
+        //if (PlayerPrefs.GetString(((int)CurrentAirplaneType).ToString()) == "1")
+        //{
+        //    errorController.ShowError("You have a score of " + PlayerPrefs.GetInt(((int)CurrentAirplaneType).ToString()+" Score"), null);
+        //    gameManager.CanUseButtons = true;
+        //    loadingNoBG.SetActive(false);
+        //    return;
+        //}
 
         StartCoroutine(quizController.ShuffleQuestions(() => appState.AddAppStateHistory(AppStateManager.AppState.QUIZ)));
     }
