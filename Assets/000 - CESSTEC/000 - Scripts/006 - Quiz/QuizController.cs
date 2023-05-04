@@ -118,7 +118,7 @@ public class QuizController : MonoBehaviour
                 answer = quizData[componentSystem.CurrentAirplaneType][a + 1].answer,
                 question = quizData[componentSystem.CurrentAirplaneType][a + 1].question,
                 questionSprite = quizData[componentSystem.CurrentAirplaneType][a + 1].questionSprite
-            });;
+            }); ;
 
             tempQuizContent[a + 1].quizAnswers.Shuffle();
 
