@@ -11,11 +11,18 @@ public class AboutUsController : MonoBehaviour
 
     [SerializeField] private GameManager gameManager;
     [SerializeField] private AppStateManager appState;
-    [SerializeField] private TextMeshProUGUI developerNamesTMP;
-    [SerializeField] private Image devImg;
     [SerializeField] private Button previousButton;
     [SerializeField] private Button nextButton;
+    [SerializeField] private TextMeshProUGUI titleTMP;
+
+
+    [Header("DEVELOPERS")]
+    [SerializeField] private Image devImg;
+    [SerializeField] private TextMeshProUGUI developerNamesTMP;
     [SerializeField] private Developers developers;
+
+    [Header("ACKNOWLEDGEMENT")]
+    [SerializeField] private GameObject acknowledgementTMPObj;
 
     [Header("DEBUGGER")]
     [ReadOnly] [SerializeField] private int currentIndex;
@@ -41,10 +48,25 @@ public class AboutUsController : MonoBehaviour
 
         //currentIndex = 0;
 
-        CheckButtons();
+        if (currentIndex <= developers.Count - 1)
+        {
+            acknowledgementTMPObj.SetActive(false);
+            developerNamesTMP.gameObject.SetActive(true);
+            devImg.gameObject.SetActive(true);
+            titleTMP.text = "THE DEVELOPERS";
+            CheckButtons();
 
-        developerNamesTMP.text = developers[currentIndex].devName;
-        devImg.sprite = developers[currentIndex].devSprites;
+            developerNamesTMP.text = developers[currentIndex].devName;
+            devImg.sprite = developers[currentIndex].devSprites;
+        }
+        else
+        {
+            titleTMP.text = "ACKNOWLEDGEMENT";
+            acknowledgementTMPObj.SetActive(true);
+            developerNamesTMP.gameObject.SetActive(false);
+            devImg.gameObject.SetActive(false);
+            CheckButtons();
+        }
     }
 
     private void CheckButtons()
@@ -59,12 +81,12 @@ public class AboutUsController : MonoBehaviour
             previousButton.interactable = false;
             nextButton.interactable = true;
         }
-        else if (currentIndex > 0 && currentIndex < developers.Count - 1)
+        else if (currentIndex > 0 && currentIndex < developers.Count)
         {
             previousButton.interactable = true;
             nextButton.interactable = true;
         }
-        else if (currentIndex >= developers.Count - 1)
+        else if (currentIndex >= developers.Count)
         {
             previousButton.interactable = true;
             nextButton.interactable = false;
