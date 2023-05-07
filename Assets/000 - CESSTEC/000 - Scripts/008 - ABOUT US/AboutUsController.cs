@@ -17,6 +17,7 @@ public class AboutUsController : MonoBehaviour
 
 
     [Header("DEVELOPERS")]
+    [SerializeField] private GameObject devsObj;
     [SerializeField] private Image devImg;
     [SerializeField] private TextMeshProUGUI developerNamesTMP;
     [SerializeField] private Developers developers;
@@ -51,6 +52,7 @@ public class AboutUsController : MonoBehaviour
         if (currentIndex <= developers.Count - 1)
         {
             acknowledgementTMPObj.SetActive(false);
+            devsObj.SetActive(true);
             developerNamesTMP.gameObject.SetActive(true);
             devImg.gameObject.SetActive(true);
             titleTMP.text = "THE DEVELOPERS";
@@ -61,7 +63,8 @@ public class AboutUsController : MonoBehaviour
         }
         else
         {
-            titleTMP.text = "ACKNOWLEDGEMENT";
+            titleTMP.text = "CERTIFICATION";
+            devsObj.SetActive(false);
             acknowledgementTMPObj.SetActive(true);
             developerNamesTMP.gameObject.SetActive(false);
             devImg.gameObject.SetActive(false);
